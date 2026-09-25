@@ -1,0 +1,1538 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- ============ PRIMARY SEO ============ -->
+<title>JWT Decoder — Decode JSON Web Tokens Live, with Claim Expiry Checks | IrisTool</title>
+<meta name="title" content="JWT Decoder — Decode JSON Web Tokens Live, with Claim Expiry Checks | IrisTool">
+<meta name="description" content="Free JWT decoder: paste a token and watch header, payload and signature decode live in three colors, with exp/nbf/iat dates, expiry verdicts and algorithm flags. Structure-only — your secret is never asked for. 100% in-browser.">
+<meta name="keywords" content="jwt decoder, jwt parser, decode jwt online, json web token viewer, jwt expiry check, jwt claims, inspect id token, free online tools">
+<meta name="author" content="IrisTool">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="googlebot" content="index, follow">
+<meta name="language" content="English">
+<meta name="rating" content="general">
+<meta name="distribution" content="global">
+<meta name="coverage" content="Worldwide">
+<meta name="revisit-after" content="7 days">
+<meta name="theme-color" content="#FCFCFA">
+<meta name="color-scheme" content="light">
+
+<link rel="canonical" href="https://IrisTool.com/jwt-decoder.html">
+
+<!-- ============ GEO TAGS ============ -->
+<meta name="geo.region" content="US">
+<meta name="geo.placename" content="United States">
+<meta name="geo.position" content="37.09024;-95.712891">
+<meta name="ICBM" content="37.09024, -95.712891">
+
+<!-- ============ HREFLANG ============ -->
+<link rel="alternate" hreflang="en" href="https://IrisTool.com/jwt-decoder.html">
+<link rel="alternate" hreflang="x-default" href="https://IrisTool.com/index.html">
+
+<!-- ============ SOCIAL / OPEN GRAPH ============ -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="IrisTool">
+<meta property="og:url" content="https://IrisTool.com/jwt-decoder.html">
+<meta property="og:title" content="JWT Decoder — Decode JSON Web Tokens Live, with Claim Expiry Checks | IrisTool">
+<meta property="og:description" content="Paste a token once and watch it come apart along its two dots — header, payload and signature in three colors, claims dated and verdicted, live on every keystroke.">
+<meta property="og:image" content="https://IrisTool.com/assets/og-jwt-decoder-1200x630.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="JWT Decoder — a token split into colored header, payload and signature segments with decoded claims, entirely in your browser">
+<meta property="og:locale" content="en_US">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://IrisTool.com/jwt-decoder.html">
+<meta name="twitter:title" content="JWT Decoder — Decode JSON Web Tokens Live, with Claim Expiry Checks | IrisTool">
+<meta name="twitter:description" content="Structure-only JWT decoding with expiry verdicts — your secret is never asked for, your token never leaves the tab.">
+<meta name="twitter:image" content="https://IrisTool.com/assets/og-jwt-decoder-1200x630.png">
+
+<!-- ============ ICONS ============ -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230033FF'/%3E%3Ctext x='32' y='46' font-size='42' text-anchor='middle' fill='%23fff' font-family='monospace'%3E%E2%9C%B1%3C/text%3E%3C/svg%3E">
+
+<!-- ============ FONTS (fontsource CDN) ============ -->
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link href="https://cdn.jsdelivr.net/fontsource/css/space-grotesk@latest/latin-500.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/space-grotesk@latest/latin-700.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/ibm-plex-sans@latest/latin-400.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/ibm-plex-sans@latest/latin-500.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/ibm-plex-mono@latest/latin-400.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/ibm-plex-mono@latest/latin-500.css" rel="stylesheet">
+
+<!-- ============ STRUCTURED DATA ============ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://IrisTool.com/index.html" },
+    { "@type": "ListItem", "position": 2, "name": "Developer Tools", "item": "https://IrisTool.com/developer-tools.html" },
+    { "@type": "ListItem", "position": 3, "name": "JWT Decoder", "item": "https://IrisTool.com/jwt-decoder.html" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "JWT Decoder — Decode JSON Web Tokens Live, with Claim Expiry Checks",
+  "description": "Free JWT decoder: paste a token and watch header, payload and signature decode live in three colors, with exp/nbf/iat dates, expiry verdicts and algorithm flags. Structure-only — your secret is never asked for. 100% in-browser.",
+  "url": "https://IrisTool.com/jwt-decoder.html",
+  "inLanguage": "en",
+  "isPartOf": { "@type": "WebSite", "name": "IrisTool", "url": "https://IrisTool.com/index.html" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "JWT Decoder — the tool on this page",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "JWT Decoder", "url": "https://IrisTool.com/jwt-decoder.html#jwt-decoder", "description": "Splits a JSON Web Token along its two dots, decodes header and payload as UTF-8 JSON, dates and verdicts the exp/nbf/iat claims, flags alg:none, and displays the signature without ever verifying it." }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "Is my token's signature verified here?", "acceptedAnswer": { "@type": "Answer", "text": "No — and that's deliberate. Verifying an HS256 signature requires the shared secret; RS256 needs the public key. This bench decodes structure only: it splits the token, reads the header and payload, dates the time claims and displays the signature untouched. It never asks for a secret, and you should never paste a production secret into any web page." } },
+    { "@type": "Question", "name": "Is it safe to paste my JWT here?", "acceptedAnswer": { "@type": "Answer", "text": "The token never leaves your browser tab — there is no backend, no request, no storage. But remember what a JWT is: the header and payload are merely base64url-encoded, not encrypted, so anyone who holds the token can read them. Treat tokens as credentials — paste test tokens freely, and be careful with live production ones anywhere, including here." } },
+    { "@type": "Question", "name": "Why does it say EXPIRED when the token looks fine?", "acceptedAnswer": { "@type": "Answer", "text": "Because the exp claim carries a Unix timestamp that has already passed, compared against your machine's clock. The token is still perfectly readable — decoding and validity are different questions. A real API will reject it, and the red verdict here tells you that before you spend an hour debugging something else." } },
+    { "@type": "Question", "name": "What's the difference between encoding and encryption?", "acceptedAnswer": { "@type": "Answer", "text": "Base64url encoding is a transport format with no secrecy — anyone can reverse it, which is exactly why this decoder exists. A standard JWT (JWS) is signed, not encrypted: the signature proves integrity and origin, while the payload stays readable. If the payload must stay secret, that's JWE — JSON Web Encryption — a different format with five segments instead of three." } },
+    { "@type": "Question", "name": "Is my data saved anywhere?", "acceptedAnswer": { "@type": "Answer", "text": "No. IrisTool has no backend and no database. Decoding happens inside your browser tab and the token disappears the moment you close or refresh the page. There is nothing to leak, because nothing is ever collected." } }
+  ]
+}
+</script>
+
+<style>
+/* ================= TOKENS ================= */
+:root{
+  --paper:#FCFCFA;
+  --white:#FFFFFF;
+  --ink:#141414;
+  --muted:#6C6C64;
+  --line:#E4E4DC;
+  --blue:#0033FF;
+  --blue-soft:#6E86FF;
+  --red:#C40000;
+  --font-d:'Space Grotesk',ui-sans-serif,system-ui,sans-serif;
+  --font-b:'IBM Plex Sans',ui-sans-serif,system-ui,sans-serif;
+  --font-m:'IBM Plex Mono',ui-monospace,'SFMono-Regular',monospace;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  font-family:var(--font-b);
+  color:var(--ink);
+  background-color:var(--paper);
+  background-image:radial-gradient(circle,#E7E7DF 1px,transparent 1px);
+  background-size:28px 28px;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+::selection{background:var(--blue);color:#fff}
+a{color:inherit}
+ul{list-style:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+:focus-visible{outline:2px solid var(--blue);outline-offset:3px}
+section[id]{scroll-margin-top:96px}
+.wrap{max-width:1280px;margin:0 auto;padding:0 32px}
+
+.skip{position:absolute;left:-999px;top:0;background:var(--ink);color:#fff;padding:10px 18px;z-index:999;font-family:var(--font-m);font-size:.75rem}
+.skip:focus{left:12px;top:12px}
+
+/* ================= HEADER ================= */
+header{position:sticky;top:0;z-index:100;background:var(--paper);border-bottom:1px solid var(--line);transition:border-color .3s}
+header.scrolled{border-bottom-color:var(--ink)}
+.bar{display:flex;align-items:center;justify-content:space-between;height:72px;gap:24px}
+.logo{display:flex;align-items:center;gap:11px;text-decoration:none}
+.logo-mark{width:30px;height:30px;background:var(--blue);color:#fff;display:grid;place-items:center;font-size:19px;line-height:1;transition:transform .5s cubic-bezier(.2,.7,.2,1)}
+.logo:hover .logo-mark{transform:rotate(180deg)}
+.logo-word{font-family:var(--font-d);font-weight:700;font-size:1.25rem;letter-spacing:-.02em}
+.logo-tag{font-family:var(--font-m);font-size:.6rem;letter-spacing:.14em;color:var(--muted);text-transform:uppercase;margin-left:2px;padding-top:5px}
+
+.nav-list{display:flex;align-items:center;gap:2px}
+.m-link,.m-trigger{
+  font-family:var(--font-b);font-weight:500;font-size:.88rem;
+  padding:10px 13px;text-decoration:none;color:var(--ink);
+  display:inline-flex;align-items:center;gap:6px;transition:color .2s;
+}
+.m-link:hover,.m-trigger:hover{color:var(--blue)}
+.m-trigger.active{color:var(--blue)}
+.m-trigger .caret{transition:transform .25s}
+.m-item:hover .caret,.m-item.open .caret{transform:rotate(180deg)}
+.m-link--cta{border:1px solid var(--ink);padding:9px 18px !important;transition:background .2s,color .2s}
+.m-link--cta:hover{background:var(--ink);color:var(--paper) !important}
+
+.mega{
+  position:absolute;left:0;right:0;top:100%;
+  background:var(--white);border-bottom:2px solid var(--ink);
+  box-shadow:0 30px 60px -30px rgba(20,20,20,.25);
+  opacity:0;visibility:hidden;transform:translateY(10px);
+  transition:opacity .22s ease,transform .22s ease,visibility .22s;z-index:99;
+}
+.m-item:hover .mega,.m-item.open .mega,.m-item:focus-within .mega{opacity:1;visibility:visible;transform:none}
+.mega-scroll{max-height:min(70vh,620px);overflow-y:auto;padding:26px 40px 34px;scrollbar-width:thin}
+.mega-scroll::-webkit-scrollbar{width:8px}
+.mega-scroll::-webkit-scrollbar-thumb{background:#D9D9D1}
+.mega-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;border-bottom:1px solid var(--line);padding-bottom:16px;margin-bottom:22px}
+.mega-kicker{font-family:var(--font-m);font-size:.66rem;letter-spacing:.18em;color:var(--blue);text-transform:uppercase;display:block;margin-bottom:6px}
+.mega-sub{font-size:.9rem;color:var(--muted);max-width:520px}
+.mega-all{font-family:var(--font-m);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--ink);padding:9px 16px;text-decoration:none;white-space:nowrap;transition:background .2s,color .2s,border-color .2s}
+.mega-all:hover{background:var(--blue);border-color:var(--blue);color:#fff}
+.mega-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(182px,1fr));gap:26px 30px;align-items:start}
+.mgroup-t{font-family:var(--font-m);font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;font-weight:500;text-decoration:none;color:var(--ink);display:inline-block;border-bottom:2px solid var(--blue);padding-bottom:5px;margin-bottom:9px;transition:color .2s}
+.mgroup-t:hover{color:var(--blue)}
+.mgroup ul li a{display:block;font-size:.82rem;color:#4A4A44;text-decoration:none;padding:2.5px 0;transition:color .15s,padding-left .2s}
+.mgroup ul li a:hover{color:var(--blue);padding-left:7px}
+.mgroup ul li .mtool{display:block;font-size:.82rem;color:#4A4A44;padding:2.5px 0}
+
+.burger{display:none;width:44px;height:44px;place-items:center;border:1px solid var(--ink)}
+.burger span{display:block;width:20px;height:2px;background:var(--ink);transition:transform .3s}
+.burger span+span{margin-top:6px}
+body.nav-open .burger span:first-child{transform:translateY(4px) rotate(45deg)}
+body.nav-open .burger span:last-child{transform:translateY(-4px) rotate(-45deg)}
+
+.nav-close{display:none}
+
+/* ================= PAGE TOP ================= */
+.phero{padding:40px 0 64px}
+.crumbs{font-family:var(--font-m);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:28px;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.crumbs a{text-decoration:none;border-bottom:1px solid var(--line);transition:color .2s,border-color .2s}
+.crumbs a:hover{color:var(--blue);border-color:var(--blue)}
+.crumbs .sep{color:var(--blue)}
+.crumbs .here{color:var(--ink)}
+
+/* ================= JWT BENCH ================= */
+.analyzer{background:var(--white);border:1px solid var(--ink);box-shadow:14px 14px 0 rgba(20,20,20,.08);transition:box-shadow .3s}
+.analyzer:focus-within{box-shadow:14px 14px 0 rgba(0,51,255,.22)}
+.a-bar{display:flex;align-items:center;gap:8px;border-bottom:1px solid var(--line);padding:12px 18px}
+.dot{width:9px;height:9px;border-radius:50%;border:1.5px solid var(--ink)}
+.dot--fill{background:var(--blue);border-color:var(--blue)}
+.a-file{font-family:var(--font-m);font-size:.72rem;color:var(--muted);margin-left:8px;letter-spacing:.08em;text-transform:uppercase}
+.caret-block{display:inline-block;width:7px;height:13px;background:var(--blue);margin-left:8px;vertical-align:-2px;animation:blink 1.1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.a-live{margin-left:auto;font-family:var(--font-m);font-size:.62rem;letter-spacing:.14em;color:var(--blue)}
+
+/* ---- mode deck ---- */
+.cmp-deck{display:flex;align-items:center;gap:14px;flex-wrap:wrap;padding:14px 18px;border-bottom:1px solid var(--line);background:var(--paper)}
+.c-tabs{display:flex;gap:8px;flex-wrap:wrap}
+.c-tab{display:inline-flex;align-items:center;gap:10px;border:1px solid var(--blue);background:var(--white);padding:8px 13px;box-shadow:5px 5px 0 rgba(0,51,255,.16)}
+.ct-glyph{font-family:var(--font-d);font-weight:700;font-size:.95rem;color:#fff;width:27px;height:27px;border:1px solid var(--blue);display:grid;place-items:center;background:var(--blue)}
+.ct-name{font-family:var(--font-m);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;font-weight:500;color:var(--blue)}
+.cmp-opts{display:flex;gap:8px;align-items:center;margin-left:auto;flex-wrap:wrap}
+.opts-holder{display:flex;gap:8px;flex-wrap:wrap}
+.tgl{font-family:var(--font-m);font-size:.6rem;letter-spacing:.08em;text-transform:uppercase;border:1px dashed var(--ink);padding:9px 12px;background:var(--white);transition:border-color .15s,transform .15s,box-shadow .15s;display:inline-flex;align-items:center;gap:9px}
+.tgl::before{content:"";flex:none;width:8px;height:8px;border:1.5px solid var(--ink);background:transparent;transition:background .15s,border-color .15s}
+.tgl:hover{transform:translateY(-2px);box-shadow:3px 3px 0 rgba(0,51,255,.12)}
+.tgl[aria-pressed="true"]{border-style:solid;border-color:var(--blue)}
+.tgl[aria-pressed="true"]::before{background:var(--blue);border-color:var(--blue)}
+.deck-note{font-family:var(--font-m);font-size:.58rem;letter-spacing:.1em;color:var(--muted);text-transform:uppercase}
+.deck-note em{font-style:normal;color:var(--red)}
+
+/* ---- panes ---- */
+.c-grid{display:grid;grid-template-columns:1fr 1fr;position:relative}
+.c-pane{display:flex;flex-direction:column;min-width:0}
+.c-left{border-right:1px solid var(--line)}
+.pane-head{display:flex;align-items:center;gap:12px;padding:10px 18px;border-bottom:1px solid var(--line)}
+.pane-label{font-family:var(--font-m);font-size:.62rem;letter-spacing:.16em;color:var(--muted);text-transform:uppercase;display:inline-flex;align-items:center;gap:8px}
+.pane-label::before{content:"";width:7px;height:7px;background:var(--blue);display:inline-block}
+.pane-badge{font-family:var(--font-m);font-size:.6rem;letter-spacing:.12em;color:var(--blue)}
+.pane-badge.bad{color:var(--red)}
+
+/* ---- highlighted token editor ---- */
+.jwt-wrap{position:relative;flex:1;display:flex;min-height:340px}
+.jwt-backdrop{
+  position:absolute;inset:0;overflow:hidden;pointer-events:none;
+  padding:20px 22px;font-family:var(--font-m);font-size:.84rem;line-height:1.85;
+  white-space:pre-wrap;overflow-wrap:break-word;word-break:break-all;
+  color:transparent;
+}
+.jwt-backdrop mark{padding:1px 0}
+.seg-h{color:var(--blue);background:rgba(0,51,255,.08)}
+.seg-p{color:var(--red);background:rgba(196,0,0,.07)}
+.seg-s{color:#55554E;background:rgba(108,108,100,.13)}
+.seg-x{color:var(--red);background:rgba(196,0,0,.18)}
+.seg-dot{color:var(--ink);font-weight:700}
+.jwt-ta{
+  position:relative;z-index:1;flex:1;width:100%;min-height:340px;border:0;resize:vertical;
+  padding:20px 22px;font-family:var(--font-m);font-size:.84rem;line-height:1.85;
+  color:transparent;caret-color:var(--blue);background:transparent;
+  white-space:pre-wrap;overflow-wrap:break-word;word-break:break-all;
+}
+.jwt-ta:focus{outline:none}
+
+/* ---- decoded output ---- */
+.jwt-scroll{flex:1;overflow-y:auto;padding:16px 18px;background:#F7F7F1;min-height:340px;scrollbar-width:thin}
+.jwt-scroll::-webkit-scrollbar{width:8px}
+.jwt-scroll::-webkit-scrollbar-thumb{background:#D9D9D1}
+.j-verdict{display:flex;align-items:center;gap:14px;border:1px solid var(--ink);background:var(--white);padding:13px 16px;margin-bottom:14px;box-shadow:6px 6px 0 rgba(20,20,20,.08);animation:vin .3s ease}
+@keyframes vin{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.j-vmark{width:36px;height:36px;flex:none;display:grid;place-items:center;font-family:var(--font-d);font-weight:700;font-size:1.1rem;color:#fff;background:var(--blue)}
+.j-verdict.j-bad{border-color:var(--red);box-shadow:6px 6px 0 rgba(196,0,0,.14)}
+.j-bad .j-vmark{background:var(--red)}
+.j-idle .j-vmark{background:var(--muted)}
+.j-verdict>div{min-width:0}
+.j-verdict>div b{font-family:var(--font-d);font-size:1.02rem;letter-spacing:-.01em;display:block}
+.j-verdict>div span{font-family:var(--font-m);font-size:.64rem;color:var(--muted);display:block;margin-top:2px;word-break:break-word}
+.j-alg{margin-left:auto;flex:none;font-family:var(--font-m);font-size:.66rem;letter-spacing:.1em;border:1px solid var(--blue);color:var(--blue);padding:5px 10px;background:rgba(0,51,255,.05)}
+.j-alg-none{border-color:var(--red);color:var(--red);background:rgba(196,0,0,.05)}
+
+.j-block{border:1px solid var(--line);background:var(--white);margin-bottom:14px;animation:vin .35s ease}
+.j-bhead{display:flex;align-items:center;gap:9px;font-family:var(--font-m);font-size:.6rem;letter-spacing:.14em;color:var(--muted);padding:9px 14px;border-bottom:1px solid var(--line);background:var(--paper)}
+.j-dot{width:8px;height:8px;flex:none;display:inline-block}
+.j-dot-h{background:var(--blue)}
+.j-dot-p{background:var(--red)}
+.j-dot-s{background:var(--muted)}
+.j-copy{margin-left:auto;font-family:var(--font-m);font-size:.56rem;letter-spacing:.1em;text-transform:uppercase;border:1px solid var(--line);background:var(--white);padding:4px 9px;cursor:pointer;transition:background .15s,color .15s,border-color .15s}
+.j-copy:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
+.j-json{font-family:var(--font-m);font-size:.76rem;line-height:1.75;padding:12px 14px;overflow-x:auto;color:#3C3C36;white-space:pre-wrap;word-break:break-word}
+.j-claims{width:100%;border-collapse:collapse;font-family:var(--font-m);font-size:.7rem}
+.j-claims td{padding:7px 14px;border-top:1px solid var(--line);vertical-align:top;line-height:1.6}
+.j-claims td:first-child{color:var(--blue);font-weight:500;width:60px}
+.j-claims td:nth-child(2){color:var(--ink);word-break:break-all}
+.j-claims td:last-child{color:var(--muted);width:40%}
+.cl-ok{color:var(--blue);font-weight:500}
+.cl-bad{color:var(--red);font-weight:500}
+.j-sig{font-family:var(--font-m);font-size:.76rem;line-height:1.75;padding:12px 14px 4px;color:#55554E;word-break:break-all}
+.j-snote{font-size:.74rem;color:var(--muted);padding:6px 14px 12px;line-height:1.6}
+.j-empty{font-family:var(--font-m);font-size:.68rem;letter-spacing:.06em;color:#B9B9B0;padding:34px 12px;text-align:center;line-height:2}
+
+/* ---- VS badge ---- */
+.vs-badge{
+  position:absolute;left:50%;top:46%;transform:translate(-50%,-50%);z-index:3;
+  width:52px;height:52px;background:var(--ink);color:#fff;pointer-events:none;
+  font-family:var(--font-d);font-weight:700;font-size:.95rem;letter-spacing:.02em;
+  display:grid;place-items:center;border:1px solid var(--ink);
+  box-shadow:4px 4px 0 rgba(0,51,255,.30);
+}
+
+.pane-actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap;border-top:1px solid var(--line);padding:12px 18px}
+.mini-btn{
+  font-family:var(--font-m);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;
+  border:1px solid var(--ink);padding:9px 15px;background:var(--paper);
+  transition:background .2s,color .2s,border-color .2s,transform .15s;
+  display:inline-flex;align-items:center;gap:7px;
+}
+.mini-btn:hover{background:var(--ink);color:var(--paper)}
+.mini-btn:active{transform:translateY(2px)}
+.mini-btn.ok{background:var(--white);border-color:var(--blue);color:var(--blue)}
+.mini-btn.err{background:var(--white);border-color:var(--red);color:var(--red)}
+.a-note{margin-left:auto;font-family:var(--font-m);font-size:.62rem;letter-spacing:.1em;color:var(--muted)}
+.a-note em{font-style:normal;color:var(--blue)}
+
+/* ---- results strip ---- */
+.c-stats{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--ink);background:var(--white)}
+.cstat{padding:15px 18px;border-right:1px solid var(--line)}
+.cstat:last-child{border-right:0}
+.cstat small{display:block;font-family:var(--font-m);font-size:.58rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:3px}
+.cstat b{font-family:var(--font-d);font-weight:700;font-size:1.7rem;letter-spacing:-.02em;display:inline-block;transition:color .15s,transform .15s}
+.cstat b.bump{color:var(--blue);transform:translateY(-2px)}
+.cstat b.good{color:var(--blue)}
+.cstat b.bad{color:var(--red)}
+.cstat .c-sub{font-family:var(--font-m);font-size:.56rem;letter-spacing:.1em;color:var(--muted);display:block;margin-top:3px}
+
+/* ================= HEADING BLOCK ================= */
+.phero-head{display:grid;grid-template-columns:1fr auto;gap:48px;align-items:end;margin-top:64px}
+.kicker{font-family:var(--font-m);font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--blue);display:flex;align-items:center;gap:10px;margin-bottom:20px}
+.kicker .ast{display:inline-block;animation:spin 9s linear infinite;font-size:.9rem}
+@keyframes spin{to{transform:rotate(360deg)}}
+h1{font-family:var(--font-d);font-weight:700;font-size:clamp(2.8rem,6vw,5.2rem);line-height:.98;letter-spacing:-.035em;margin-bottom:22px}
+h1 .blue{color:var(--blue)}
+.lede{font-size:1.05rem;color:var(--muted);max-width:600px}
+.lede strong{color:var(--ink);font-weight:500}
+.spec{border:1px solid var(--ink);background:var(--white);min-width:230px;box-shadow:8px 8px 0 rgba(20,20,20,.08)}
+.spec li{display:flex;justify-content:space-between;gap:24px;padding:11px 16px;border-bottom:1px solid var(--line);font-family:var(--font-m);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase}
+.spec li:last-child{border-bottom:0}
+.spec li span{color:var(--muted)}
+.spec li b{font-weight:500;color:var(--blue)}
+
+/* ================= TICKER ================= */
+.ticker{border-top:1px solid var(--ink);border-bottom:1px solid var(--ink);background:var(--white);overflow:hidden}
+.ticker-track{display:flex;width:max-content;animation:tick 46s linear infinite}
+.ticker:hover .ticker-track{animation-play-state:paused}
+@keyframes tick{to{transform:translateX(-50%)}}
+.ticker-track span{font-family:var(--font-m);font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;padding:15px 0;white-space:nowrap}
+.ticker-track i{color:var(--blue);font-style:normal;margin:0 26px}
+
+/* ================= SECTIONS ================= */
+.sec{padding:92px 0}
+.sec-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;border-bottom:2px solid var(--ink);padding-bottom:18px;margin-bottom:14px}
+.sec-head h2{font-family:var(--font-d);font-weight:700;font-size:clamp(1.9rem,3.4vw,2.9rem);letter-spacing:-.025em;line-height:1.05}
+.sec-idx{font-family:var(--font-m);font-size:.72rem;letter-spacing:.16em;color:var(--muted);white-space:nowrap;padding-bottom:8px}
+.sec-kicker{font-family:var(--font-m);font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;color:var(--blue);display:block;margin-bottom:14px}
+
+.tool{display:grid;grid-template-columns:270px 1fr;gap:44px;padding:44px 0;border-bottom:2px solid var(--ink)}
+.tool:first-of-type{border-top:2px solid var(--ink)}
+.tool-num{font-family:var(--font-m);font-size:.8rem;color:var(--blue);display:block;margin-bottom:12px}
+.tool h3{font-family:var(--font-d);font-weight:700;font-size:1.7rem;letter-spacing:-.02em;line-height:1.1;margin-bottom:14px}
+.tool-here{font-family:var(--font-m);font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--blue);display:inline-flex;align-items:center;gap:8px}
+.tool-here::before{content:"";width:7px;height:7px;background:var(--blue);display:inline-block;animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.25}}
+.tool-body>p{font-size:.97rem;color:#3C3C36;max-width:680px;margin-bottom:22px}
+.tool-body>p strong{font-weight:500;color:var(--ink)}
+.example{border:1px solid var(--line);border-left:3px solid var(--blue);background:var(--white);padding:18px 22px;max-width:680px;margin-bottom:22px;transition:transform .25s,box-shadow .25s}
+.example:hover{transform:translateX(6px);box-shadow:8px 8px 0 rgba(20,20,20,.06)}
+.ex-tag{font-family:var(--font-m);font-size:.58rem;letter-spacing:.18em;color:var(--blue);text-transform:uppercase;display:block;margin-bottom:10px}
+.ex-in{font-family:var(--font-m);font-size:.74rem;color:var(--muted);line-height:1.7;word-break:break-all;white-space:pre-wrap}
+.ex-in .tk-h{color:var(--blue)}
+.ex-in .tk-p{color:var(--red)}
+.ex-in .tk-s{color:var(--muted)}
+.ex-arrow{display:block;font-family:var(--font-d);color:var(--blue);margin:8px 0}
+.ex-out{font-family:var(--font-m);font-size:.82rem;font-weight:500;color:var(--ink);line-height:1.8;white-space:pre-wrap}
+.ex-out b{color:var(--blue);font-weight:500}
+.tool-use{font-family:var(--font-m);font-size:.64rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.tag{border:1px solid var(--line);background:var(--white);padding:6px 12px;font-family:var(--font-m);font-size:.64rem;letter-spacing:.08em;text-transform:uppercase;color:#3C3C36;transition:border-color .2s,color .2s,transform .2s}
+.tag:hover{border-color:var(--blue);color:var(--blue);transform:translateY(-2px)}
+
+/* ---- anatomy strip ---- */
+.anat{border:1px solid var(--ink);background:var(--white);margin-top:34px;box-shadow:8px 8px 0 rgba(20,20,20,.08)}
+.anat-head{font-family:var(--font-m);font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);padding:12px 20px;border-bottom:1px solid var(--line);background:var(--paper)}
+.anat-token{font-family:var(--font-m);font-size:.72rem;line-height:1.9;padding:16px 20px;border-bottom:1px solid var(--line);word-break:break-all;background:repeating-linear-gradient(45deg,transparent 0 10px,rgba(0,0,0,.015) 10px 20px)}
+.anat-token .a-h{background:rgba(0,51,255,.10);color:var(--blue);padding:2px 0}
+.anat-token .a-p{background:rgba(196,0,0,.08);color:var(--red);padding:2px 0}
+.anat-token .a-s{background:rgba(108,108,100,.14);color:#55554E;padding:2px 0}
+.anat-rows{display:grid;grid-template-columns:1fr}
+.anat-row{display:grid;grid-template-columns:20px 130px 1fr;gap:14px;align-items:baseline;padding:13px 20px;border-bottom:1px solid var(--line);transition:background .15s}
+.anat-row:last-child{border-bottom:0}
+.anat-row:hover{background:var(--paper)}
+.anat-row b{font-family:var(--font-m);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase}
+.anat-row p{font-size:.86rem;color:var(--muted)}
+.anat-row p strong{color:var(--ink);font-weight:500}
+
+.rules{margin-top:34px;border:1px dashed var(--ink);background:var(--white);padding:18px 24px;font-family:var(--font-m);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);line-height:2}
+.rules b{color:var(--blue);font-weight:500}
+
+/* ---- privacy band ---- */
+.band{background:var(--ink);color:var(--paper);background-image:radial-gradient(circle,rgba(255,255,255,.07) 1px,transparent 1px);background-size:28px 28px;padding:84px 0}
+.band .sec-kicker{color:var(--blue-soft)}
+.band h2{font-family:var(--font-d);font-weight:700;font-size:clamp(1.9rem,3.6vw,3rem);letter-spacing:-.03em;line-height:1.05;max-width:760px;margin-bottom:20px}
+.band h2 .soft{color:var(--blue-soft)}
+.band-lede{color:rgba(252,252,250,.72);max-width:660px;font-size:1rem;margin-bottom:38px}
+.pipe{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:14px}
+.node{font-family:var(--font-m);font-size:.7rem;letter-spacing:.12em;border:1px dashed rgba(252,252,250,.4);padding:12px 18px}
+.node-live{border:1px solid var(--blue-soft);color:var(--blue-soft)}
+.pipe-arrow{font-family:var(--font-d);font-size:1.2rem;color:rgba(252,252,250,.5)}
+.pipe-dead{margin-bottom:40px}
+.node-dead{border-color:rgba(252,252,250,.22);color:rgba(252,252,250,.45);text-decoration:line-through}
+.facts{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.16)}
+.facts li{background:var(--ink);padding:20px 18px}
+.f-k{display:block;font-family:var(--font-m);font-size:.58rem;letter-spacing:.16em;text-transform:uppercase;color:rgba(252,252,250,.55);margin-bottom:8px}
+.f-v{font-family:var(--font-d);font-weight:700;font-size:1.35rem;color:var(--blue-soft)}
+
+/* ---- FAQ ---- */
+.faq{border-top:2px solid var(--ink)}
+.faq+.faq{border-top:1px solid var(--line)}
+.faq summary{font-family:var(--font-d);font-weight:500;font-size:1.08rem;padding:22px 8px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;list-style:none;transition:color .2s,padding-left .25s}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:hover{color:var(--blue);padding-left:18px}
+.faq summary::after{content:"+";font-family:var(--font-m);font-size:1.3rem;color:var(--blue);transition:transform .3s}
+.faq[open] summary::after{transform:rotate(45deg)}
+.faq p{color:var(--muted);font-size:.95rem;max-width:720px;padding:0 8px 24px}
+
+/* ---- prev / next ---- */
+.prevnext{border-top:2px solid var(--ink);background:var(--white)}
+.pn-grid{display:grid;grid-template-columns:1fr 1fr}
+.pn{padding:30px 24px;text-decoration:none;display:block;transition:background .25s}
+.pn:hover{background:var(--paper)}
+.pn small{font-family:var(--font-m);font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:8px}
+.pn b{font-family:var(--font-d);font-weight:700;font-size:1.25rem;letter-spacing:-.01em;transition:color .2s}
+.pn:hover b{color:var(--blue)}
+.pn--next{text-align:right;border-left:1px solid var(--line)}
+
+/* ================= FOOTER ================= */
+footer{background:var(--white);border-top:2px solid var(--ink)}
+.foot-grid{display:grid;grid-template-columns:2.3fr repeat(5,1fr);gap:36px;padding:64px 0 48px}
+.foot-brand p{font-size:.9rem;color:var(--muted);margin:16px 0 18px;max-width:280px}
+.foot-badge{font-family:var(--font-m);font-size:.62rem;letter-spacing:.14em;color:var(--blue);text-transform:uppercase}
+.foot-grid h4{font-family:var(--font-m);font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:16px;font-weight:500}
+.foot-grid li{margin-bottom:9px}
+.foot-grid li a{font-size:.86rem;text-decoration:none;color:#3C3C36;transition:color .2s,padding-left .2s}
+.foot-grid li a:hover{color:var(--blue);padding-left:6px}
+.foot-grid li .plain{font-size:.86rem;color:#3C3C36}
+.foot-bottom{border-top:1px solid var(--line);padding:22px 0;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.foot-bottom p,.foot-bottom span{font-family:var(--font-m);font-size:.66rem;letter-spacing:.1em;color:var(--muted);text-transform:uppercase}
+.to-top{font-family:var(--font-m);font-size:.66rem;letter-spacing:.12em;text-decoration:none;color:var(--ink);border-bottom:1px solid var(--ink);padding-bottom:2px;transition:color .2s,border-color .2s}
+.to-top:hover{color:var(--blue);border-color:var(--blue)}
+
+/* ================= REVEAL ================= */
+.rv{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}
+.rv.in{opacity:1;transform:none}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width:1120px){
+  .burger{display:grid}
+  .nav{position:fixed;inset:0;background:var(--paper);z-index:90;padding:132px 28px 48px;overflow-y:auto;transform:translateX(103%);transition:transform .4s cubic-bezier(.7,0,.2,1)}
+  body.nav-open .nav{transform:none}
+  .nav-list{flex-direction:column;align-items:stretch;gap:0}
+  .m-link,.m-trigger{display:flex;width:100%;text-align:left;font-size:1.15rem;padding:17px 4px;border-bottom:1px solid var(--line)}
+  .m-link--cta{border:1px solid var(--ink);margin-top:18px;justify-content:center}
+  .m-trigger .caret{margin-left:auto}
+  .mega{position:static;opacity:1;visibility:visible;transform:none;display:none;border:0;box-shadow:none;background:transparent}
+  .m-item.open .mega{display:block}
+  .mega-scroll{max-height:none;overflow:visible;padding:14px 0 22px 10px}
+  .mega-head{flex-direction:column;align-items:flex-start;gap:12px}
+  .mega-grid{grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:22px}
+  .nav-close{
+    display:inline-flex;align-items:center;gap:10px;
+    position:absolute;top:86px;right:22px;z-index:5;
+    font-family:var(--font-m);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;
+    border:1px solid var(--ink);background:var(--white);color:var(--ink);
+    padding:11px 16px;opacity:0;
+    transition:opacity .3s .18s,background .2s,color .2s,border-color .2s,transform .15s;
+  }
+  body.nav-open .nav-close{opacity:1}
+  .nav-close:hover{background:var(--red);border-color:var(--red);color:#fff}
+  .nav-close:active{transform:translateY(2px)}
+  .nav-close svg{transition:transform .35s cubic-bezier(.2,.7,.2,1)}
+  .nav-close:hover svg{transform:rotate(90deg)}
+}
+@media (max-width:960px){
+  .phero-head{grid-template-columns:1fr;gap:32px;align-items:start}
+  .spec{max-width:340px}
+  .c-grid{grid-template-columns:1fr}
+  .c-left{border-right:0;border-bottom:1px solid var(--line)}
+  .vs-badge{display:none}
+  .c-stats{grid-template-columns:1fr 1fr}
+  .cstat{border-bottom:1px solid var(--line)}
+  .cstat:nth-child(2n){border-right:0}
+  .cstat:nth-child(n+3){border-bottom:0}
+  .tool{grid-template-columns:1fr;gap:20px;padding:36px 0}
+  .facts{grid-template-columns:1fr 1fr}
+  .foot-grid{grid-template-columns:1fr 1fr;padding:48px 0 36px}
+  .foot-brand{grid-column:1/-1}
+  .sec{padding:72px 0}
+  .anat-row{grid-template-columns:20px 1fr;grid-template-rows:auto auto}
+  .anat-row p{grid-column:2}
+}
+@media (max-width:640px){
+  .wrap{padding:0 20px}
+  .cmp-opts{margin-left:0}
+  .pn-grid{grid-template-columns:1fr}
+  .pn--next{text-align:left;border-left:0;border-top:1px solid var(--line)}
+  .sec-head{flex-direction:column;align-items:flex-start;gap:8px}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important;transition:none !important}
+  html{scroll-behavior:auto}
+  .rv{opacity:1;transform:none}
+}
+</style>
+</head>
+
+<body id="top">
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ================= HEADER ================= -->
+<header id="site-header">
+  <div class="wrap bar">
+    <a class="logo" href="index.html" aria-label="IrisTool — home">
+      <span class="logo-mark" aria-hidden="true">✱</span>
+      <span class="logo-word">IrisTool</span>
+      <span class="logo-tag">278 tools</span>
+    </a>
+
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+      <span></span><span></span>
+    </button>
+
+    <nav class="nav" id="primary-nav" aria-label="Primary">
+      <button class="nav-close" id="nav-close" type="button" aria-label="Close menu">
+        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+          <path d="M1.5 1.5l12 12M13.5 1.5l-12 12" stroke="currentColor" stroke-width="2"/>
+        </svg>
+        Close
+      </button>
+
+      <ul class="nav-list">
+        <li><a class="m-link" href="index.html">Home</a></li>
+
+        <!-- ============ TEXT TOOLS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Text Tools
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Text Tools</span><p class="mega-sub">55 tools to analyze, clean, sort, extract, compare, convert and encode text.</p></div>
+                <a class="mega-all" href="text-tools.html">View all 55 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup">
+                  <a class="mgroup-t" href="text-analysis-tools.html">Text Analysis</a>
+                
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="case-converter.html">Case Converter</a>
+                
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="text-cleanup-tools.html">Text Cleanup</a>
+                
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="sorting-tools.html">Sorting &amp; Reordering</a>
+                
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="text-comparison-tools.html">Comparison &amp; Diff</a>
+              
+                </div>
+          
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ============ DEVELOPER TOOLS (current) ============ -->
+        <li class="m-item">
+          <button class="m-trigger active" type="button" aria-expanded="false" aria-haspopup="true">Developer Tools
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Developer Tools</span><p class="mega-sub">94 tools for JSON, XML, HTML, CSS, JS, encoding, hashing, colors, timestamps, regex, cron and full SEO suite.</p></div>
+                <a class="mega-all" href="developer-tools.html">View all 94 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup">
+                  <a class="mgroup-t" href="json-tools.html">JSON</a>
+                 
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="xml-tools.html">XML</a>
+                
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="html-tools.html">HTML</a>
+                
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="css-tools.html">CSS</a>
+                
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="javascript-tools.html">JavaScript</a>
+              
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="url-tools.html">URL</a>
+                
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="base64-tools.html">Base64</a>
+                 
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="jwt-decoder.html" aria-current="page">JWT</a>
+                 
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="hash-tools.html">Hash</a>
+               
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="character-encoding-tools.html">Character Encoding</a>
+                 
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="color-tools.html">Color</a>
+                
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="timestamp-tools.html">Timestamp</a>
+                
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="uuid-tools.html">UUID</a>
+                
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="regex-tools.html">Regex</a>
+                
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="data-conversion-tools.html">Data Conversion</a>
+                 
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="seo-tools.html">SEO</a>
+               
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ============ CALCULATORS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Calculators
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Calculators</span><p class="mega-sub">60 calculators for health, money, dates, grades, math, units and everyday numbers.</p></div>
+                <a class="mega-all" href="calculators.html">View all 60 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup">
+                  <a class="mgroup-t" href="health-calculators.html">Health</a>
+                
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="finance-calculators.html">Finance</a>
+                 
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="date-time-calculators.html">Date &amp; Time</a>
+                
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="math-calculators.html">Math</a>
+                 
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="unit-converters.html">Unit Converters</a>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ============ GENERATORS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Generators
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Generators</span><p class="mega-sub">39 generators for names, random picks, IDs, QR codes, CSS effects, palettes and test data.</p></div>
+                <a class="mega-all" href="generators.html">View all 39 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup">
+                  <a class="mgroup-t" href="identity-name-generators.html">Identity &amp; Name</a>
+                
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="random-generators.html">Random</a>
+                
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="developer-generators.html">Developer</a>
+                
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="css-generators.html">CSS</a>
+                
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="password-tools.html">Password</a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ============ IMAGE TOOLS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Image Tools
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Image Tools</span><p class="mega-sub">30 tools to edit, convert, compress and inspect images — processed entirely on your device.</p></div>
+                <a class="mega-all" href="image-tools.html">View all 30 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup">
+                  <a class="mgroup-t" href="image-editing-tools.html">Image Editing</a>
+               
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="image-converter-tools.html">Image Converter</a>
+                  
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="image-optimization-tools.html">Optimization</a>
+                
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="image-inspector-tools.html">Inspector</a>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li><a class="m-link" href="about-us.html">About Us</a></li>
+        <li><a class="m-link m-link--cta" href="contact-us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ================= JWT BENCH FIRST ================= -->
+  <section class="phero" aria-label="Live JWT decoding bench">
+    <div class="wrap">
+      <nav class="crumbs rv" aria-label="Breadcrumb">
+        <a href="index.html">Home</a><span class="sep">/</span>
+        <a href="developer-tools.html">Developer Tools</a><span class="sep">/</span>
+        <span class="here" aria-current="page">JWT</span>
+      </nav>
+
+      <div class="analyzer rv" id="analyzer" aria-label="Live JWT decoding bench">
+        <div class="a-bar">
+          <span class="dot" aria-hidden="true"></span>
+          <span class="dot dot--fill" aria-hidden="true"></span>
+          <span class="dot" aria-hidden="true"></span>
+          <span class="a-file">token.jwt — 1 tool<span class="caret-block" aria-hidden="true"></span></span>
+          <span class="a-live">● LIVE</span>
+        </div>
+
+        <!-- DECK -->
+        <div class="cmp-deck">
+          <div class="c-tabs">
+            <span class="c-tab"><span class="ct-glyph" aria-hidden="true">◈</span><span class="ct-name">JWT Decoder</span></span>
+          </div>
+          <div class="cmp-opts">
+            <span class="opts-holder" id="opts-holder"></span>
+            <span class="deck-note">SIGNATURE SHOWN · <em>NEVER VERIFIED</em> · NO SECRET ASKED</span>
+          </div>
+        </div>
+
+        <div class="c-grid">
+          <!-- INPUT PANE -->
+          <div class="c-pane c-left">
+            <div class="pane-head">
+              <span class="pane-label">Token · raw</span>
+              <span class="pane-badge" id="badge-in">0 CHARS</span>
+            </div>
+            <div class="jwt-wrap">
+              <div class="jwt-backdrop" id="bd-in" aria-hidden="true"></div>
+              <label class="skip" for="src-in">Raw JWT input</label>
+              <textarea class="jwt-ta" id="src-in" spellcheck="false" placeholder="Paste a JSON Web Token — it splits along its two dots as you type…"></textarea>
+            </div>
+            <div class="pane-actions">
+              <button type="button" class="mini-btn" id="btn-copy-in">⧉ Copy token</button>
+              <button type="button" class="mini-btn" id="btn-clear-in">✕ Clear</button>
+              <button type="button" class="mini-btn" id="btn-sample">↺ Load sample</button>
+              <button type="button" class="mini-btn" id="btn-classic" title="Load the classic demo token — issued in 2018, no expiry">↯ Classic sample</button>
+              <span class="a-note">NETWORK PAYLOAD: <em>0 BYTES</em> · PROCESSING: <em>LOCAL</em></span>
+            </div>
+          </div>
+
+          <!-- OUTPUT PANE -->
+          <div class="c-pane c-right">
+            <div class="pane-head">
+              <span class="pane-label">Decoded · live</span>
+              <span class="pane-badge" id="badge-out">— IDLE</span>
+            </div>
+            <div class="jwt-scroll" id="jwt-out"></div>
+            <div class="pane-actions">
+              <button type="button" class="mini-btn" id="btn-copy-header">⧉ Copy header</button>
+              <button type="button" class="mini-btn" id="btn-copy-payload">⧉ Copy payload</button>
+              <span class="a-note">UPDATES <em>ON EVERY KEYSTROKE</em></span>
+            </div>
+          </div>
+
+          <div class="vs-badge" aria-hidden="true">◈</div>
+        </div>
+
+        <!-- RESULTS STRIP -->
+        <div class="c-stats">
+          <div class="cstat"><small>Segments</small><b id="sv-1">0/3</b><span class="c-sub">HEADER · PAYLOAD · SIG</span></div>
+          <div class="cstat"><small>Algorithm</small><b id="sv-2">—</b><span class="c-sub">FROM THE HEADER</span></div>
+          <div class="cstat"><small>Issued</small><b id="sv-3">—</b><span class="c-sub">IAT CLAIM</span></div>
+          <div class="cstat"><small>Expires</small><b id="sv-4">—</b><span class="c-sub">EXP CLAIM</span></div>
+        </div>
+      </div>
+
+      <!-- heading block, below the tool -->
+      <div class="phero-head">
+        <div class="rv">
+          <p class="kicker"><span class="ast" aria-hidden="true">✱</span> Developer Tools · Group 08 of 19</p>
+          <h1>JWT Decoder<span class="blue">.</span></h1>
+          <p class="lede">Paste a token once and watch it <strong>come apart along its two dots</strong> — header, payload and signature painted in three colors as you type. Claims decode live: <strong>exp, nbf and iat get real dates and verdicts</strong>, the algorithm is read straight from the header, and alg:none tokens get a red flag instead of a pass. The signature is displayed but <strong>never verified</strong> — this bench never asks for your secret and never sends the token anywhere. <strong>Nothing is uploaded, nothing is stored.</strong></p>
+        </div>
+        <ul class="spec rv" aria-label="Page specifications">
+          <li><span>Tools</span><b>01</b></li>
+          <li><span>Segments</span><b>03</b></li>
+          <li><span>Decoding</span><b>live</b></li>
+          <li><span>Backend</span><b>none</b></li>
+          <li><span>Cost</span><b>free</b></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TICKER ================= -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track" id="ticker-track">
+      <span>JWT Decoder<i>✱</i>Base64 Encode<i>✱</i>JSON Formatter<i>✱</i>URL Encoder<i>✱</i>SHA256 Generator<i>✱</i>UUID Generator<i>✱</i>Regex Tester<i>✱</i>HTML Encoder<i>✱</i>XML Validator<i>✱</i>JavaScript Minifier<i>✱</i>MD5 Generator<i>✱</i></span>
+    </div>
+  </div>
+
+  <!-- ================= DETAILED GUIDE ================= -->
+  <section class="sec" id="guide" aria-labelledby="guide-title">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div><span class="sec-kicker">The one tool, in detail</span><h2 id="guide-title">What the decoder reads — and what it refuses to.</h2></div>
+        <span class="sec-idx">( 01 )</span>
+      </div>
+
+      <article class="tool rv" id="jwt-decoder">
+        <aside class="tool-side">
+          <span class="tool-num">01 / 01</span>
+          <h3>JWT Decoder</h3>
+          <span class="tool-here">runs in the bench above</span>
+        </aside>
+        <div class="tool-body">
+          <p>A JSON Web Token is three base64url segments joined by dots, and this bench treats each one according to what it is. The <strong>header</strong> is decoded as JSON and its algorithm is lifted into the verdict strip — with a red flag for <strong>alg: none</strong>, the classic unsigned-token trick. The <strong>payload</strong> is decoded as JSON and its claims get a second, human column: <strong>exp</strong> and <strong>nbf</strong> are compared against your machine's clock and stamped VALID, EXPIRED or NOT YET VALID; <strong>iat</strong> gets a real date and a "how long ago"; iss, sub, aud and jti are named, and unknown claims pass through untouched. The <strong>signature</strong> is displayed in full — and deliberately never verified, because verification needs the secret or public key, and a page that never asks for your secret is the only kind you should paste tokens into. Everything re-decodes on every keystroke, so a token being typed or edited stays live from the first character.</p>
+          <div class="example">
+            <span class="ex-tag">Example</span>
+            <p class="ex-in"><span class="tk-h">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9</span>.<span class="tk-p">eyJzdWIiOiJrZWVwZXItMDEiLCJzaXRlIjoiQ2FsbG93YXkgUmlkZ2UiLCJpYXQiOjE3NTEzMjgwMDAsImV4cCI6MTgxNDQwMDAwMH0</span>.<span class="tk-s">k7Qx0J3m…</span></p>
+            <span class="ex-arrow" aria-hidden="true">↓</span>
+            <p class="ex-out"><b>header</b>  { alg: HS256, typ: JWT }
+<b>payload</b> { sub: keeper-01, site: Calloway Ridge,
+            iat: Tue, 01 Jul 2025 · 13 months ago,
+            exp: Thu, 01 Jul 2027 · <b>VALID in 11 months</b> }
+<b>signature</b> shown in full — structure checked, secret never asked</p>
+          </div>
+          <p class="tool-use">Use it for <span class="tag">auth-flow debugging</span><span class="tag">inspecting ID tokens</span><span class="tag">API troubleshooting</span><span class="tag">learning JWTs</span></p>
+        </div>
+      </article>
+
+      <!-- anatomy strip -->
+      <div class="anat rv">
+        <div class="anat-head">Anatomy · the same token, three jobs</div>
+        <div class="anat-token"><span class="a-h">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9</span>.<span class="a-p">eyJzdWIiOiJrZWVwZXItMDEiLCJzaXRlIjoiQ2FsbG93YXkgUmlkZ2UiLCJpYXQiOjE3NTEzMjgwMDAsImV4cCI6MTgxNDQwMDAwMH0</span>.<span class="a-s">k7Qx0J3mVtRz8wYpLq2Ns5HdGfBcXaEiOu1ZvT4jMnW</span></div>
+        <div class="anat-rows">
+          <div class="anat-row">
+            <span class="j-dot j-dot-h" aria-hidden="true"></span>
+            <b>Header</b>
+            <p>Base64url(JSON). Names the <strong>signing algorithm</strong> and token type — the first thing the decoder reads, because everything downstream depends on it.</p>
+          </div>
+          <div class="anat-row">
+            <span class="j-dot j-dot-p" aria-hidden="true"></span>
+            <b>Payload</b>
+            <p>Base64url(JSON). The <strong>claims</strong> — who the token is for, who issued it, when it was minted and when it dies. Encoded, <strong>never encrypted</strong>: anyone holding the token can read it.</p>
+          </div>
+          <div class="anat-row">
+            <span class="j-dot j-dot-s" aria-hidden="true"></span>
+            <b>Signature</b>
+            <p>The HMAC or RSA result over the first two segments. Proof of <strong>integrity and origin</strong>, not secrecy — and the one part this bench will display but never verify, since that would require your secret.</p>
+          </div>
+        </div>
+      </div>
+
+      <p class="rules rv"><b>Decoding rules</b> · a JWT is exactly three base64url segments joined by two dots — anything else is reported, never guessed · base64url means + → -, / → _, padding dropped — the decoder restores all of it before unpacking · header and payload are decoded as UTF-8 JSON; a segment that decodes but isn't JSON is flagged, not faked · exp, nbf and iat are read as Unix seconds and compared against your machine's clock · alg: none gets a red flag, not a pass · unknown claims pass through untouched, in their original order · the signature is displayed but never verified — verification needs the secret or public key, which this bench never asks for · the token you paste never leaves this tab</p>
+    </div>
+  </section>
+
+  <!-- ================= PRIVACY BAND ================= -->
+  <section class="band" id="privacy" aria-labelledby="privacy-title">
+    <div class="wrap">
+      <span class="sec-kicker rv">The privacy promise</span>
+      <h2 id="privacy-title" class="rv">Paste any token. <span class="soft">We couldn't read it even if we wanted to.</span></h2>
+      <p class="band-lede rv">This page has no backend and no database. Every segment split, every claim dated and every verdict stamped just now was computed by JavaScript inside your own browser tab — your token never traveled a single centimeter of cable. Close the page and it's gone for good. And one honest reminder, since we're decoding credentials: a JWT's payload is encoded, not encrypted — treat tokens like keys, here and everywhere.</p>
+
+      <div class="pipe rv" role="img" aria-label="Data flow: pasted token is decoded in your browser. No server involved.">
+        <span class="node">PASTED TOKEN</span><span class="pipe-arrow">→</span>
+        <span class="node node-live">DECODED IN YOUR BROWSER</span><span class="pipe-arrow">→</span>
+        <span class="node">CLAIMS ON SCREEN</span>
+      </div>
+      <div class="pipe-dead rv"><span class="node node-dead">✕ SERVER · DATABASE · LOGS · ANALYTICS</span></div>
+
+      <ul class="facts rv">
+        <li><span class="f-k">Database</span><span class="f-v">null</span></li>
+        <li><span class="f-k">Backend</span><span class="f-v">none</span></li>
+        <li><span class="f-k">Token uploads</span><span class="f-v">0</span></li>
+        <li><span class="f-k">Secrets asked</span><span class="f-v">0</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= FAQ ================= -->
+  <section class="sec" id="faq" aria-labelledby="faq-title">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div><span class="sec-kicker">Questions</span><h2 id="faq-title">Asked often, answered plainly.</h2></div>
+        <span class="sec-idx">( 02 )</span>
+      </div>
+
+      <details class="faq rv" open>
+        <summary>Is my token's signature verified here?</summary>
+        <p>No — and that's deliberate. Verifying an HS256 signature requires the shared secret; RS256 and friends need the public key. This bench decodes structure only: it splits the token, reads the header and payload, dates the time claims and displays the signature untouched. It never asks for a secret, and you should never paste a production secret into any web page — including ours.</p>
+      </details>
+      <details class="faq rv">
+        <summary>Is it safe to paste my JWT here?</summary>
+        <p>The token never leaves your browser tab — there is no backend, no request, no storage. But remember what a JWT is: the header and payload are merely base64url-encoded, not encrypted, so anyone who holds the token can read them, and anyone who holds a valid signature can use it. Treat tokens as credentials — paste test tokens freely, and be careful with live production ones anywhere, including here.</p>
+      </details>
+      <details class="faq rv">
+        <summary>Why does it say EXPIRED when the token looks fine?</summary>
+        <p>Because the exp claim carries a Unix timestamp that has already passed, compared against your machine's clock. The token is still perfectly readable — decoding and validity are different questions. A real API will reject it with a 401, and the red verdict here tells you that before you spend an hour debugging something else entirely.</p>
+      </details>
+      <details class="faq rv">
+        <summary>What's the difference between encoding and encryption?</summary>
+        <p>Base64url encoding is a transport format with zero secrecy — anyone can reverse it, which is exactly why this decoder exists. A standard JWT (JWS) is signed, not encrypted: the signature proves integrity and origin, while the payload stays readable to anyone holding the token. If the payload itself must stay secret, that's JWE — JSON Web Encryption — a different format with five segments instead of three.</p>
+      </details>
+      <details class="faq rv">
+        <summary>Is my data saved anywhere?</summary>
+        <p>No. IrisTool has no backend and no database. Decoding happens inside your browser tab and the token disappears the moment you close or refresh the page. There is nothing to leak, because nothing is ever collected.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- ================= PREV / NEXT ================= -->
+  <nav class="prevnext" aria-label="Browse groups">
+    <div class="wrap pn-grid">
+      <a class="pn" href="base64-tools.html">
+        <small>← Previous group · Base64 Tools</small>
+        <b>Base64 Tools</b>
+      </a>
+      <a class="pn pn--next" href="hash-tools.html">
+        <small>Next group · Hash Tools →</small>
+        <b>Hash Tools</b>
+      </a>
+    </div>
+  </nav>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="logo" href="index.html" aria-label="IrisTool — home">
+          <span class="logo-mark" aria-hidden="true">✱</span>
+          <span class="logo-word">IrisTool</span>
+        </a>
+        <p>278 free tools for text, code, images, SEO and everyday math. Everything runs in your browser — nothing is ever collected.</p>
+        <span class="foot-badge">No backend · No database · No tracking</span>
+      </div>
+            <div>
+        <div><a class="m-link" href="index.html">Home</a></div>
+       
+      
+
+      
+        <div><a class="m-link" href="about-us.html">About Us</a></div>
+      
+      
+
+      
+        <div><a class="m-link" href="contact-us.html">Contact Us</a></div>
+        
+       
+      </div>
+    </div>
+
+    <div class="foot-bottom">
+      <p>© <span id="yr">2026</span> IrisTool — All processing happens on your device. Nothing is collected.</p>
+      <span>Made with passion by Sajad Zamani</span>
+      <a class="to-top" href="#top">Back to top ↑</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+  var $  = function(s,c){ return (c||document).querySelector(s); };
+  var $$ = function(s,c){ return Array.prototype.slice.call((c||document).querySelectorAll(s)); };
+  var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* ---- header state ---- */
+  var header = $("#site-header");
+  window.addEventListener("scroll", function(){
+    header.classList.toggle("scrolled", window.scrollY > 8);
+  }, {passive:true});
+
+  /* ---- mobile drawer ---- */
+  var burger = $("#burger");
+  function closeNav(){
+    document.body.classList.remove("nav-open");
+    burger.setAttribute("aria-expanded","false");
+    burger.setAttribute("aria-label","Open menu");
+  }
+  burger.addEventListener("click", function(){
+    var open = document.body.classList.toggle("nav-open");
+    burger.setAttribute("aria-expanded", open);
+    burger.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+  });
+  $("#primary-nav").addEventListener("click", function(e){
+    if (e.target.closest("a")) closeNav();
+  });
+  $("#nav-close").addEventListener("click", closeNav);
+
+  /* ---- mega menu ---- */
+  function closeAllMegas(except){
+    $$(".m-item.open").forEach(function(item){
+      if (item !== except){
+        item.classList.remove("open");
+        var t = $(".m-trigger", item);
+        if (t) t.setAttribute("aria-expanded","false");
+      }
+    });
+  }
+  $$(".m-trigger").forEach(function(btn){
+    btn.addEventListener("click", function(e){
+      e.stopPropagation();
+      var item = btn.closest(".m-item");
+      var isOpen = item.classList.contains("open");
+      closeAllMegas(item);
+      item.classList.toggle("open", !isOpen);
+      btn.setAttribute("aria-expanded", String(!isOpen));
+    });
+  });
+  document.addEventListener("click", function(e){
+    if (!e.target.closest(".m-item")) closeAllMegas(null);
+  });
+  document.addEventListener("keydown", function(e){
+    if (e.key === "Escape"){ closeAllMegas(null); closeNav(); }
+  });
+
+  /* ---- scroll reveal ---- */
+  var revealEls = $$(".rv");
+  if (reduceMotion || !("IntersectionObserver" in window)){
+    revealEls.forEach(function(el){ el.classList.add("in"); });
+  } else {
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if (en.isIntersecting){ en.target.classList.add("in"); io.unobserve(en.target); }
+      });
+    }, {threshold:0.1, rootMargin:"0px 0px -40px 0px"});
+    revealEls.forEach(function(el){ io.observe(el); });
+  }
+
+  /* ---- ticker ---- */
+  var track = $("#ticker-track");
+  track.innerHTML += track.innerHTML;
+
+  /* ---- footer year ---- */
+  $("#yr").textContent = new Date().getFullYear();
+
+  /* ================= JWT ENGINE ================= */
+  var srcIn    = $("#src-in");
+  var bdIn     = $("#bd-in");
+  var jwtOut   = $("#jwt-out");
+  var badgeIn  = $("#badge-in");
+  var badgeOut = $("#badge-out");
+  var sv = [$("#sv-1"),$("#sv-2"),$("#sv-3"),$("#sv-4")];
+
+  var state = { pretty: true };
+  var lastHeaderJSON = "";
+  var lastPayloadJSON = "";
+
+  var SAMPLE_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrZWVwZXItMDEiLCJzaXRlIjoiQ2FsbG93YXkgUmlkZ2UiLCJpYXQiOjE3NTEzMjgwMDAsImV4cCI6MTgxNDQwMDAwMH0.k7Qx0J3mVtRz8wYpLq2Ns5HdGfBcXaEiOu1ZvT4jMnW";
+
+  var SAMPLE_CLASSIC = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c";
+
+  function fmtNum(n){ return n.toLocaleString("en-US"); }
+  function escHtml(s){
+    return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+  }
+
+  function setStat(el, val){
+    val = String(val);
+    if (el.textContent !== val){
+      el.textContent = val;
+      el.classList.remove("bump");
+      void el.offsetWidth;
+      el.classList.add("bump");
+      setTimeout(function(){ el.classList.remove("bump"); }, 200);
+    }
+  }
+
+  /* ---- deck option ---- */
+  (function renderOpts(){
+    var holder = $("#opts-holder");
+    var b = document.createElement("button");
+    b.type = "button";
+    b.className = "tgl";
+    b.setAttribute("aria-pressed", String(state.pretty));
+    b.textContent = "\u00B6 pretty JSON";
+    b.addEventListener("click", function(){
+      state.pretty = !state.pretty;
+      b.setAttribute("aria-pressed", String(state.pretty));
+      run();
+    });
+    holder.appendChild(b);
+  })();
+
+  /* ---- base64url + utf-8 ---- */
+  function utf8ToString(bytes){
+    var out = "", i = 0;
+    while (i < bytes.length){
+      var b = bytes[i];
+      var len = b < 0x80 ? 1 : (b >= 0xC2 && b <= 0xDF) ? 2 : (b >= 0xE0 && b <= 0xEF) ? 3 : (b >= 0xF0 && b <= 0xF4) ? 4 : 0;
+      if (!len || i + len > bytes.length) return null;
+      var cp = b & (len === 1 ? 0x7F : (0x7F >> len));
+      for (var k = 1; k < len; k++){
+        if ((bytes[i + k] & 0xC0) !== 0x80) return null;
+        cp = (cp << 6) | (bytes[i + k] & 0x3F);
+      }
+      if (len === 2 && cp < 0x80) return null;
+      if (len === 3 && cp < 0x800) return null;
+      if (len === 4 && cp < 0x10000) return null;
+      if (cp >= 0xD800 && cp <= 0xDFFF) return null;
+      out += String.fromCodePoint(cp);
+      i += len;
+    }
+    return out;
+  }
+
+  function b64urlDecode(seg){
+    var s = seg.replace(/-/g,"+").replace(/_/g,"/");
+    var rem = s.length % 4;
+    if (rem === 1) return null;
+    if (rem === 2) s += "==";
+    else if (rem === 3) s += "=";
+    if (!/^[A-Za-z0-9+\/]*={0,2}$/.test(s)) return null;
+    var bin;
+    try { bin = atob(s); } catch(err){ return null; }
+    var bytes = [];
+    for (var i = 0; i < bin.length; i++) bytes.push(bin.charCodeAt(i));
+    var text = utf8ToString(bytes);
+    if (text === null){
+      text = "";
+      for (var j = 0; j < bytes.length; j++) text += String.fromCharCode(bytes[j]);
+    }
+    return text;
+  }
+
+  function tryJSON(text){
+    if (text === null) return { ok:false };
+    try {
+      var v = JSON.parse(text);
+      if (v && typeof v === "object" && !Array.isArray(v)) return { ok:true, value:v };
+      return { ok:false };
+    } catch(err){ return { ok:false }; }
+  }
+
+  /* ---- token analysis ---- */
+  function analyzeToken(src){
+    var r = { ok:false, segmentCount:0, error:null, header:null, payload:null,
+              headerText:null, payloadText:null, sig:null, alg:null, ms:0 };
+    var trimmed = src.replace(/\s+/g,"");
+    if (!trimmed) return r;
+    var t0 = performance.now();
+    var parts = trimmed.split(".");
+    r.segmentCount = parts.length;
+
+    if (parts.length !== 3){
+      r.error = "expected 3 base64url segments joined by dots \u2014 found " + parts.length;
+      if (parts[0]){
+        var h0 = b64urlDecode(parts[0]);
+        var hj = tryJSON(h0);
+        if (hj.ok){ r.header = hj.value; r.headerText = h0; r.alg = hj.value.alg || null; }
+      }
+      if (parts.length > 1 && parts[1]){
+        var p0 = b64urlDecode(parts[1]);
+        var pj = tryJSON(p0);
+        if (pj.ok){ r.payload = pj.value; r.payloadText = p0; }
+      }
+      r.ms = performance.now() - t0;
+      return r;
+    }
+
+    var hText = b64urlDecode(parts[0]);
+    if (hText === null){ r.error = "the header segment is not valid base64url"; r.ms = performance.now() - t0; return r; }
+    var pText = b64urlDecode(parts[1]);
+    if (pText === null){ r.error = "the payload segment is not valid base64url"; r.headerText = hText; var hj2 = tryJSON(hText); if (hj2.ok){ r.header = hj2.value; r.alg = hj2.value.alg || null; } r.ms = performance.now() - t0; return r; }
+
+    var hj = tryJSON(hText);
+    var pj = tryJSON(pText);
+    if (!hj.ok){ r.error = "the header decodes but is not valid JSON"; r.ms = performance.now() - t0; return r; }
+    if (!pj.ok){ r.error = "the payload decodes but is not valid JSON"; r.header = hj.value; r.headerText = hText; r.alg = hj.value.alg || null; r.ms = performance.now() - t0; return r; }
+
+    r.ok = true;
+    r.header = hj.value; r.headerText = hText;
+    r.payload = pj.value; r.payloadText = pText;
+    r.sig = parts[2];
+    r.alg = hj.value.alg || null;
+    r.ms = performance.now() - t0;
+    return r;
+  }
+
+  /* ---- time helpers ---- */
+  function longRel(ms){
+    var diff = ms - Date.now();
+    var future = diff > 0;
+    var s = Math.abs(diff) / 1000;
+    var v, u;
+    if (s < 90){ v = Math.round(s); u = "second"; }
+    else if (s < 5400){ v = Math.round(s / 60); u = "minute"; }
+    else if (s < 129600){ v = Math.round(s / 3600); u = "hour"; }
+    else if (s < 3888000){ v = Math.round(s / 86400); u = "day"; }
+    else if (s < 47304000){ v = Math.round(s / 2592000); u = "month"; }
+    else { v = Math.round(s / 31536000); u = "year"; }
+    if (v !== 1) u += "s";
+    return future ? "in " + v + " " + u : v + " " + u + " ago";
+  }
+
+  function shortRel(ms){
+    var diff = ms - Date.now();
+    var future = diff > 0;
+    var s = Math.abs(diff) / 1000;
+    var v, u;
+    if (s < 90){ v = Math.round(s); u = "s"; }
+    else if (s < 5400){ v = Math.round(s / 60); u = "m"; }
+    else if (s < 129600){ v = Math.round(s / 3600); u = "h"; }
+    else if (s < 3888000){ v = Math.round(s / 86400); u = "d"; }
+    else if (s < 47304000){ v = Math.round(s / 2592000); u = "mo"; }
+    else { v = Math.round(s / 31536000); u = "y"; }
+    return future ? "in " + v + u : v + u + " ago";
+  }
+
+  function utcDate(sec){
+    return new Date(sec * 1000).toUTCString().slice(0, 16) + " UTC";
+  }
+
+  /* ---- claim rendering ---- */
+  var CLAIM_NAMES = { iss:"Issuer", sub:"Subject", aud:"Audience", jti:"JWT ID" };
+
+  function claimHuman(key, val){
+    if (key === "exp" || key === "nbf" || key === "iat"){
+      if (typeof val === "number" && isFinite(val)){
+        var ms = val * 1000;
+        if (key === "exp"){
+          var expired = ms < Date.now();
+          return "Expires " + utcDate(val) + " \u00B7 " +
+            (expired ? '<b class="cl-bad">EXPIRED ' + longRel(ms) + '</b>'
+                     : '<b class="cl-ok">VALID \u00B7 ' + longRel(ms) + '</b>');
+        }
+        if (key === "nbf"){
+          var notYet = ms > Date.now();
+          return "Not before " + utcDate(val) + " \u00B7 " +
+            (notYet ? '<b class="cl-bad">NOT YET VALID</b>' : '<b class="cl-ok">ACTIVE</b>');
+        }
+        return "Issued " + utcDate(val) + " \u00B7 " + longRel(ms);
+      }
+      return "Unix seconds expected \u2014 this value is not a number";
+    }
+    if (CLAIM_NAMES[key]) return CLAIM_NAMES[key];
+    return "custom claim";
+  }
+
+  function claimsTable(payload){
+    var rows = "";
+    for (var key in payload){
+      if (!Object.prototype.hasOwnProperty.call(payload, key)) continue;
+      var val = payload[key];
+      var raw = typeof val === "string" ? val : JSON.stringify(val);
+      rows += "<tr><td>" + escHtml(key) + "</td><td>" + escHtml(raw) + "</td><td>" + claimHuman(key, val) + "</td></tr>";
+    }
+    return '<table class="j-claims">' + rows + "</table>";
+  }
+
+  /* ---- segment painting ---- */
+  function paintSegments(src){
+    if (!src){ bdIn.innerHTML = ""; return; }
+    var parts = src.split(".");
+    var colors = ["seg-h","seg-p","seg-s"];
+    var html = "";
+    for (var i = 0; i < parts.length; i++){
+      var cls = i < 3 ? colors[i] : "seg-x";
+      html += '<mark class="' + cls + '">' + escHtml(parts[i]) + "</mark>";
+      if (i < parts.length - 1) html += '<span class="seg-dot">.</span>';
+    }
+    bdIn.innerHTML = html;
+  }
+  srcIn.addEventListener("scroll", function(){
+    bdIn.scrollTop = srcIn.scrollTop;
+    bdIn.scrollLeft = srcIn.scrollLeft;
+  }, {passive:true});
+
+  /* ---- output rendering ---- */
+  function jsonBlock(obj){
+    return state.pretty ? JSON.stringify(obj, null, 2) : JSON.stringify(obj);
+  }
+
+  function renderOutput(src, r){
+    lastHeaderJSON = r.header ? jsonBlock(r.header) : "";
+    lastPayloadJSON = r.payload ? jsonBlock(r.payload) : "";
+
+    if (!src.trim()){
+      badgeOut.textContent = "\u2014 IDLE";
+      badgeOut.classList.remove("bad");
+      jwtOut.innerHTML = '<div class="j-empty">paste a token on the left \u2014<br>header, payload and signature decode as you type,<br>two dots are all it takes to split the story</div>';
+      return;
+    }
+
+    var html = "";
+    var algNone = r.alg && String(r.alg).toLowerCase() === "none";
+
+    if (r.ok){
+      html += '<div class="j-verdict"><span class="j-vmark">\u2713</span><div><b>STRUCTURE VALID</b><span>' +
+        '3 segments \u00B7 ' + fmtNum(src.trim().length) + ' chars \u00B7 parsed in ' + r.ms.toFixed(2) + ' ms</span></div>' +
+        (r.alg ? '<span class="j-alg' + (algNone ? ' j-alg-none' : '') + '">' + escHtml(String(r.alg)) + (algNone ? ' \u00B7 UNSIGNED!' : '') + '</span>' : '') +
+        '</div>';
+    } else {
+      html += '<div class="j-verdict j-bad"><span class="j-vmark">\u2715</span><div><b>NOT A VALID JWT</b><span>' + escHtml(r.error || "could not decode") + '</span></div>' +
+        (r.alg ? '<span class="j-alg">' + escHtml(String(r.alg)) + '</span>' : '') + '</div>';
+    }
+
+    if (r.header){
+      html += '<div class="j-block"><div class="j-bhead"><span class="j-dot j-dot-h"></span>HEADER \u00B7 ALGORITHM &amp; TOKEN TYPE<span class="j-copy" data-copy="header">\u29C9 copy</span></div>' +
+        '<pre class="j-json">' + escHtml(jsonBlock(r.header)) + "</pre></div>";
+    }
+
+    if (r.payload){
+      html += '<div class="j-block"><div class="j-bhead"><span class="j-dot j-dot-p"></span>PAYLOAD \u00B7 CLAIMS<span class="j-copy" data-copy="payload">\u29C9 copy</span></div>' +
+        '<pre class="j-json">' + escHtml(jsonBlock(r.payload)) + "</pre>" +
+        claimsTable(r.payload) + "</div>";
+    }
+
+    if (r.ok && r.sig !== null){
+      var sigNote = r.sig === ""
+        ? "The signature segment is <b>empty</b> \u2014 consistent with alg: none, an unsigned token. Any server should reject it."
+        : "Verifying this signature requires the secret or public key. This bench checks structure only \u2014 it never asks for your secret and never sends the token anywhere.";
+      html += '<div class="j-block"><div class="j-bhead"><span class="j-dot j-dot-s"></span>SIGNATURE \u00B7 ' + (r.sig === "" ? "EMPTY" : "UNVERIFIED") + '</div>' +
+        '<pre class="j-sig">' + (r.sig === "" ? "\u2205 \u2014 zero bytes" : escHtml(r.sig)) + "</pre>" +
+        '<p class="j-snote">' + sigNote + "</p></div>";
+    }
+
+    badgeOut.textContent = r.ok ? "\u2713 VALID" : "\u2715 INVALID";
+    badgeOut.classList.toggle("bad", !r.ok);
+    jwtOut.innerHTML = html;
+  }
+
+  /* copy buttons inside the output */
+  jwtOut.addEventListener("click", function(e){
+    var btn = e.target.closest(".j-copy");
+    if (!btn) return;
+    var which = btn.getAttribute("data-copy");
+    var text = which === "header" ? lastHeaderJSON : lastPayloadJSON;
+    var original = btn.textContent;
+    function done(){
+      btn.textContent = "COPIED \u2713";
+      setTimeout(function(){ btn.textContent = original; }, 1200);
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(done, done);
+    } else { done(); }
+  });
+
+  /* ================= RUNNER ================= */
+  function run(){
+    var src = srcIn.value;
+    paintSegments(src);
+    var r = analyzeToken(src);
+    renderOutput(src, r);
+
+    sv[1].classList.remove("bad");
+    sv[3].classList.remove("good","bad");
+
+    var segStat = src.trim() ? (r.ok ? "3/3" : Math.min(r.segmentCount, 3) + "/3") : "0/3";
+    var algStat = r.alg ? String(r.alg) : "\u2014";
+    if (r.alg && String(r.alg).toLowerCase() === "none"){ algStat = "NONE!"; sv[1].classList.add("bad"); }
+
+    var iatStat = "\u2014";
+    var expStat = "\u2014";
+    if (r.payload){
+      if (typeof r.payload.iat === "number" && isFinite(r.payload.iat)) iatStat = shortRel(r.payload.iat * 1000);
+      if (typeof r.payload.exp === "number" && isFinite(r.payload.exp)){
+        var expired = r.payload.exp * 1000 < Date.now();
+        expStat = expired ? "EXPIRED" : shortRel(r.payload.exp * 1000);
+        sv[3].classList.add(expired ? "bad" : "good");
+      } else if (r.ok){
+        expStat = "NEVER";
+      }
+    }
+
+    setStat(sv[0], segStat);
+    setStat(sv[1], algStat);
+    setStat(sv[2], iatStat);
+    setStat(sv[3], expStat);
+    badgeIn.textContent = fmtNum(src.length) + " CHARS";
+  }
+
+  /* ---- live typing ---- */
+  srcIn.addEventListener("input", run);
+
+  /* ---- feedback helper ---- */
+  function flash(btn, text, isErr){
+    var original = btn.getAttribute("data-label") || btn.textContent;
+    btn.setAttribute("data-label", original);
+    btn.textContent = text;
+    btn.classList.add(isErr ? "err" : "ok");
+    clearTimeout(btn._t);
+    btn._t = setTimeout(function(){
+      btn.textContent = original;
+      btn.classList.remove("ok","err");
+    }, 1400);
+  }
+
+  function copyToClipboard(t, ok){
+    function fb(){
+      var ta = document.createElement("textarea");
+      ta.value = t;
+      ta.style.position = "fixed";
+      ta.style.opacity = "0";
+      document.body.appendChild(ta);
+      ta.select();
+      try { document.execCommand("copy"); ok(); } catch(err){ /* ignore */ }
+      document.body.removeChild(ta);
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(t).then(ok, fb);
+    } else { fb(); }
+  }
+
+  /* ---- pane actions ---- */
+  $("#btn-copy-in").addEventListener("click", function(){
+    var btn = $("#btn-copy-in");
+    if (!srcIn.value){ flash(btn, "INPUT EMPTY", true); return; }
+    copyToClipboard(srcIn.value, function(){ flash(btn, "COPIED \u2713"); });
+  });
+  $("#btn-copy-header").addEventListener("click", function(){
+    var btn = $("#btn-copy-header");
+    if (!lastHeaderJSON){ flash(btn, "NO HEADER", true); return; }
+    copyToClipboard(lastHeaderJSON, function(){ flash(btn, "COPIED \u2713"); });
+  });
+  $("#btn-copy-payload").addEventListener("click", function(){
+    var btn = $("#btn-copy-payload");
+    if (!lastPayloadJSON){ flash(btn, "NO PAYLOAD", true); return; }
+    copyToClipboard(lastPayloadJSON, function(){ flash(btn, "COPIED \u2713"); });
+  });
+  $("#btn-clear-in").addEventListener("click", function(){
+    srcIn.value = "";
+    run();
+    srcIn.focus();
+  });
+  $("#btn-sample").addEventListener("click", function(){
+    srcIn.value = SAMPLE_TOKEN;
+    run();
+    srcIn.focus();
+  });
+  $("#btn-classic").addEventListener("click", function(){
+    srcIn.value = SAMPLE_CLASSIC;
+    run();
+    srcIn.focus();
+  });
+
+  /* ---- init ---- */
+  srcIn.value = SAMPLE_TOKEN;
+  run();
+})();
+</script>
+</body>
+</html>
