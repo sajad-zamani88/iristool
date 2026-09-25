@@ -1,0 +1,1462 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- ============ PRIMARY SEO ============ -->
+<title>Regex Tools — Regex Tester &amp; Cheat Sheet | IrisTool</title>
+<meta name="title" content="Regex Tools — Regex Tester &amp; Cheat Sheet | IrisTool">
+<meta name="description" content="2 free regex tools in one bench: a live tester that highlights every match, capture group and named group as you type — with g/i/m/s/u flag toggles and instant error reporting — plus a searchable cheat sheet where every token loads into the tester with one click. 100% in-browser.">
+<meta name="keywords" content="regex tester, regular expression tester, regex cheat sheet, regex online, match groups, named groups, javascript regex, pattern matching, free online tools">
+<meta name="author" content="IrisTool">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="googlebot" content="index, follow">
+<meta name="language" content="English">
+<meta name="rating" content="general">
+<meta name="distribution" content="global">
+<meta name="coverage" content="Worldwide">
+<meta name="revisit-after" content="7 days">
+<meta name="theme-color" content="#FCFCFA">
+<meta name="color-scheme" content="light">
+
+<link rel="canonical" href="https://IrisTool.com/regex-tools.html">
+
+<!-- ============ GEO TAGS ============ -->
+<meta name="geo.region" content="US">
+<meta name="geo.placename" content="United States">
+<meta name="geo.position" content="37.09024;-95.712891">
+<meta name="ICBM" content="37.09024, -95.712891">
+
+<!-- ============ HREFLANG ============ -->
+<link rel="alternate" hreflang="en" href="https://IrisTool.com/regex-tools.html">
+<link rel="alternate" hreflang="x-default" href="https://IrisTool.com/index.html">
+
+<!-- ============ SOCIAL / OPEN GRAPH ============ -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="IrisTool">
+<meta property="og:url" content="https://IrisTool.com/regex-tools.html">
+<meta property="og:title" content="Regex Tools — Regex Tester &amp; Cheat Sheet | IrisTool">
+<meta property="og:description" content="Type a pattern and watch every match light up in the test string — groups, named groups, flags and errors included, with a one-click cheat sheet beside it.">
+<meta property="og:image" content="https://IrisTool.com/assets/og-regex-tools-1200x630.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Regex Tools — a test string with live match highlighting and a match list with capture groups, entirely in your browser">
+<meta property="og:locale" content="en_US">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://IrisTool.com/regex-tools.html">
+<meta name="twitter:title" content="Regex Tools — Regex Tester &amp; Cheat Sheet | IrisTool">
+<meta name="twitter:description" content="2 free regex tools with live highlighting and a searchable cheat sheet. 100% client-side — nothing you type is ever stored.">
+<meta name="twitter:image" content="https://IrisTool.com/assets/og-regex-tools-1200x630.png">
+
+<!-- ============ ICONS ============ -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230033FF'/%3E%3Ctext x='32' y='46' font-size='42' text-anchor='middle' fill='%23fff' font-family='monospace'%3E%E2%9C%B1%3C/text%3E%3C/svg%3E">
+
+<!-- ============ FONTS (fontsource CDN) ============ -->
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link href="https://cdn.jsdelivr.net/fontsource/css/space-grotesk@latest/latin-500.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/space-grotesk@latest/latin-700.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/ibm-plex-sans@latest/latin-400.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/ibm-plex-sans@latest/latin-500.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/ibm-plex-mono@latest/latin-400.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/ibm-plex-mono@latest/latin-500.css" rel="stylesheet">
+
+<!-- ============ STRUCTURED DATA ============ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://IrisTool.com/index.html" },
+    { "@type": "ListItem", "position": 2, "name": "Developer Tools", "item": "https://IrisTool.com/developer-tools.html" },
+    { "@type": "ListItem", "position": 3, "name": "Regex Tools", "item": "https://IrisTool.com/regex-tools.html" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Regex Tools — Regex Tester & Cheat Sheet",
+  "description": "2 free regex tools in one bench: a live tester that highlights every match, capture group and named group as you type — with g/i/m/s/u flag toggles and instant error reporting — plus a searchable cheat sheet where every token loads into the tester with one click. 100% in-browser.",
+  "url": "https://IrisTool.com/regex-tools.html",
+  "inLanguage": "en",
+  "isPartOf": { "@type": "WebSite", "name": "IrisTool", "url": "https://IrisTool.com/index.html" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Regex Tools — all available on this page",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Regex Tester", "url": "https://IrisTool.com/regex-tools.html#regex-tester", "description": "Live match highlighting, numbered and named capture groups, g/i/m/s/u flag toggles and instant engine error reporting — all updating on every keystroke." },
+    { "@type": "ListItem", "position": 2, "name": "Regex Cheat Sheet", "url": "https://IrisTool.com/regex-tools.html#regex-cheat-sheet", "description": "A searchable reference of anchors, character classes, quantifiers, groups, lookaround, escapes, flags and common patterns — every token loads into the tester with one click." }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "Which regex flavor does the tester use?", "acceptedAnswer": { "@type": "Answer", "text": "JavaScript's native ECMAScript RegExp engine — the same one that runs in every browser. That means full support for named groups (?<name>…), lookbehind (?<=…), Unicode property escapes like \\p{L} with the u flag, and dotall with s. PCRE-only constructs like \\K or atomic groups aren't part of the spec and won't work here." } },
+    { "@type": "Question", "name": "Why does my pattern show an error?", "acceptedAnswer": { "@type": "Answer", "text": "The tester surfaces the engine's exact message the moment the pattern stops compiling. The usual culprits are an unbalanced parenthesis or bracket, a dangling quantifier like a lone *, an invalid escape, or a malformed group like (?<). Fix the pattern and the matches reappear instantly — no submit button involved." } },
+    { "@type": "Question", "name": "What are named groups?", "acceptedAnswer": { "@type": "Answer", "text": "A capture group written as (?<name>…) captures its match under a label instead of just a number, so you can read it as groups.year instead of groups[1]. The tester lists them alongside the numbered groups in every match, clearly marked, which makes complex patterns far easier to reason about." } },
+    { "@type": "Question", "name": "Why are some of my matches empty?", "acceptedAnswer": { "@type": "Answer", "text": "Anchors (^, $, \\b) and lookaround assertions are zero-width — they match a position, not characters, so the matched text is empty. That's correct behavior. The tester also guards against the classic infinite-loop trap where a zero-length match would otherwise run forever." } },
+    { "@type": "Question", "name": "Is my data saved anywhere?", "acceptedAnswer": { "@type": "Answer", "text": "No. Stack has no backend and no database. Matching happens inside your browser tab and the pattern and test string vanish the moment you close or refresh the page. Nothing is logged, because nothing is ever collected." } }
+  ]
+}
+</script>
+
+<style>
+/* ================= TOKENS ================= */
+:root{
+  --paper:#FCFCFA;
+  --white:#FFFFFF;
+  --ink:#141414;
+  --muted:#6C6C64;
+  --line:#E4E4DC;
+  --blue:#0033FF;
+  --blue-soft:#6E86FF;
+  --red:#C40000;
+  --font-d:'Space Grotesk',ui-sans-serif,system-ui,sans-serif;
+  --font-b:'IBM Plex Sans',ui-sans-serif,system-ui,sans-serif;
+  --font-m:'IBM Plex Mono',ui-monospace,'SFMono-Regular',monospace;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  font-family:var(--font-b);
+  color:var(--ink);
+  background-color:var(--paper);
+  background-image:radial-gradient(circle,#E7E7DF 1px,transparent 1px);
+  background-size:28px 28px;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+::selection{background:var(--blue);color:#fff}
+a{color:inherit}
+ul{list-style:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+:focus-visible{outline:2px solid var(--blue);outline-offset:3px}
+section[id]{scroll-margin-top:96px}
+.wrap{max-width:1280px;margin:0 auto;padding:0 32px}
+
+.skip{position:absolute;left:-999px;top:0;background:var(--ink);color:#fff;padding:10px 18px;z-index:999;font-family:var(--font-m);font-size:.75rem}
+.skip:focus{left:12px;top:12px}
+
+/* ================= HEADER ================= */
+header{position:sticky;top:0;z-index:100;background:var(--paper);border-bottom:1px solid var(--line);transition:border-color .3s}
+header.scrolled{border-bottom-color:var(--ink)}
+.bar{display:flex;align-items:center;justify-content:space-between;height:72px;gap:24px}
+.logo{display:flex;align-items:center;gap:11px;text-decoration:none}
+.logo-mark{width:30px;height:30px;background:var(--blue);color:#fff;display:grid;place-items:center;font-size:19px;line-height:1;transition:transform .5s cubic-bezier(.2,.7,.2,1)}
+.logo:hover .logo-mark{transform:rotate(180deg)}
+.logo-word{font-family:var(--font-d);font-weight:700;font-size:1.25rem;letter-spacing:-.02em}
+.logo-tag{font-family:var(--font-m);font-size:.6rem;letter-spacing:.14em;color:var(--muted);text-transform:uppercase;margin-left:2px;padding-top:5px}
+
+.nav-list{display:flex;align-items:center;gap:2px}
+.m-link,.m-trigger{
+  font-family:var(--font-b);font-weight:500;font-size:.88rem;
+  padding:10px 13px;text-decoration:none;color:var(--ink);
+  display:inline-flex;align-items:center;gap:6px;transition:color .2s;
+}
+.m-link:hover,.m-trigger:hover{color:var(--blue)}
+.m-trigger.active{color:var(--blue)}
+.m-trigger .caret{transition:transform .25s}
+.m-item:hover .caret,.m-item.open .caret{transform:rotate(180deg)}
+.m-link--cta{border:1px solid var(--ink);padding:9px 18px !important;transition:background .2s,color .2s}
+.m-link--cta:hover{background:var(--ink);color:var(--paper) !important}
+
+.mega{
+  position:absolute;left:0;right:0;top:100%;
+  background:var(--white);border-bottom:2px solid var(--ink);
+  box-shadow:0 30px 60px -30px rgba(20,20,20,.25);
+  opacity:0;visibility:hidden;transform:translateY(10px);
+  transition:opacity .22s ease,transform .22s ease,visibility .22s;z-index:99;
+}
+.m-item:hover .mega,.m-item.open .mega,.m-item:focus-within .mega{opacity:1;visibility:visible;transform:none}
+.mega-scroll{max-height:min(70vh,620px);overflow-y:auto;padding:26px 40px 34px;scrollbar-width:thin}
+.mega-scroll::-webkit-scrollbar{width:8px}
+.mega-scroll::-webkit-scrollbar-thumb{background:#D9D9D1}
+.mega-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;border-bottom:1px solid var(--line);padding-bottom:16px;margin-bottom:22px}
+.mega-kicker{font-family:var(--font-m);font-size:.66rem;letter-spacing:.18em;color:var(--blue);text-transform:uppercase;display:block;margin-bottom:6px}
+.mega-sub{font-size:.9rem;color:var(--muted);max-width:520px}
+.mega-all{font-family:var(--font-m);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--ink);padding:9px 16px;text-decoration:none;white-space:nowrap;transition:background .2s,color .2s,border-color .2s}
+.mega-all:hover{background:var(--blue);border-color:var(--blue);color:#fff}
+.mega-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(182px,1fr));gap:26px 30px;align-items:start}
+.mgroup-t{font-family:var(--font-m);font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;font-weight:500;text-decoration:none;color:var(--ink);display:inline-block;border-bottom:2px solid var(--blue);padding-bottom:5px;margin-bottom:9px;transition:color .2s}
+.mgroup-t:hover{color:var(--blue)}
+.mgroup ul li a{display:block;font-size:.82rem;color:#4A4A44;text-decoration:none;padding:2.5px 0;transition:color .15s,padding-left .2s}
+.mgroup ul li a:hover{color:var(--blue);padding-left:7px}
+.mgroup ul li .mtool{display:block;font-size:.82rem;color:#4A4A44;padding:2.5px 0}
+
+.burger{display:none;width:44px;height:44px;place-items:center;border:1px solid var(--ink)}
+.burger span{display:block;width:20px;height:2px;background:var(--ink);transition:transform .3s}
+.burger span+span{margin-top:6px}
+body.nav-open .burger span:first-child{transform:translateY(4px) rotate(45deg)}
+body.nav-open .burger span:last-child{transform:translateY(-4px) rotate(-45deg)}
+
+.nav-close{display:none}
+
+/* ================= PAGE TOP ================= */
+.phero{padding:40px 0 64px}
+.crumbs{font-family:var(--font-m);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:28px;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.crumbs a{text-decoration:none;border-bottom:1px solid var(--line);transition:color .2s,border-color .2s}
+.crumbs a:hover{color:var(--blue);border-color:var(--blue)}
+.crumbs .sep{color:var(--blue)}
+.crumbs .here{color:var(--ink)}
+
+/* ================= REGEX BENCH ================= */
+.analyzer{background:var(--white);border:1px solid var(--ink);box-shadow:14px 14px 0 rgba(20,20,20,.08);transition:box-shadow .3s}
+.analyzer:focus-within{box-shadow:14px 14px 0 rgba(0,51,255,.22)}
+.a-bar{display:flex;align-items:center;gap:8px;border-bottom:1px solid var(--line);padding:12px 18px}
+.dot{width:9px;height:9px;border-radius:50%;border:1.5px solid var(--ink)}
+.dot--fill{background:var(--blue);border-color:var(--blue)}
+.a-file{font-family:var(--font-m);font-size:.72rem;color:var(--muted);margin-left:8px;letter-spacing:.08em;text-transform:uppercase}
+.caret-block{display:inline-block;width:7px;height:13px;background:var(--blue);margin-left:8px;vertical-align:-2px;animation:blink 1.1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.a-live{margin-left:auto;font-family:var(--font-m);font-size:.62rem;letter-spacing:.14em;color:var(--blue)}
+
+/* ---- mode deck ---- */
+.cmp-deck{display:flex;align-items:center;gap:14px;flex-wrap:wrap;padding:14px 18px;border-bottom:1px solid var(--line);background:var(--paper)}
+.c-tabs{display:flex;gap:8px;flex-wrap:wrap}
+.c-tab{display:inline-flex;align-items:center;gap:10px;border:1px solid var(--line);background:var(--white);padding:8px 13px;transition:transform .18s,border-color .18s,box-shadow .18s}
+.c-tab:hover{transform:translateY(-2px);border-color:var(--blue);box-shadow:4px 4px 0 rgba(0,51,255,.12)}
+.ct-glyph{font-family:var(--font-d);font-weight:700;font-size:.95rem;color:var(--muted);width:27px;height:27px;border:1px solid var(--line);display:grid;place-items:center;background:var(--paper);transition:background .18s,color .18s,border-color .18s}
+.ct-name{font-family:var(--font-m);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;font-weight:500;transition:color .18s}
+.c-tab.is-on{border-color:var(--blue);box-shadow:5px 5px 0 rgba(0,51,255,.16)}
+.c-tab.is-on .ct-glyph{background:var(--blue);border-color:var(--blue);color:#fff}
+.c-tab.is-on .ct-name{color:var(--blue)}
+
+/* ---- panes ---- */
+.c-grid{display:grid;grid-template-columns:1fr 1fr;position:relative}
+.c-pane{display:flex;flex-direction:column;min-width:0}
+.c-left{border-right:1px solid var(--line)}
+.pane-head{display:flex;align-items:center;gap:12px;padding:10px 18px;border-bottom:1px solid var(--line)}
+.pane-label{font-family:var(--font-m);font-size:.62rem;letter-spacing:.16em;color:var(--muted);text-transform:uppercase;display:inline-flex;align-items:center;gap:8px}
+.pane-label::before{content:"";width:7px;height:7px;background:var(--blue);display:inline-block}
+.pane-badge{font-family:var(--font-m);font-size:.6rem;letter-spacing:.12em;color:var(--blue)}
+
+/* ---- controls ---- */
+.cb-controls{padding:22px;flex:1;overflow-y:auto;scrollbar-width:thin}
+.cb-controls::-webkit-scrollbar{width:8px}
+.cb-controls::-webkit-scrollbar-thumb{background:#D9D9D1}
+.cb-fieldlabel{display:block;font-family:var(--font-m);font-size:.58rem;letter-spacing:.16em;color:var(--muted);margin:0 0 9px}
+.cb-fieldlabel + .cb-fieldlabel{margin-top:20px}
+
+.rx-pattern-wrap{display:flex;align-items:stretch;border:1px solid var(--ink);background:var(--white);margin-bottom:16px;transition:box-shadow .15s,border-color .15s}
+.rx-pattern-wrap:focus-within{border-color:var(--blue);box-shadow:4px 4px 0 rgba(0,51,255,.15)}
+.rx-pattern-wrap.err{border-color:var(--red);box-shadow:4px 4px 0 rgba(196,0,0,.15)}
+.rx-slash{font-family:var(--font-m);font-size:1.02rem;color:var(--blue);display:flex;align-items:center;padding:0 3px 0 12px;font-weight:500}
+.rx-slash--end{padding:0 8px 0 3px}
+.rx-pattern{flex:1;border:0;outline:none;font-family:var(--font-m);font-size:1.02rem;padding:13px 3px;background:transparent;color:var(--ink);min-width:0}
+.rx-flags-disp{font-family:var(--font-m);font-size:.92rem;color:var(--blue);display:flex;align-items:center;padding-right:12px;font-weight:500;letter-spacing:.06em}
+
+.rx-flagrow{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.rx-flag{font-family:var(--font-m);font-size:.74rem;font-weight:500;width:34px;height:34px;border:1px dashed var(--ink);display:grid;place-items:center;transition:transform .15s,border-color .15s,background .15s,color .15s,box-shadow .15s;background:var(--white)}
+.rx-flag:hover{transform:translateY(-2px);box-shadow:3px 3px 0 rgba(0,51,255,.12);border-color:var(--blue);color:var(--blue)}
+.rx-flag-on{border-style:solid;border-color:var(--blue);background:var(--blue);color:#fff}
+.rx-flag-on:hover{color:#fff}
+
+.rx-test-wrap{position:relative;display:flex;min-height:190px;border:1px solid var(--line);background:var(--white);transition:border-color .15s,box-shadow .15s}
+.rx-test-wrap:focus-within{border-color:var(--blue);box-shadow:4px 4px 0 rgba(0,51,255,.12)}
+.rx-backdrop{position:absolute;inset:0;overflow:hidden;pointer-events:none;padding:14px 16px;font-family:var(--font-m);font-size:.82rem;line-height:1.75;white-space:pre-wrap;overflow-wrap:break-word;word-break:break-word;color:transparent}
+.rx-backdrop mark{background:rgba(0,51,255,.15);color:transparent;box-shadow:inset 0 -2px 0 var(--blue);padding:1px 0}
+.rx-test{position:relative;z-index:1;flex:1;border:0;outline:none;resize:none;padding:14px 16px;font-family:var(--font-m);font-size:.82rem;line-height:1.75;white-space:pre-wrap;overflow-wrap:break-word;word-break:break-word;background:transparent;color:var(--ink);caret-color:var(--blue);min-height:190px}
+
+/* ---- results ---- */
+.rx-results{flex:1;overflow-y:auto;padding:16px 22px;scrollbar-width:thin}
+.rx-results::-webkit-scrollbar{width:8px}
+.rx-results::-webkit-scrollbar-thumb{background:#D9D9D1}
+.rx-count{font-family:var(--font-m);font-size:.6rem;letter-spacing:.16em;color:var(--blue);margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.rx-count i{width:7px;height:7px;background:var(--blue);display:inline-block;animation:pulse 2s ease-in-out infinite}
+.rx-m{border:1px solid var(--line);background:var(--white);margin-bottom:10px;padding:10px 12px;animation:idin .3s ease both;transition:border-color .15s,transform .15s,box-shadow .15s}
+@keyframes idin{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:none}}
+.rx-m:hover{border-color:var(--blue);transform:translateX(3px);box-shadow:3px 3px 0 rgba(0,51,255,.12)}
+.rx-m-head{display:flex;align-items:center;gap:10px;margin-bottom:7px}
+.rx-m-idx{font-family:var(--font-m);font-size:.62rem;color:var(--blue);font-weight:500}
+.rx-m-pos{font-family:var(--font-m);font-size:.56rem;color:var(--muted)}
+.rx-m-copy{margin-left:auto;font-family:var(--font-m);font-size:.62rem;border:1px solid var(--line);background:var(--white);width:26px;height:24px;display:grid;place-items:center;transition:background .15s,color .15s,border-color .15s}
+.rx-m-copy:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
+.rx-m-copy.ok{background:var(--blue);border-color:var(--blue);color:#fff}
+.rx-m-text{font-family:var(--font-m);font-size:.78rem;color:var(--ink);display:block;word-break:break-all;background:rgba(0,51,255,.05);padding:6px 9px;border-left:2px solid var(--blue);line-height:1.55}
+.rx-groups{margin-top:8px;display:flex;flex-direction:column;gap:4px}
+.rx-g{display:flex;align-items:baseline;gap:9px;font-family:var(--font-m);font-size:.7rem}
+.rx-g-k{color:var(--muted);font-size:.6rem;flex:none;width:56px}
+.rx-g code{color:var(--ink);background:var(--paper);padding:2px 7px;border:1px solid var(--line);word-break:break-all;line-height:1.5}
+.rx-g-named .rx-g-k{color:var(--blue)}
+.rx-empty{font-family:var(--font-m);font-size:.64rem;color:#B9B9B0;padding:22px 4px;line-height:2}
+.rx-error{font-family:var(--font-m);font-size:.72rem;color:var(--red);padding:13px 14px;border:1px dashed var(--red);background:rgba(196,0,0,.04);line-height:1.6;animation:idin .3s ease}
+
+/* ---- cheat sheet ---- */
+.cheat-wrap{padding:22px;overflow-y:auto;max-height:600px;scrollbar-width:thin}
+.cheat-wrap::-webkit-scrollbar{width:8px}
+.cheat-wrap::-webkit-scrollbar-thumb{background:#D9D9D1}
+.cheat-filter{width:100%;font-family:var(--font-m);font-size:.85rem;padding:13px 15px;border:1px solid var(--ink);background:var(--white);margin-bottom:18px;transition:border-color .15s,box-shadow .15s}
+.cheat-filter:focus{outline:none;border-color:var(--blue);box-shadow:4px 4px 0 rgba(0,51,255,.15)}
+.cheat-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;align-items:start}
+.cheat-cat{border:1px solid var(--line);background:var(--white);animation:idin .35s ease both}
+.cheat-cat-h{font-family:var(--font-m);font-size:.6rem;letter-spacing:.16em;color:var(--blue);padding:10px 14px;border-bottom:1px solid var(--line);background:var(--paper);text-transform:uppercase}
+.cheat-item{display:grid;grid-template-columns:72px 1fr auto;gap:10px;padding:9px 14px;border-bottom:1px solid var(--line);align-items:baseline;transition:background .15s}
+.cheat-item:last-child{border-bottom:0}
+.cheat-item:hover{background:rgba(0,51,255,.035)}
+.cheat-tok{font-family:var(--font-m);font-size:.76rem;font-weight:500;color:var(--blue);word-break:break-all;line-height:1.5}
+.cheat-name{font-size:.74rem;color:var(--ink);line-height:1.45;font-weight:500}
+.cheat-name small{display:block;color:var(--muted);font-size:.66rem;font-weight:400;line-height:1.5}
+.cheat-try{font-family:var(--font-m);font-size:.54rem;letter-spacing:.1em;border:1px solid var(--line);background:var(--white);padding:4px 8px;color:var(--muted);transition:background .15s,color .15s,border-color .15s,transform .15s;align-self:center}
+.cheat-try:hover{background:var(--blue);color:#fff;border-color:var(--blue);transform:translateY(-2px)}
+
+/* ---- VS badge ---- */
+.vs-badge{
+  position:absolute;left:50%;top:46%;transform:translate(-50%,-50%);z-index:3;
+  width:52px;height:52px;background:var(--ink);color:#fff;pointer-events:none;
+  font-family:var(--font-d);font-weight:700;font-size:.85rem;letter-spacing:-.02em;
+  display:grid;place-items:center;border:1px solid var(--ink);
+  box-shadow:4px 4px 0 rgba(0,51,255,.30);
+}
+
+/* ---- results strip ---- */
+.c-stats{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--ink);background:var(--white)}
+.cstat{padding:15px 18px;border-right:1px solid var(--line)}
+.cstat:last-child{border-right:0}
+.cstat small{display:block;font-family:var(--font-m);font-size:.58rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:3px}
+.cstat b{font-family:var(--font-d);font-weight:700;font-size:clamp(1.05rem,1.9vw,1.7rem);letter-spacing:-.02em;display:inline-block;transition:color .15s,transform .15s;font-variant-numeric:tabular-nums;word-break:break-all}
+.cstat b.bump{color:var(--blue);transform:translateY(-2px)}
+.cstat .c-sub{font-family:var(--font-m);font-size:.56rem;letter-spacing:.1em;color:var(--muted);display:block;margin-top:3px}
+
+/* ================= HEADING BLOCK ================= */
+.phero-head{display:grid;grid-template-columns:1fr auto;gap:48px;align-items:end;margin-top:64px}
+.kicker{font-family:var(--font-m);font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--blue);display:flex;align-items:center;gap:10px;margin-bottom:20px}
+.kicker .ast{display:inline-block;animation:spin 9s linear infinite;font-size:.9rem}
+@keyframes spin{to{transform:rotate(360deg)}}
+h1{font-family:var(--font-d);font-weight:700;font-size:clamp(2.8rem,6vw,5.2rem);line-height:.98;letter-spacing:-.035em;margin-bottom:22px}
+h1 .blue{color:var(--blue)}
+.lede{font-size:1.05rem;color:var(--muted);max-width:600px}
+.lede strong{color:var(--ink);font-weight:500}
+.spec{border:1px solid var(--ink);background:var(--white);min-width:230px;box-shadow:8px 8px 0 rgba(20,20,20,.08)}
+.spec li{display:flex;justify-content:space-between;gap:24px;padding:11px 16px;border-bottom:1px solid var(--line);font-family:var(--font-m);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase}
+.spec li:last-child{border-bottom:0}
+.spec li span{color:var(--muted)}
+.spec li b{font-weight:500;color:var(--blue)}
+
+/* ================= TICKER ================= */
+.ticker{border-top:1px solid var(--ink);border-bottom:1px solid var(--ink);background:var(--white);overflow:hidden}
+.ticker-track{display:flex;width:max-content;animation:tick 46s linear infinite}
+.ticker:hover .ticker-track{animation-play-state:paused}
+@keyframes tick{to{transform:translateX(-50%)}}
+.ticker-track span{font-family:var(--font-m);font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;padding:15px 0;white-space:nowrap}
+.ticker-track i{color:var(--blue);font-style:normal;margin:0 26px}
+
+/* ================= SECTIONS ================= */
+.sec{padding:92px 0}
+.sec-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;border-bottom:2px solid var(--ink);padding-bottom:18px;margin-bottom:14px}
+.sec-head h2{font-family:var(--font-d);font-weight:700;font-size:clamp(1.9rem,3.4vw,2.9rem);letter-spacing:-.025em;line-height:1.05}
+.sec-idx{font-family:var(--font-m);font-size:.72rem;letter-spacing:.16em;color:var(--muted);white-space:nowrap;padding-bottom:8px}
+.sec-kicker{font-family:var(--font-m);font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;color:var(--blue);display:block;margin-bottom:14px}
+
+.tool{display:grid;grid-template-columns:270px 1fr;gap:44px;padding:44px 0;border-bottom:2px solid var(--ink)}
+.tool:first-of-type{border-top:2px solid var(--ink)}
+.tool-num{font-family:var(--font-m);font-size:.8rem;color:var(--blue);display:block;margin-bottom:12px}
+.tool h3{font-family:var(--font-d);font-weight:700;font-size:1.7rem;letter-spacing:-.02em;line-height:1.1;margin-bottom:14px}
+.tool-here{font-family:var(--font-m);font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--blue);display:inline-flex;align-items:center;gap:8px}
+.tool-here::before{content:"";width:7px;height:7px;background:var(--blue);display:inline-block;animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.25}}
+.tool-body>p{font-size:.97rem;color:#3C3C36;max-width:680px;margin-bottom:22px}
+.tool-body>p strong{font-weight:500;color:var(--ink)}
+.example{border:1px solid var(--line);border-left:3px solid var(--blue);background:var(--white);padding:18px 22px;max-width:680px;margin-bottom:22px;transition:transform .25s,box-shadow .25s}
+.example:hover{transform:translateX(6px);box-shadow:8px 8px 0 rgba(20,20,20,.06)}
+.ex-tag{font-family:var(--font-m);font-size:.58rem;letter-spacing:.18em;color:var(--blue);text-transform:uppercase;display:block;margin-bottom:10px}
+.ex-in{font-family:var(--font-m);font-size:.8rem;color:var(--muted);line-height:1.6;word-break:break-word;white-space:pre-wrap}
+.ex-in .hl{background:rgba(0,51,255,.14);box-shadow:inset 0 -2px 0 var(--blue);padding:1px 0;color:var(--ink)}
+.ex-arrow{display:block;font-family:var(--font-d);color:var(--blue);margin:8px 0}
+.ex-out{font-family:var(--font-m);font-size:.82rem;font-weight:500;color:var(--ink);line-height:1.7;white-space:pre-wrap;word-break:break-word}
+.ex-out b{color:var(--blue);font-weight:500}
+.tool-use{font-family:var(--font-m);font-size:.64rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.tag{border:1px solid var(--line);background:var(--white);padding:6px 12px;font-family:var(--font-m);font-size:.64rem;letter-spacing:.08em;text-transform:uppercase;color:#3C3C36;transition:border-color .2s,color .2s,transform .2s}
+.tag:hover{border-color:var(--blue);color:var(--blue);transform:translateY(-2px)}
+.rules{margin-top:34px;border:1px dashed var(--ink);background:var(--white);padding:18px 24px;font-family:var(--font-m);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);line-height:2}
+.rules b{color:var(--blue);font-weight:500}
+
+/* ---- privacy band ---- */
+.band{background:var(--ink);color:var(--paper);background-image:radial-gradient(circle,rgba(255,255,255,.07) 1px,transparent 1px);background-size:28px 28px;padding:84px 0}
+.band .sec-kicker{color:var(--blue-soft)}
+.band h2{font-family:var(--font-d);font-weight:700;font-size:clamp(1.9rem,3.6vw,3rem);letter-spacing:-.03em;line-height:1.05;max-width:760px;margin-bottom:20px}
+.band h2 .soft{color:var(--blue-soft)}
+.band-lede{color:rgba(252,252,250,.72);max-width:660px;font-size:1rem;margin-bottom:38px}
+.pipe{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:14px}
+.node{font-family:var(--font-m);font-size:.7rem;letter-spacing:.12em;border:1px dashed rgba(252,252,250,.4);padding:12px 18px}
+.node-live{border:1px solid var(--blue-soft);color:var(--blue-soft)}
+.pipe-arrow{font-family:var(--font-d);font-size:1.2rem;color:rgba(252,252,250,.5)}
+.pipe-dead{margin-bottom:40px}
+.node-dead{border-color:rgba(252,252,250,.22);color:rgba(252,252,250,.45);text-decoration:line-through}
+.facts{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.16)}
+.facts li{background:var(--ink);padding:20px 18px}
+.f-k{display:block;font-family:var(--font-m);font-size:.58rem;letter-spacing:.16em;text-transform:uppercase;color:rgba(252,252,250,.55);margin-bottom:8px}
+.f-v{font-family:var(--font-d);font-weight:700;font-size:1.35rem;color:var(--blue-soft)}
+
+/* ---- FAQ ---- */
+.faq{border-top:2px solid var(--ink)}
+.faq+.faq{border-top:1px solid var(--line)}
+.faq summary{font-family:var(--font-d);font-weight:500;font-size:1.08rem;padding:22px 8px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;list-style:none;transition:color .2s,padding-left .25s}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:hover{color:var(--blue);padding-left:18px}
+.faq summary::after{content:"+";font-family:var(--font-m);font-size:1.3rem;color:var(--blue);transition:transform .3s}
+.faq[open] summary::after{transform:rotate(45deg)}
+.faq p{color:var(--muted);font-size:.95rem;max-width:720px;padding:0 8px 24px}
+
+/* ---- prev / next ---- */
+.prevnext{border-top:2px solid var(--ink);background:var(--white)}
+.pn-grid{display:grid;grid-template-columns:1fr 1fr}
+.pn{padding:30px 24px;text-decoration:none;display:block;transition:background .25s}
+.pn:hover{background:var(--paper)}
+.pn small{font-family:var(--font-m);font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:8px}
+.pn b{font-family:var(--font-d);font-weight:700;font-size:1.25rem;letter-spacing:-.01em;transition:color .2s}
+.pn:hover b{color:var(--blue)}
+.pn--next{text-align:right;border-left:1px solid var(--line)}
+
+/* ================= FOOTER ================= */
+footer{background:var(--white);border-top:2px solid var(--ink)}
+.foot-grid{display:grid;grid-template-columns:2.3fr repeat(5,1fr);gap:36px;padding:64px 0 48px}
+.foot-brand p{font-size:.9rem;color:var(--muted);margin:16px 0 18px;max-width:280px}
+.foot-badge{font-family:var(--font-m);font-size:.62rem;letter-spacing:.14em;color:var(--blue);text-transform:uppercase}
+.foot-grid h4{font-family:var(--font-m);font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:16px;font-weight:500}
+.foot-grid li{margin-bottom:9px}
+.foot-grid li a{font-size:.86rem;text-decoration:none;color:#3C3C36;transition:color .2s,padding-left .2s}
+.foot-grid li a:hover{color:var(--blue);padding-left:6px}
+.foot-grid li .plain{font-size:.86rem;color:#3C3C36}
+.foot-bottom{border-top:1px solid var(--line);padding:22px 0;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.foot-bottom p,.foot-bottom span{font-family:var(--font-m);font-size:.66rem;letter-spacing:.1em;color:var(--muted);text-transform:uppercase}
+.to-top{font-family:var(--font-m);font-size:.66rem;letter-spacing:.12em;text-decoration:none;color:var(--ink);border-bottom:1px solid var(--ink);padding-bottom:2px;transition:color .2s,border-color .2s}
+.to-top:hover{color:var(--blue);border-color:var(--blue)}
+
+/* ================= REVEAL ================= */
+.rv{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}
+.rv.in{opacity:1;transform:none}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width:1120px){
+  .burger{display:grid}
+  .nav{position:fixed;inset:0;background:var(--paper);z-index:90;padding:132px 28px 48px;overflow-y:auto;transform:translateX(103%);transition:transform .4s cubic-bezier(.7,0,.2,1)}
+  body.nav-open .nav{transform:none}
+  .nav-list{flex-direction:column;align-items:stretch;gap:0}
+  .m-link,.m-trigger{display:flex;width:100%;text-align:left;font-size:1.15rem;padding:17px 4px;border-bottom:1px solid var(--line)}
+  .m-link--cta{border:1px solid var(--ink);margin-top:18px;justify-content:center}
+  .m-trigger .caret{margin-left:auto}
+  .mega{position:static;opacity:1;visibility:visible;transform:none;display:none;border:0;box-shadow:none;background:transparent}
+  .m-item.open .mega{display:block}
+  .mega-scroll{max-height:none;overflow:visible;padding:14px 0 22px 10px}
+  .mega-head{flex-direction:column;align-items:flex-start;gap:12px}
+  .mega-grid{grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:22px}
+  .nav-close{
+    display:inline-flex;align-items:center;gap:10px;
+    position:absolute;top:86px;right:22px;z-index:5;
+    font-family:var(--font-m);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;
+    border:1px solid var(--ink);background:var(--white);color:var(--ink);
+    padding:11px 16px;opacity:0;
+    transition:opacity .3s .18s,background .2s,color .2s,border-color .2s,transform .15s;
+  }
+  body.nav-open .nav-close{opacity:1}
+  .nav-close:hover{background:var(--red);border-color:var(--red);color:#fff}
+  .nav-close:active{transform:translateY(2px)}
+  .nav-close svg{transition:transform .35s cubic-bezier(.2,.7,.2,1)}
+  .nav-close:hover svg{transform:rotate(90deg)}
+}
+@media (max-width:960px){
+  .phero-head{grid-template-columns:1fr;gap:32px;align-items:start}
+  .spec{max-width:340px}
+  .c-grid{grid-template-columns:1fr}
+  .c-left{border-right:0;border-bottom:1px solid var(--line)}
+  .vs-badge{display:none}
+  .c-stats{grid-template-columns:1fr 1fr}
+  .cstat{border-bottom:1px solid var(--line)}
+  .cstat:nth-child(2n){border-right:0}
+  .cstat:nth-child(n+3){border-bottom:0}
+  .tool{grid-template-columns:1fr;gap:20px;padding:36px 0}
+  .facts{grid-template-columns:1fr 1fr}
+  .foot-grid{grid-template-columns:1fr 1fr;padding:48px 0 36px}
+  .foot-brand{grid-column:1/-1}
+  .sec{padding:72px 0}
+}
+@media (max-width:640px){
+  .wrap{padding:0 20px}
+  .pn-grid{grid-template-columns:1fr}
+  .pn--next{text-align:left;border-left:0;border-top:1px solid var(--line)}
+  .sec-head{flex-direction:column;align-items:flex-start;gap:8px}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important;transition:none !important}
+  html{scroll-behavior:auto}
+  .rv{opacity:1;transform:none}
+}
+</style>
+</head>
+
+<body id="top">
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ================= HEADER ================= -->
+<header id="site-header">
+  <div class="wrap bar">
+    <a class="logo" href="index.html" aria-label="IrisTool — home">
+      <span class="logo-mark" aria-hidden="true">✱</span>
+      <span class="logo-word">IrisTool</span>
+      <span class="logo-tag">278 tools</span>
+    </a>
+
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+      <span></span><span></span>
+    </button>
+
+    <nav class="nav" id="primary-nav" aria-label="Primary">
+      <button class="nav-close" id="nav-close" type="button" aria-label="Close menu">
+        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+          <path d="M1.5 1.5l12 12M13.5 1.5l-12 12" stroke="currentColor" stroke-width="2"/>
+        </svg>
+        Close
+      </button>
+
+      <ul class="nav-list">
+        <li><a class="m-link" href="index.html">Home</a></li>
+
+        <!-- ============ TEXT TOOLS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Text Tools
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Text Tools</span><p class="mega-sub">55 tools to analyze, clean, sort, extract, compare, convert and encode text.</p></div>
+                <a class="mega-all" href="text-tools.html">View all 55 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup">
+                  <a class="mgroup-t" href="text-analysis-tools.html">Text Analysis</a>
+           
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="case-converter.html">Case Converter</a>
+              
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="text-cleanup-tools.html">Text Cleanup</a>
+              
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="sorting-tools.html">Sorting &amp; Reordering</a>
+               
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="text-comparison-tools.html">Comparison &amp; Diff</a>
+               
+                </div>
+             
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ============ DEVELOPER TOOLS (current) ============ -->
+        <li class="m-item">
+          <button class="m-trigger active" type="button" aria-expanded="false" aria-haspopup="true">Developer Tools
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Developer Tools</span><p class="mega-sub">94 tools for JSON, XML, HTML, CSS, JS, encoding, hashing, colors, timestamps, regex, cron and full SEO suite.</p></div>
+                <a class="mega-all" href="developer-tools.html">View all 94 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup">
+                  <a class="mgroup-t" href="json-tools.html">JSON</a>
+              
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="xml-tools.html">XML</a>
+               
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="html-tools.html">HTML</a>
+            
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="css-tools.html">CSS</a>
+              
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="javascript-tools.html">JavaScript</a>
+                
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="url-tools.html">URL</a>
+              
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="base64-tools.html">Base64</a>
+                
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="jwt-decoder.html">JWT</a>
+               
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="hash-tools.html">Hash</a>
+               
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="character-encoding-tools.html">Character Encoding</a>
+               
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="color-tools.html">Color</a>
+                
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="timestamp-tools.html">Timestamp</a>
+                
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="uuid-tools.html">UUID</a>
+               
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="regex-tools.html" aria-current="page">Regex</a>
+               
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="cron-tools.html">Cron</a>
+                 
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="data-conversion-tools.html">Data Conversion</a>
+                
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="seo-tools.html">SEO</a>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ============ CALCULATORS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Calculators
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Calculators</span><p class="mega-sub">60 calculators for health, money, dates, grades, math, units and everyday numbers.</p></div>
+                <a class="mega-all" href="calculators.html">View all 60 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup">
+                  <a class="mgroup-t" href="health-calculators.html">Health</a>
+                
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="finance-calculators.html">Finance</a>
+              
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="date-time-calculators.html">Date &amp; Time</a>
+                 
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="math-calculators.html">Math</a>
+               
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="unit-converters.html">Unit Converters</a>
+               
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ============ GENERATORS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Generators
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Generators</span><p class="mega-sub">39 generators for names, random picks, IDs, QR codes, CSS effects, palettes and test data.</p></div>
+                <a class="mega-all" href="generators.html">View all 39 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup">
+                  <a class="mgroup-t" href="identity-name-generators.html">Identity &amp; Name</a>
+               
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="random-generators.html">Random</a>
+              
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="developer-generators.html">Developer</a>
+                
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="css-generators.html">CSS</a>
+              
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="password-tools.html">Password</a>
+            
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ============ IMAGE TOOLS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Image Tools
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Image Tools</span><p class="mega-sub">30 tools to edit, convert, compress and inspect images — processed entirely on your device.</p></div>
+                <a class="mega-all" href="image-tools.html">View all 30 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup">
+                  <a class="mgroup-t" href="image-editing-tools.html">Image Editing</a>
+             
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="image-converter-tools.html">Image Converter</a>
+               
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="image-optimization-tools.html">Optimization</a>
+             
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="image-inspector-tools.html">Inspector</a>
+              
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li><a class="m-link" href="about-us.html">About Us</a></li>
+        <li><a class="m-link m-link--cta" href="contact-us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ================= REGEX BENCH FIRST ================= -->
+  <section class="phero" aria-label="Live regex bench">
+    <div class="wrap">
+      <nav class="crumbs rv" aria-label="Breadcrumb">
+        <a href="index.html">Home</a><span class="sep">/</span>
+        <a href="developer-tools.html">Developer Tools</a><span class="sep">/</span>
+        <span class="here" aria-current="page">Regex</span>
+      </nav>
+
+      <div class="analyzer rv" id="analyzer" data-mode="tester" aria-label="Live regex bench">
+        <div class="a-bar">
+          <span class="dot" aria-hidden="true"></span>
+          <span class="dot dot--fill" aria-hidden="true"></span>
+          <span class="dot" aria-hidden="true"></span>
+          <span class="a-file">pattern.re — 2 tools<span class="caret-block" aria-hidden="true"></span></span>
+          <span class="a-live">● LIVE</span>
+        </div>
+
+        <!-- MODE DECK -->
+        <div class="cmp-deck">
+          <div class="c-tabs" role="group" aria-label="Choose a regex tool">
+            <button type="button" class="c-tab is-on" data-mode="tester" aria-pressed="true">
+              <span class="ct-glyph" aria-hidden="true">.*</span><span class="ct-name">Tester</span>
+            </button>
+            <button type="button" class="c-tab" data-mode="cheat" aria-pressed="false">
+              <span class="ct-glyph" aria-hidden="true">▤</span><span class="ct-name">Cheat Sheet</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- TESTER VIEW -->
+        <div class="c-grid" id="tester-view">
+          <div class="c-pane c-left">
+            <div class="pane-head">
+              <span class="pane-label">Input · pattern + text</span>
+              <span class="pane-badge">ECMAScript</span>
+            </div>
+            <div class="cb-controls">
+              <label class="cb-fieldlabel" for="rx-pattern">PATTERN</label>
+              <div class="rx-pattern-wrap" id="rx-pwrap">
+                <span class="rx-slash">/</span>
+                <input type="text" id="rx-pattern" class="rx-pattern" spellcheck="false" autocomplete="off" aria-label="Regex pattern">
+                <span class="rx-slash rx-slash--end">/</span>
+                <span class="rx-flags-disp" id="rx-flags-disp">g</span>
+              </div>
+              <label class="cb-fieldlabel">FLAGS</label>
+              <div class="rx-flagrow" id="rx-flagrow"></div>
+              <label class="cb-fieldlabel" for="rx-test">TEST STRING · MATCHES HIGHLIGHT LIVE</label>
+              <div class="rx-test-wrap">
+                <div class="rx-backdrop" id="rx-backdrop" aria-hidden="true"></div>
+                <textarea id="rx-test" class="rx-test" spellcheck="false"></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="c-pane c-right">
+            <div class="pane-head">
+              <span class="pane-label">Output · matches</span>
+              <span class="pane-badge" id="rx-count-badge">LIVE</span>
+            </div>
+            <div class="rx-results" id="rx-results"></div>
+          </div>
+          <div class="vs-badge" aria-hidden="true">.*</div>
+        </div>
+
+        <!-- CHEAT SHEET VIEW -->
+        <div id="cheat-view" style="display:none">
+          <div class="cheat-wrap">
+            <input type="text" id="cheat-filter" class="cheat-filter" placeholder="Filter the sheet — try 'look', 'digit', 'email'…" aria-label="Filter cheat sheet">
+            <div class="cheat-grid" id="cheat-grid"></div>
+          </div>
+        </div>
+
+        <!-- RESULTS STRIP -->
+        <div class="c-stats">
+          <div class="cstat"><small id="sl-1">Matches</small><b id="sv-1">0</b><span class="c-sub" id="ss-1">FOUND LIVE</span></div>
+          <div class="cstat"><small id="sl-2">Capture groups</small><b id="sv-2">0</b><span class="c-sub" id="ss-2">PER MATCH</span></div>
+          <div class="cstat"><small id="sl-3">Named groups</small><b id="sv-3">0</b><span class="c-sub" id="ss-3">(?&lt;NAME&gt;…)</span></div>
+          <div class="cstat"><small id="sl-4">Test chars</small><b id="sv-4">0</b><span class="c-sub" id="ss-4">IN THE LAB</span></div>
+        </div>
+      </div>
+
+      <!-- heading block, below the tool -->
+      <div class="phero-head">
+        <div class="rv">
+          <p class="kicker"><span class="ast" aria-hidden="true">✱</span> Developer Tools · Group 14 of 19</p>
+          <h1>Regex Tools<span class="blue">.</span></h1>
+          <p class="lede">Type a pattern and <strong>watch every match light up</strong> in the test string as you type — no run button, no waiting. The match list breaks each hit into <strong>numbered and named capture groups</strong>, the flag toggles flip g/i/m/s/u live, and a broken pattern reports the engine's exact error the instant it breaks. Beside it, a <strong>searchable cheat sheet</strong> where every token loads into the tester with one click. <strong>Nothing is uploaded, nothing is stored.</strong></p>
+        </div>
+        <ul class="spec rv" aria-label="Page specifications">
+          <li><span>Tools</span><b>02</b></li>
+          <li><span>Engine</span><b>ECMAScript</b></li>
+          <li><span>Flags</span><b>g·i·m·s·u</b></li>
+          <li><span>Backend</span><b>none</b></li>
+          <li><span>Cost</span><b>free</b></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TICKER ================= -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track" id="ticker-track">
+      <span>Regex Tester<i>✱</i>Regex Cheat Sheet<i>✱</i>JSON Formatter<i>✱</i>UUID Generator<i>✱</i>Base64 Encode<i>✱</i>JWT Decoder<i>✱</i>SHA256 Generator<i>✱</i>Unix Timestamp<i>✱</i>Color Picker<i>✱</i>XML Validator<i>✱</i>Nano ID<i>✱</i></span>
+    </div>
+  </div>
+
+  <!-- ================= DETAILED GUIDE ================= -->
+  <section class="sec" id="guide" aria-labelledby="guide-title">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div><span class="sec-kicker">In order, 01 → 02</span><h2 id="guide-title">One engine, one reference, zero guesswork.</h2></div>
+        <span class="sec-idx">( 01 )</span>
+      </div>
+
+      <!-- 01 -->
+      <article class="tool rv" id="regex-tester">
+        <aside class="tool-side">
+          <span class="tool-num">01 / 02</span>
+          <h3>Regex Tester</h3>
+          <span class="tool-here">runs in the bench above</span>
+        </aside>
+        <div class="tool-body">
+          <p>The lab runs on your browser's own <strong>ECMAScript RegExp engine</strong> — the same one your code will use in production, so what you see is what will ship. Every match is <strong>underlined in the test string the moment it exists</strong>, listed with its index, and exploded into numbered <strong>$1…$n</strong> and named <strong>&lt;name&gt;</strong> capture groups. Flip the <strong>g, i, m, s, u</strong> flags and the whole picture re-renders. A pattern that stops compiling turns the field red and prints the engine's exact message — no submit button between you and the answer.</p>
+          <div class="example">
+            <span class="ex-tag">Example · named groups, live</span>
+            <p class="ex-in">/(?&lt;y&gt;\d{4})-(?&lt;m&gt;\d{2})-(?&lt;d&gt;\d{2})/g
+Released 2024-01-15, patched 2024-02-20.</p>
+            <span class="ex-arrow" aria-hidden="true">↓</span>
+            <p class="ex-out">Released <span class="hl">2024-01-15</span>, patched <span class="hl">2024-02-20</span>.
+<b>2 matches</b> · each with &lt;y&gt; &lt;m&gt; &lt;d&gt; spelled out</p>
+          </div>
+          <p class="tool-use">Use it for <span class="tag">building patterns</span><span class="tag">debugging</span><span class="tag">format validation</span><span class="tag">learning regex</span></p>
+        </div>
+      </article>
+
+      <!-- 02 -->
+      <article class="tool rv" id="regex-cheat-sheet">
+        <aside class="tool-side">
+          <span class="tool-num">02 / 02</span>
+          <h3>Regex Cheat Sheet</h3>
+          <span class="tool-here">runs in the bench above</span>
+        </aside>
+        <div class="tool-body">
+          <p>A reference that <strong>does something</strong>. Every anchor, character class, quantifier, group, lookaround, escape and flag is documented with a one-line explanation — and a <strong>▶ TRY</strong> button that loads a working pattern and sample text straight into the tester, flags included. Filter the whole sheet by typing ("look", "digit", "email"), and a row of ready-made <strong>common patterns</strong> — email, URL, IPv4, ISO date, hex color, UUID, slug — is one click from being yours.</p>
+          <div class="example">
+            <span class="ex-tag">Example · one click from the sheet</span>
+            <p class="ex-in">▶ TRY &nbsp;(?&lt;= \$)\d+ &nbsp;·&nbsp; positive lookbehind</p>
+            <span class="ex-arrow" aria-hidden="true">↓</span>
+            <p class="ex-out">pattern + sample load into the tester, <b>$100</b> lights up, the digits match — the $ doesn't.</p>
+          </div>
+          <p class="tool-use">Use it for <span class="tag">quick reference</span><span class="tag">learning</span><span class="tag">on the job</span><span class="tag">pattern recipes</span></p>
+        </div>
+      </article>
+
+      <p class="rules rv"><b>Testing rules</b> · the engine is your browser's native ECMAScript RegExp — identical to what runs in production · matching is live on every keystroke of the pattern, the flags and the test string · named groups (?&lt;name&gt;…) and lookbehind are fully supported; \p{…} needs the u flag · zero-length matches (anchors, lookaround) are handled with an infinite-loop guard · a non-compiling pattern is reported with the engine's exact message and matched nothing is harmed · the cheat sheet's TRY button loads pattern, sample and flags together · everything runs locally — your pattern and your data never leave the tab</p>
+    </div>
+  </section>
+
+  <!-- ================= PRIVACY BAND ================= -->
+  <section class="band" id="privacy" aria-labelledby="privacy-title">
+    <div class="wrap">
+      <span class="sec-kicker rv">The privacy promise</span>
+      <h2 id="privacy-title" class="rv">Test anything. <span class="soft">We couldn't read it even if we wanted to.</span></h2>
+      <p class="band-lede rv">This page has no backend and no database. Every match found, every group captured and every error surfaced just now was computed by your browser's own regex engine, inside your own tab — your pattern and your test data never traveled a single centimeter of cable. Close the page and they're gone for good.</p>
+
+      <div class="pipe rv" role="img" aria-label="Data flow: pattern and text are matched in your browser. No server involved.">
+        <span class="node">PATTERN + TEXT</span><span class="pipe-arrow">→</span>
+        <span class="node node-live">MATCHED IN YOUR BROWSER</span><span class="pipe-arrow">→</span>
+        <span class="node">HIGHLIGHTED LIVE</span>
+      </div>
+      <div class="pipe-dead rv"><span class="node node-dead">✕ SERVER · DATABASE · LOGS · ANALYTICS</span></div>
+
+      <ul class="facts rv">
+        <li><span class="f-k">Database</span><span class="f-v">null</span></li>
+        <li><span class="f-k">Backend</span><span class="f-v">none</span></li>
+        <li><span class="f-k">Data uploads</span><span class="f-v">0</span></li>
+        <li><span class="f-k">Session logs</span><span class="f-v">0</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= FAQ ================= -->
+  <section class="sec" id="faq" aria-labelledby="faq-title">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div><span class="sec-kicker">Questions</span><h2 id="faq-title">Asked often, answered plainly.</h2></div>
+        <span class="sec-idx">( 02 )</span>
+      </div>
+
+      <details class="faq rv" open>
+        <summary>Which regex flavor does the tester use?</summary>
+        <p>JavaScript's native ECMAScript RegExp engine — the same one that runs in every browser. That means full support for named groups (?&lt;name&gt;…), lookbehind (?&lt;=…), Unicode property escapes like \p{L} with the u flag, and dotall with s. PCRE-only constructs like \K or atomic groups aren't part of the ECMAScript spec and won't work here.</p>
+      </details>
+      <details class="faq rv">
+        <summary>Why does my pattern show an error?</summary>
+        <p>The tester surfaces the engine's exact message the moment the pattern stops compiling. The usual culprits are an unbalanced parenthesis or bracket, a dangling quantifier like a lone *, an invalid escape, or a malformed group like (?&lt;). Fix the pattern and the matches reappear instantly — there's no submit button between you and the answer.</p>
+      </details>
+      <details class="faq rv">
+        <summary>What are named groups?</summary>
+        <p>A capture group written as (?&lt;name&gt;…) captures its match under a label instead of just a number, so you can read it as groups.year instead of groups[1]. The tester lists them alongside the numbered groups in every match, clearly marked in blue, which makes complex patterns far easier to reason about.</p>
+      </details>
+      <details class="faq rv">
+        <summary>Why are some of my matches empty?</summary>
+        <p>Anchors (^, $, \b) and lookaround assertions are zero-width — they match a position, not characters, so the matched text is empty. That's correct behavior, and the highlight shows you exactly where they land. The tester also guards against the classic infinite-loop trap where a zero-length match would otherwise run forever.</p>
+      </details>
+      <details class="faq rv">
+        <summary>Is my data saved anywhere?</summary>
+        <p>No. Stack has no backend and no database. Matching happens inside your browser tab and the pattern and test string vanish the moment you close or refresh the page. Nothing is logged, because nothing is ever collected.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- ================= PREV / NEXT ================= -->
+  <nav class="prevnext" aria-label="Browse groups">
+    <div class="wrap pn-grid">
+      <a class="pn" href="uuid-tools.html">
+        <small>← Previous group · UUID Tools</small>
+        <b>UUID Tools</b>
+      </a>
+      <a class="pn pn--next" href="cron-tools.html">
+        <small>Next group · Cron Tools →</small>
+        <b>Cron Tools</b>
+      </a>
+    </div>
+  </nav>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="logo" href="index.html" aria-label="IrisTool — home">
+          <span class="logo-mark" aria-hidden="true">✱</span>
+          <span class="logo-word">IrisTool</span>
+        </a>
+        <p>278 free tools for text, code, images, SEO and everyday math. Everything runs in your browser — nothing is ever collected.</p>
+        <span class="foot-badge">No backend · No database · No tracking</span>
+      </div>
+
+        <div>
+        <div><a class="m-link" href="index.html">Home</a></div>
+       
+      
+
+      
+        <div><a class="m-link" href="about-us.html">About Us</a></div>
+      
+      
+
+      
+        <div><a class="m-link" href="contact-us.html">Contact Us</a></div>
+        
+       
+      </div>
+    </div>
+
+    <div class="foot-bottom">
+      <p>© <span id="yr">2026</span> IrisTool — All processing happens on your device. Nothing is collected.</p>
+      <span>Made with passion by Sajad Zamani</span>
+      <a class="to-top" href="#top">Back to top ↑</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+  var $  = function(s,c){ return (c||document).querySelector(s); };
+  var $$ = function(s,c){ return Array.prototype.slice.call((c||document).querySelectorAll(s)); };
+  var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* ---- header state ---- */
+  var header = $("#site-header");
+  window.addEventListener("scroll", function(){
+    header.classList.toggle("scrolled", window.scrollY > 8);
+  }, {passive:true});
+
+  /* ---- mobile drawer ---- */
+  var burger = $("#burger");
+  function closeNav(){
+    document.body.classList.remove("nav-open");
+    burger.setAttribute("aria-expanded","false");
+    burger.setAttribute("aria-label","Open menu");
+  }
+  burger.addEventListener("click", function(){
+    var open = document.body.classList.toggle("nav-open");
+    burger.setAttribute("aria-expanded", open);
+    burger.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+  });
+  $("#primary-nav").addEventListener("click", function(e){
+    if (e.target.closest("a")) closeNav();
+  });
+  $("#nav-close").addEventListener("click", closeNav);
+
+  /* ---- mega menu ---- */
+  function closeAllMegas(except){
+    $$(".m-item.open").forEach(function(item){
+      if (item !== except){
+        item.classList.remove("open");
+        var t = $(".m-trigger", item);
+        if (t) t.setAttribute("aria-expanded","false");
+      }
+    });
+  }
+  $$(".m-trigger").forEach(function(btn){
+    btn.addEventListener("click", function(e){
+      e.stopPropagation();
+      var item = btn.closest(".m-item");
+      var isOpen = item.classList.contains("open");
+      closeAllMegas(item);
+      item.classList.toggle("open", !isOpen);
+      btn.setAttribute("aria-expanded", String(!isOpen));
+    });
+  });
+  document.addEventListener("click", function(e){
+    if (!e.target.closest(".m-item")) closeAllMegas(null);
+  });
+  document.addEventListener("keydown", function(e){
+    if (e.key === "Escape"){ closeAllMegas(null); closeNav(); }
+  });
+
+  /* ---- scroll reveal ---- */
+  var revealEls = $$(".rv");
+  if (reduceMotion || !("IntersectionObserver" in window)){
+    revealEls.forEach(function(el){ el.classList.add("in"); });
+  } else {
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if (en.isIntersecting){ en.target.classList.add("in"); io.unobserve(en.target); }
+      });
+    }, {threshold:0.1, rootMargin:"0px 0px -40px 0px"});
+    revealEls.forEach(function(el){ io.observe(el); });
+  }
+
+  /* ---- ticker ---- */
+  var track = $("#ticker-track");
+  track.innerHTML += track.innerHTML;
+
+  /* ---- footer year ---- */
+  $("#yr").textContent = new Date().getFullYear();
+
+  /* ================= REGEX ENGINE ================= */
+  var rxPattern = $("#rx-pattern");
+  var rxTest    = $("#rx-test");
+  var rxBackdrop= $("#rx-backdrop");
+  var rxResults = $("#rx-results");
+  var rxPwrap   = $("#rx-pwrap");
+  var rxCountBadge = $("#rx-count-badge");
+  var sl = [$("#sl-1"),$("#sl-2"),$("#sl-3"),$("#sl-4")];
+  var sv = [$("#sv-1"),$("#sv-2"),$("#sv-3"),$("#sv-4")];
+  var ss = [$("#ss-1"),$("#ss-2"),$("#ss-3"),$("#ss-4")];
+
+  var state = { mode:"tester", flags:{g:true,i:false,m:false,s:false,u:false} };
+  var testerStats = { matches:0, groups:0, named:0, chars:0 };
+
+  var FLAG_DEFS = [
+    {f:"g", name:"global — find all matches"},
+    {f:"i", name:"ignore case"},
+    {f:"m", name:"multiline — ^ and $ per line"},
+    {f:"s", name:"dotall — . matches newlines"},
+    {f:"u", name:"unicode — enables \\p{…}"}
+  ];
+
+  var DEFAULT_PATTERN = "(?<y>\\d{4})-(?<m>\\d{2})-(?<d>\\d{2})";
+  var DEFAULT_TEST = "Released 2024-01-15, patched 2024-02-20.\nNext milestone: 2026-08-01 \u2014 that's today.\nNot a date: 12-34-5678 (too short).";
+
+  function escHtml(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+  function escAttr(s){ return String(s).replace(/&/g,"&amp;").replace(/"/g,"&quot;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+
+  function setStat(el, val){
+    val = String(val);
+    if (el.textContent !== val){
+      el.textContent = val;
+      el.classList.remove("bump");
+      void el.offsetWidth;
+      el.classList.add("bump");
+      setTimeout(function(){ el.classList.remove("bump"); }, 200);
+    }
+  }
+
+  /* ---- flags ---- */
+  function buildFlags(){
+    var html = "";
+    FLAG_DEFS.forEach(function(fd){
+      var on = state.flags[fd.f];
+      html += '<button type="button" class="rx-flag' + (on ? " rx-flag-on" : "") + '" data-f="' + fd.f + '" title="' + fd.name + '">' + fd.f + '</button>';
+    });
+    $("#rx-flagrow").innerHTML = html;
+    $$(".rx-flag").forEach(function(b){
+      b.addEventListener("click", function(){
+        var f = b.getAttribute("data-f");
+        state.flags[f] = !state.flags[f];
+        b.classList.toggle("rx-flag-on", state.flags[f]);
+        updateFlagsDisplay();
+        runTester();
+      });
+    });
+  }
+  function updateFlagsDisplay(){
+    var s = "";
+    FLAG_DEFS.forEach(function(fd){ if (state.flags[fd.f]) s += fd.f; });
+    $("#rx-flags-disp").textContent = s || "\u2014";
+  }
+
+  /* ---- matching ---- */
+  function runTester(){
+    var pattern = rxPattern.value;
+    var str = rxTest.value;
+
+    if (pattern === ""){
+      rxPwrap.classList.remove("err");
+      rxBackdrop.innerHTML = escHtml(str) + "\n";
+      rxResults.innerHTML = '<p class="rx-empty">Type a pattern above \u2014 matches light up here and in the test string the instant they exist. Flip a flag, add a group, break it on purpose: everything re-renders live.</p>';
+      rxCountBadge.textContent = "\u2014";
+      testerStats = { matches:0, groups:0, named:0, chars:str.length };
+      updateStats();
+      return;
+    }
+
+    var flagStr = "";
+    FLAG_DEFS.forEach(function(fd){ if (state.flags[fd.f]) flagStr += fd.f; });
+
+    var re;
+    try { re = new RegExp(pattern, flagStr); rxPwrap.classList.remove("err"); }
+    catch(e){
+      rxPwrap.classList.add("err");
+      rxBackdrop.innerHTML = escHtml(str) + "\n";
+      rxResults.innerHTML = '<div class="rx-error">\u2715 ' + escHtml(e.message) + '</div>';
+      rxCountBadge.textContent = "ERROR";
+      testerStats = { matches:0, groups:0, named:0, chars:str.length };
+      updateStats();
+      return;
+    }
+
+    var matches = [], m, guard = 0;
+    while ((m = re.exec(str)) !== null && guard < 5000){
+      matches.push({ index:m.index, text:m[0], groups:m.slice(1), named:(m.groups || null) });
+      if (m.index === re.lastIndex) re.lastIndex++;
+      guard++;
+      if (!re.global) break;
+    }
+
+    /* highlight */
+    var html = "", last = 0;
+    matches.forEach(function(mm){
+      html += escHtml(str.slice(last, mm.index));
+      html += '<mark class="rx-match">' + (escHtml(mm.text) || "&#8203;") + '</mark>';
+      last = mm.index + mm.text.length;
+    });
+    html += escHtml(str.slice(last));
+    rxBackdrop.innerHTML = html + "\n";
+
+    renderMatches(matches);
+
+    var gcount = matches.length ? matches[0].groups.length : 0;
+    var ncount = (matches.length && matches[0].named) ? Object.keys(matches[0].named).length : 0;
+    testerStats = { matches:matches.length, groups:gcount, named:ncount, chars:str.length };
+    updateStats();
+  }
+
+  function renderMatches(matches){
+    if (!matches.length){
+      rxResults.innerHTML = '<p class="rx-empty">No matches for this pattern and text. Nudge the pattern, flip a flag, or add some text that should match.</p>';
+      rxCountBadge.textContent = "0 MATCHES";
+      return;
+    }
+    rxCountBadge.textContent = matches.length + " MATCH" + (matches.length === 1 ? "" : "ES");
+    var html = '<div class="rx-count"><i></i>' + matches.length + ' MATCH' + (matches.length === 1 ? '' : 'ES') + ' FOUND</div>';
+    matches.forEach(function(mm, i){
+      html += '<div class="rx-m" style="animation-delay:' + (i * 35) + 'ms">';
+      html += '<div class="rx-m-head"><span class="rx-m-idx">#' + ("0" + (i + 1)).slice(-2) + '</span><span class="rx-m-pos">index ' + mm.index + '</span><button type="button" class="rx-m-copy" data-copy="' + escAttr(mm.text) + '" aria-label="Copy match ' + (i + 1) + '">\u29C9</button></div>';
+      html += '<code class="rx-m-text">' + (escHtml(mm.text) || '<em>zero-width</em>') + '</code>';
+      if (mm.groups.length || mm.named){
+        html += '<div class="rx-groups">';
+        mm.groups.forEach(function(g, gi){
+          html += '<div class="rx-g"><span class="rx-g-k">$' + (gi + 1) + '</span><code>' + (g === undefined ? "\u2205" : escHtml(g)) + '</code></div>';
+        });
+        if (mm.named){
+          for (var k in mm.named){
+            if (Object.prototype.hasOwnProperty.call(mm.named, k)){
+              html += '<div class="rx-g rx-g-named"><span class="rx-g-k">&lt;' + escHtml(k) + '&gt;</span><code>' + (mm.named[k] === undefined ? "\u2205" : escHtml(mm.named[k])) + '</code></div>';
+            }
+          }
+        }
+        html += '</div>';
+      }
+      html += '</div>';
+    });
+    rxResults.innerHTML = html;
+  }
+
+  /* match copy delegation */
+  rxResults.addEventListener("click", function(e){
+    var btn = e.target.closest(".rx-m-copy");
+    if (!btn) return;
+    var val = btn.getAttribute("data-copy");
+    var done = function(){
+      btn.textContent = "\u2713"; btn.classList.add("ok");
+      setTimeout(function(){ btn.textContent = "\u29C9"; btn.classList.remove("ok"); }, 1000);
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(val).then(done, done);
+    } else {
+      var ta = document.createElement("textarea");
+      ta.value = val; ta.style.position="fixed"; ta.style.opacity="0";
+      document.body.appendChild(ta); ta.select();
+      try { document.execCommand("copy"); } catch(e2){}
+      document.body.removeChild(ta); done();
+    }
+  });
+
+  /* scroll sync for the highlight backdrop */
+  rxTest.addEventListener("scroll", function(){
+    rxBackdrop.scrollTop = rxTest.scrollTop;
+    rxBackdrop.scrollLeft = rxTest.scrollLeft;
+  }, {passive:true});
+
+  rxPattern.addEventListener("input", runTester);
+  rxTest.addEventListener("input", runTester);
+
+  /* ================= CHEAT SHEET ================= */
+  var CHEAT = [
+    { cat:"Anchors", items:[
+      { t:"^", n:"Start of string", d:"Position before the first character (line start with m).", p:"^Hello", s:"Hello world\nHello again" },
+      { t:"$", n:"End of string", d:"Position after the last character (line end with m).", p:"world$", s:"Hello world\nworld" },
+      { t:"\\b", n:"Word boundary", d:"Between a word char and a non-word char.", p:"\\bcat\\b", s:"cat concat category" },
+      { t:"\\B", n:"Not a word boundary", d:"Inside a word.", p:"\\Bcat", s:"concatenate" }
+    ]},
+    { cat:"Character classes", items:[
+      { t:".", n:"Any character", d:"Anything except newline (unless s flag).", p:"c.t", s:"cat cot cut ct" },
+      { t:"\\d", n:"Digit", d:"Shorthand for [0-9].", p:"\\d+", s:"Order 42, item 7" },
+      { t:"\\D", n:"Not a digit", d:"Shorthand for [^0-9].", p:"\\D+", s:"abc123def" },
+      { t:"\\w", n:"Word character", d:"[A-Za-z0-9_].", p:"\\w+", s:"user_name 42" },
+      { t:"\\W", n:"Not a word char", d:"[^A-Za-z0-9_].", p:"\\W+", s:"a!b@c#" },
+      { t:"\\s", n:"Whitespace", d:"Space, tab, newline.", p:"a\\sb", s:"a b" },
+      { t:"\\S", n:"Not whitespace", d:"Any non-whitespace char.", p:"\\S+", s:"a b c" },
+      { t:"[abc]", n:"Character set", d:"Any one of the listed characters.", p:"[cb]at", s:"cat bat hat" },
+      { t:"[^abc]", n:"Negated set", d:"Any character NOT listed.", p:"[^cb]at", s:"cat bat hat" },
+      { t:"[a-z]", n:"Range", d:"Any character within the range.", p:"[a-c]+", s:"abcde xyz" },
+      { t:"\\p{L}", n:"Unicode letter", d:"Any letter, any script (needs u flag).", p:"\\p{L}+", s:"\u0633\u0644\u0627\u0645 hello \u043C\u0438\u0440", f:"u" }
+    ]},
+    { cat:"Quantifiers", items:[
+      { t:"*", n:"0 or more", d:"Greedy.", p:"ab*c", s:"ac abc abbc" },
+      { t:"+", n:"1 or more", d:"Greedy.", p:"ab+c", s:"ac abc abbc" },
+      { t:"?", n:"0 or 1", d:"Makes the previous token optional.", p:"colou?r", s:"color colour" },
+      { t:"{n}", n:"Exactly n", d:"Exact repetition count.", p:"a{3}", s:"aa aaa aaaa" },
+      { t:"{n,}", n:"n or more", d:"At least n times.", p:"a{2,}", s:"a aa aaa" },
+      { t:"{n,m}", n:"Between n and m", d:"Bounded repetition.", p:"a{2,3}", s:"a aa aaa aaaa" },
+      { t:"*?  +?", n:"Lazy", d:"Match as little as possible.", p:"<.+?>", s:"<a><b><c>" }
+    ]},
+    { cat:"Groups", items:[
+      { t:"(\u2026)", n:"Capturing group", d:"Captures for $1, $2\u2026", p:"(\\w+)@(\\w+)", s:"user@host" },
+      { t:"(?:\u2026)", n:"Non-capturing group", d:"Groups without capturing.", p:"(?:ab)+", s:"ababab" },
+      { t:"(?<name>\u2026)", n:"Named group", d:"Access via groups.name.", p:"(?<y>\\d{4})-(?<m>\\d{2})", s:"2026-08" },
+      { t:"\\1", n:"Backreference", d:"Matches the same text as group 1.", p:"(\\w+) \\1", s:"bye bye hello" }
+    ]},
+    { cat:"Lookaround", items:[
+      { t:"(?=\u2026)", n:"Positive lookahead", d:"Asserts what follows, without consuming it.", p:"\\d+(?=px)", s:"10px 20em" },
+      { t:"(?!\u2026)", n:"Negative lookahead", d:"Asserts what does NOT follow.", p:"\\d+(?!px)", s:"10px 20em" },
+      { t:"(?<=\u2026)", n:"Positive lookbehind", d:"Asserts what precedes.", p:"(?<=\\$)\\d+", s:"$100 100" },
+      { t:"(?<!\u2026)", n:"Negative lookbehind", d:"Asserts what does NOT precede.", p:"(?<!\\$)\\d+", s:"$100 100" }
+    ]},
+    { cat:"Escapes", items:[
+      { t:"\\.", n:"Literal dot", d:"Escape a metacharacter to match it.", p:"\\d+\\.\\d+", s:"pi is 3.14" },
+      { t:"\\\\", n:"Literal backslash", d:"Escapes a backslash.", p:"\\\\", s:"a\\b" },
+      { t:"\\n  \\t", n:"Newline / tab", d:"Control characters.", p:"a\\tb", s:"a\tb" },
+      { t:"\\uXXXX", n:"Unicode escape", d:"By code point.", p:"\\u0041", s:"ABC" },
+      { t:"\\xHH", n:"Hex escape", d:"By hex byte value.", p:"\\x41", s:"ABC" }
+    ]},
+    { cat:"Flags", items:[
+      { t:"g", n:"Global", d:"Find all matches, not just the first.", p:"a", s:"aaa", f:"g" },
+      { t:"i", n:"Ignore case", d:"Case-insensitive matching.", p:"hello", s:"Hello HELLO hello", f:"i" },
+      { t:"m", n:"Multiline", d:"^ and $ match each line.", p:"^a", s:"ab\nac\nba", f:"m" },
+      { t:"s", n:"Dotall", d:". matches newlines too.", p:"a.b", s:"a\nb", f:"s" },
+      { t:"u", n:"Unicode", d:"Full Unicode, enables \\p{\u2026}.", p:"\\p{L}+", s:"\u00e9\u00e8\u00ea", f:"u" }
+    ]},
+    { cat:"Common patterns", items:[
+      { t:"email", n:"Email address", d:"Practical, not RFC-perfect.", p:"[\\w.+-]+@[\\w-]+\\.[\\w.]+", s:"Contact: jane.doe@example.co.uk" },
+      { t:"url", n:"URL", d:"http(s) links.", p:"https?://[\\w./?=&%-]+", s:"See https://example.com/path?q=1 now" },
+      { t:"ipv4", n:"IPv4 address", d:"Four dotted octets.", p:"\\b(\\d{1,3}\\.){3}\\d{1,3}\\b", s:"Server at 192.168.0.1 down" },
+      { t:"date", n:"ISO date", d:"YYYY-MM-DD.", p:"\\d{4}-\\d{2}-\\d{2}", s:"Due 2026-08-01 soon" },
+      { t:"hex", n:"Hex color", d:"#RGB or #RRGGBB.", p:"#(?:[0-9a-fA-F]{3}){1,2}\\b", s:"Use #0033FF or #03F" },
+      { t:"uuid", n:"UUID", d:"Canonical 8-4-4-4-12 form.", p:"[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}", s:"id 550e8400-e29b-41d4-a716-446655440000" },
+      { t:"slug", n:"URL slug", d:"Lowercase, hyphenated.", p:"[a-z0-9]+(?:-[a-z0-9]+)*", s:"post: hello-world-2" }
+    ]}
+  ];
+
+  function flattenCheat(){
+    var arr = [];
+    CHEAT.forEach(function(c){ c.items.forEach(function(it){ arr.push(it); }); });
+    return arr;
+  }
+
+  function buildCheat(){
+    var idx = 0;
+    var html = "";
+    CHEAT.forEach(function(cat){
+      html += '<div class="cheat-cat"><div class="cheat-cat-h">' + escHtml(cat.cat) + '</div>';
+      cat.items.forEach(function(it){
+        html += '<div class="cheat-item" data-search="' + escAttr((it.t + " " + it.n + " " + it.d).toLowerCase()) + '">' +
+          '<code class="cheat-tok">' + escHtml(it.t) + '</code>' +
+          '<span class="cheat-name">' + escHtml(it.n) + '<small>' + escHtml(it.d) + '</small></span>' +
+          '<button type="button" class="cheat-try" data-idx="' + idx + '">\u25B6 TRY</button>' +
+        '</div>';
+        idx++;
+      });
+      html += '</div>';
+    });
+    $("#cheat-grid").innerHTML = html;
+    $$(".cheat-try").forEach(function(b){
+      b.addEventListener("click", function(){
+        var i = parseInt(b.getAttribute("data-idx"), 10);
+        tryExample(flattenCheat()[i]);
+      });
+    });
+  }
+
+  function tryExample(it){
+    rxPattern.value = it.p;
+    rxTest.value = it.s;
+    state.flags = {g:true,i:false,m:false,s:false,u:false};
+    if (it.f){ for (var i=0;i<it.f.length;i++) state.flags[it.f[i]] = true; }
+    buildFlags();
+    updateFlagsDisplay();
+    setMode("tester");
+    runTester();
+  }
+
+  $("#cheat-filter").addEventListener("input", function(){
+    var q = this.value.trim().toLowerCase();
+    $$(".cheat-item").forEach(function(item){
+      var hay = item.getAttribute("data-search");
+      item.style.display = (!q || hay.indexOf(q) !== -1) ? "" : "none";
+    });
+    $$(".cheat-cat").forEach(function(cat){
+      var any = false;
+      cat.querySelectorAll(".cheat-item").forEach(function(it){ if (it.style.display !== "none") any = true; });
+      cat.style.display = any ? "" : "none";
+    });
+  });
+
+  /* ---- stats ---- */
+  function updateStats(){
+    if (state.mode === "tester"){
+      setStat(sv[0], testerStats.matches);
+      setStat(sv[1], testerStats.groups);
+      setStat(sv[2], testerStats.named);
+      setStat(sv[3], testerStats.chars);
+      sl[0].textContent="Matches";       ss[0].textContent="FOUND LIVE";
+      sl[1].textContent="Capture groups"; ss[1].textContent="PER MATCH";
+      sl[2].textContent="Named groups";   ss[2].textContent="(?<NAME>\u2026)";
+      sl[3].textContent="Test chars";     ss[3].textContent="IN THE LAB";
+    } else {
+      var flat = flattenCheat();
+      var patterns = 0, flags = 0;
+      CHEAT.forEach(function(c){
+        if (c.cat === "Common patterns") patterns = c.items.length;
+        if (c.cat === "Flags") flags = c.items.length;
+      });
+      setStat(sv[0], CHEAT.length);
+      setStat(sv[1], flat.length);
+      setStat(sv[2], patterns);
+      setStat(sv[3], flags);
+      sl[0].textContent="Categories";      ss[0].textContent="OF SYNTAX";
+      sl[1].textContent="Tokens";          ss[1].textContent="DOCUMENTED";
+      sl[2].textContent="Common patterns"; ss[2].textContent="READY TO TRY";
+      sl[3].textContent="Flags";           ss[3].textContent="EXPLAINED";
+    }
+  }
+
+  /* ---- mode switching ---- */
+  function setMode(m){
+    state.mode = m;
+    $$(".c-tab").forEach(function(t){
+      var on = t.getAttribute("data-mode") === m;
+      t.classList.toggle("is-on", on);
+      t.setAttribute("aria-pressed", String(on));
+    });
+    $("#analyzer").setAttribute("data-mode", m);
+    $("#tester-view").style.display = m === "tester" ? "" : "none";
+    $("#cheat-view").style.display = m === "cheat" ? "" : "none";
+    updateStats();
+  }
+  $$(".c-tab").forEach(function(t){
+    t.addEventListener("click", function(){ setMode(t.getAttribute("data-mode")); });
+  });
+
+  /* ---- init ---- */
+  rxPattern.value = DEFAULT_PATTERN;
+  rxTest.value = DEFAULT_TEST;
+  buildFlags();
+  updateFlagsDisplay();
+  buildCheat();
+  runTester();
+})();
+</script>
+</body>
+</html>

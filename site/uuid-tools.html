@@ -1,0 +1,1392 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- ============ PRIMARY SEO ============ -->
+<title>UUID Tools — UUID, GUID &amp; Nano ID Generators | IrisTool</title>
+<meta name="title" content="UUID Tools — UUID, GUID &amp; Nano ID Generators | IrisTool">
+<meta name="description" content="3 free identifier generators in one bench: RFC 4122 v4 UUIDs with version/variant bits highlighted, Microsoft-style GUIDs, and URL-safe Nano IDs with adjustable length — all from a cryptographic RNG, in batches, with one-click copy. 100% in-browser.">
+<meta name="keywords" content="uuid generator, guid generator, nanoid generator, uuid v4, generate uuid online, random id generator, unique identifier, crypto random, free online tools">
+<meta name="author" content="IrisTool">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="googlebot" content="index, follow">
+<meta name="language" content="English">
+<meta name="rating" content="general">
+<meta name="distribution" content="global">
+<meta name="coverage" content="Worldwide">
+<meta name="revisit-after" content="7 days">
+<meta name="theme-color" content="#FCFCFA">
+<meta name="color-scheme" content="light">
+
+<link rel="canonical" href="https://IrisTool.com/uuid-tools.html">
+
+<!-- ============ GEO TAGS ============ -->
+<meta name="geo.region" content="US">
+<meta name="geo.placename" content="United States">
+<meta name="geo.position" content="37.09024;-95.712891">
+<meta name="ICBM" content="37.09024, -95.712891">
+
+<!-- ============ HREFLANG ============ -->
+<link rel="alternate" hreflang="en" href="https://IrisTool.com/uuid-tools.html">
+<link rel="alternate" hreflang="x-default" href="https://IrisTool.com/index.html">
+
+<!-- ============ SOCIAL / OPEN GRAPH ============ -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="IrisTool">
+<meta property="og:url" content="https://IrisTool.com/uuid-tools.html">
+<meta property="og:title" content="UUID Tools — UUID, GUID &amp; Nano ID Generators | IrisTool">
+<meta property="og:description" content="Cryptographically random UUIDs, GUIDs and Nano IDs — generated in batches, formatted your way, with the version and variant bits lit up. All in your browser.">
+<meta property="og:image" content="https://IrisTool.com/assets/og-uuid-tools-1200x630.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="UUID Tools — a spotlighted UUID with version and variant bits highlighted and a batch list below, entirely in your browser">
+<meta property="og:locale" content="en_US">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://IrisTool.com/uuid-tools.html">
+<meta name="twitter:title" content="UUID Tools — UUID, GUID &amp; Nano ID Generators | IrisTool">
+<meta name="twitter:description" content="3 free ID generators from a cryptographic RNG. 100% client-side — nothing you generate is ever stored.">
+<meta name="twitter:image" content="https://IrisTool.com/assets/og-uuid-tools-1200x630.png">
+
+<!-- ============ ICONS ============ -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230033FF'/%3E%3Ctext x='32' y='46' font-size='42' text-anchor='middle' fill='%23fff' font-family='monospace'%3E%E2%9C%B1%3C/text%3E%3C/svg%3E">
+
+<!-- ============ FONTS (fontsource CDN) ============ -->
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link href="https://cdn.jsdelivr.net/fontsource/css/space-grotesk@latest/latin-500.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/space-grotesk@latest/latin-700.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/ibm-plex-sans@latest/latin-400.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/ibm-plex-sans@latest/latin-500.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/ibm-plex-mono@latest/latin-400.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/ibm-plex-mono@latest/latin-500.css" rel="stylesheet">
+
+<!-- ============ STRUCTURED DATA ============ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://IrisTool.com/index.html" },
+    { "@type": "ListItem", "position": 2, "name": "Developer Tools", "item": "https://IrisTool.com/developer-tools.html" },
+    { "@type": "ListItem", "position": 3, "name": "UUID Tools", "item": "https://IrisTool.com/uuid-tools.html" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "UUID Tools — UUID, GUID & Nano ID Generators",
+  "description": "3 free identifier generators in one bench: RFC 4122 v4 UUIDs with version/variant bits highlighted, Microsoft-style GUIDs, and URL-safe Nano IDs with adjustable length — all from a cryptographic RNG, in batches, with one-click copy. 100% in-browser.",
+  "url": "https://IrisTool.com/uuid-tools.html",
+  "inLanguage": "en",
+  "isPartOf": { "@type": "WebSite", "name": "IrisTool", "url": "https://IrisTool.com/index.html" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "UUID Tools — all available on this page",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "UUID Generator", "url": "https://IrisTool.com/uuid-tools.html#uuid-generator", "description": "RFC 4122 version 4 UUIDs from a cryptographic RNG, in batches, with case/hyphen/brace formatting and the version & variant bits highlighted." },
+    { "@type": "ListItem", "position": 2, "name": "GUID Generator", "url": "https://IrisTool.com/uuid-tools.html#guid-generator", "description": "Microsoft-style GUIDs — uppercase, braced, 128 bits — from the same cryptographic engine." },
+    { "@type": "ListItem", "position": 3, "name": "Nano ID Generator", "url": "https://IrisTool.com/uuid-tools.html#nanoid-generator", "description": "Compact URL-safe IDs from a 64-character alphabet with adjustable length and live entropy readout." }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "What's the difference between a UUID and a GUID?", "acceptedAnswer": { "@type": "Answer", "text": "Underneath, nothing — both are 128-bit values from the same random space. The difference is convention: UUID is the RFC 4122 standard, usually written lowercase with hyphens; GUID is Microsoft's name for the same thing, conventionally written uppercase and wrapped in braces. This bench generates the identical v4 random value and simply dresses it differently for each." } },
+    { "@type": "Question", "name": "Are these actually random?", "acceptedAnswer": { "@type": "Answer", "text": "They come from your browser's cryptographic random number generator (crypto.getRandomValues), which is seeded from hardware entropy and is the same source your OS uses for TLS keys. A UUID v4 carries 122 bits of true randomness; a default Nano ID carries about 126. That's not 'pseudo-random enough' — it's cryptographically secure for identifiers, tokens and keys." } },
+    { "@type": "Question", "name": "Can two generated IDs collide?", "acceptedAnswer": { "@type": "Answer", "text": "In practice, no. The v4 space holds 2^122 values; by the birthday bound you'd need to generate roughly 2^61 — about two quintillion — IDs before a collision became even 50% likely. Nano IDs are in the same league. For any realistic system, treating them as unique is safe." } },
+    { "@type": "Question", "name": "Why is a Nano ID shorter than a UUID?", "acceptedAnswer": { "@type": "Answer", "text": "Because it uses a larger alphabet. A UUID speaks in hex — 16 symbols, 4 bits per character. A Nano ID speaks in 64 URL-safe symbols — 6 bits per character — so 21 characters carry about 126 bits, slightly more than a UUID's 122, in far fewer glyphs. Shorten it and the entropy readout on the bench tells you exactly what you still have." } },
+    { "@type": "Question", "name": "Is my data saved anywhere?", "acceptedAnswer": { "@type": "Answer", "text": "No. IrisTool has no backend and no database. The IDs are generated inside your browser tab and vanish the moment you close or refresh the page. Nothing is logged, because nothing is ever collected." } }
+  ]
+}
+</script>
+
+<style>
+/* ================= TOKENS ================= */
+:root{
+  --paper:#FCFCFA;
+  --white:#FFFFFF;
+  --ink:#141414;
+  --muted:#6C6C64;
+  --line:#E4E4DC;
+  --blue:#0033FF;
+  --blue-soft:#6E86FF;
+  --red:#C40000;
+  --font-d:'Space Grotesk',ui-sans-serif,system-ui,sans-serif;
+  --font-b:'IBM Plex Sans',ui-sans-serif,system-ui,sans-serif;
+  --font-m:'IBM Plex Mono',ui-monospace,'SFMono-Regular',monospace;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  font-family:var(--font-b);
+  color:var(--ink);
+  background-color:var(--paper);
+  background-image:radial-gradient(circle,#E7E7DF 1px,transparent 1px);
+  background-size:28px 28px;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+::selection{background:var(--blue);color:#fff}
+a{color:inherit}
+ul{list-style:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+:focus-visible{outline:2px solid var(--blue);outline-offset:3px}
+section[id]{scroll-margin-top:96px}
+.wrap{max-width:1280px;margin:0 auto;padding:0 32px}
+
+.skip{position:absolute;left:-999px;top:0;background:var(--ink);color:#fff;padding:10px 18px;z-index:999;font-family:var(--font-m);font-size:.75rem}
+.skip:focus{left:12px;top:12px}
+
+/* ================= HEADER ================= */
+header{position:sticky;top:0;z-index:100;background:var(--paper);border-bottom:1px solid var(--line);transition:border-color .3s}
+header.scrolled{border-bottom-color:var(--ink)}
+.bar{display:flex;align-items:center;justify-content:space-between;height:72px;gap:24px}
+.logo{display:flex;align-items:center;gap:11px;text-decoration:none}
+.logo-mark{width:30px;height:30px;background:var(--blue);color:#fff;display:grid;place-items:center;font-size:19px;line-height:1;transition:transform .5s cubic-bezier(.2,.7,.2,1)}
+.logo:hover .logo-mark{transform:rotate(180deg)}
+.logo-word{font-family:var(--font-d);font-weight:700;font-size:1.25rem;letter-spacing:-.02em}
+.logo-tag{font-family:var(--font-m);font-size:.6rem;letter-spacing:.14em;color:var(--muted);text-transform:uppercase;margin-left:2px;padding-top:5px}
+
+.nav-list{display:flex;align-items:center;gap:2px}
+.m-link,.m-trigger{
+  font-family:var(--font-b);font-weight:500;font-size:.88rem;
+  padding:10px 13px;text-decoration:none;color:var(--ink);
+  display:inline-flex;align-items:center;gap:6px;transition:color .2s;
+}
+.m-link:hover,.m-trigger:hover{color:var(--blue)}
+.m-trigger.active{color:var(--blue)}
+.m-trigger .caret{transition:transform .25s}
+.m-item:hover .caret,.m-item.open .caret{transform:rotate(180deg)}
+.m-link--cta{border:1px solid var(--ink);padding:9px 18px !important;transition:background .2s,color .2s}
+.m-link--cta:hover{background:var(--ink);color:var(--paper) !important}
+
+.mega{
+  position:absolute;left:0;right:0;top:100%;
+  background:var(--white);border-bottom:2px solid var(--ink);
+  box-shadow:0 30px 60px -30px rgba(20,20,20,.25);
+  opacity:0;visibility:hidden;transform:translateY(10px);
+  transition:opacity .22s ease,transform .22s ease,visibility .22s;z-index:99;
+}
+.m-item:hover .mega,.m-item.open .mega,.m-item:focus-within .mega{opacity:1;visibility:visible;transform:none}
+.mega-scroll{max-height:min(70vh,620px);overflow-y:auto;padding:26px 40px 34px;scrollbar-width:thin}
+.mega-scroll::-webkit-scrollbar{width:8px}
+.mega-scroll::-webkit-scrollbar-thumb{background:#D9D9D1}
+.mega-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;border-bottom:1px solid var(--line);padding-bottom:16px;margin-bottom:22px}
+.mega-kicker{font-family:var(--font-m);font-size:.66rem;letter-spacing:.18em;color:var(--blue);text-transform:uppercase;display:block;margin-bottom:6px}
+.mega-sub{font-size:.9rem;color:var(--muted);max-width:520px}
+.mega-all{font-family:var(--font-m);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--ink);padding:9px 16px;text-decoration:none;white-space:nowrap;transition:background .2s,color .2s,border-color .2s}
+.mega-all:hover{background:var(--blue);border-color:var(--blue);color:#fff}
+.mega-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(182px,1fr));gap:26px 30px;align-items:start}
+.mgroup-t{font-family:var(--font-m);font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;font-weight:500;text-decoration:none;color:var(--ink);display:inline-block;border-bottom:2px solid var(--blue);padding-bottom:5px;margin-bottom:9px;transition:color .2s}
+.mgroup-t:hover{color:var(--blue)}
+.mgroup ul li a{display:block;font-size:.82rem;color:#4A4A44;text-decoration:none;padding:2.5px 0;transition:color .15s,padding-left .2s}
+.mgroup ul li a:hover{color:var(--blue);padding-left:7px}
+.mgroup ul li .mtool{display:block;font-size:.82rem;color:#4A4A44;padding:2.5px 0}
+
+.burger{display:none;width:44px;height:44px;place-items:center;border:1px solid var(--ink)}
+.burger span{display:block;width:20px;height:2px;background:var(--ink);transition:transform .3s}
+.burger span+span{margin-top:6px}
+body.nav-open .burger span:first-child{transform:translateY(4px) rotate(45deg)}
+body.nav-open .burger span:last-child{transform:translateY(-4px) rotate(-45deg)}
+
+.nav-close{display:none}
+
+/* ================= PAGE TOP ================= */
+.phero{padding:40px 0 64px}
+.crumbs{font-family:var(--font-m);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:28px;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.crumbs a{text-decoration:none;border-bottom:1px solid var(--line);transition:color .2s,border-color .2s}
+.crumbs a:hover{color:var(--blue);border-color:var(--blue)}
+.crumbs .sep{color:var(--blue)}
+.crumbs .here{color:var(--ink)}
+
+/* ================= UUID BENCH ================= */
+.analyzer{background:var(--white);border:1px solid var(--ink);box-shadow:14px 14px 0 rgba(20,20,20,.08);transition:box-shadow .3s}
+.analyzer:focus-within{box-shadow:14px 14px 0 rgba(0,51,255,.22)}
+.a-bar{display:flex;align-items:center;gap:8px;border-bottom:1px solid var(--line);padding:12px 18px}
+.dot{width:9px;height:9px;border-radius:50%;border:1.5px solid var(--ink)}
+.dot--fill{background:var(--blue);border-color:var(--blue)}
+.a-file{font-family:var(--font-m);font-size:.72rem;color:var(--muted);margin-left:8px;letter-spacing:.08em;text-transform:uppercase}
+.caret-block{display:inline-block;width:7px;height:13px;background:var(--blue);margin-left:8px;vertical-align:-2px;animation:blink 1.1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.a-live{margin-left:auto;font-family:var(--font-m);font-size:.62rem;letter-spacing:.14em;color:var(--blue)}
+
+/* ---- mode deck ---- */
+.cmp-deck{display:flex;align-items:center;gap:14px;flex-wrap:wrap;padding:14px 18px;border-bottom:1px solid var(--line);background:var(--paper)}
+.c-tabs{display:flex;gap:8px;flex-wrap:wrap}
+.c-tab{display:inline-flex;align-items:center;gap:10px;border:1px solid var(--line);background:var(--white);padding:8px 13px;transition:transform .18s,border-color .18s,box-shadow .18s}
+.c-tab:hover{transform:translateY(-2px);border-color:var(--blue);box-shadow:4px 4px 0 rgba(0,51,255,.12)}
+.ct-glyph{font-family:var(--font-d);font-weight:700;font-size:.95rem;color:var(--muted);width:27px;height:27px;border:1px solid var(--line);display:grid;place-items:center;background:var(--paper);transition:background .18s,color .18s,border-color .18s}
+.ct-name{font-family:var(--font-m);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;font-weight:500;transition:color .18s}
+.c-tab.is-on{border-color:var(--blue);box-shadow:5px 5px 0 rgba(0,51,255,.16)}
+.c-tab.is-on .ct-glyph{background:var(--blue);border-color:var(--blue);color:#fff}
+.c-tab.is-on .ct-name{color:var(--blue)}
+
+/* ---- panes ---- */
+.c-grid{display:grid;grid-template-columns:1fr 1fr;position:relative}
+.c-pane{display:flex;flex-direction:column;min-width:0}
+.c-left{border-right:1px solid var(--line)}
+.pane-head{display:flex;align-items:center;gap:12px;padding:10px 18px;border-bottom:1px solid var(--line)}
+.pane-label{font-family:var(--font-m);font-size:.62rem;letter-spacing:.16em;color:var(--muted);text-transform:uppercase;display:inline-flex;align-items:center;gap:8px}
+.pane-label::before{content:"";width:7px;height:7px;background:var(--blue);display:inline-block}
+.pane-badge{font-family:var(--font-m);font-size:.6rem;letter-spacing:.12em;color:var(--blue)}
+
+/* ---- controls ---- */
+.cb-controls{padding:22px;flex:1;overflow-y:auto;scrollbar-width:thin}
+.cb-controls::-webkit-scrollbar{width:8px}
+.cb-controls::-webkit-scrollbar-thumb{background:#D9D9D1}
+.cb-fieldlabel{display:block;font-family:var(--font-m);font-size:.58rem;letter-spacing:.16em;color:var(--muted);margin:0 0 9px}
+.cb-fieldlabel + .cb-fieldlabel{margin-top:22px}
+.cb-fieldlabel em{font-style:normal;color:var(--blue)}
+
+.gen-btn{width:100%;font-family:var(--font-d);font-weight:700;font-size:1.02rem;letter-spacing:.04em;background:var(--blue);color:#fff;border:1px solid var(--blue);padding:16px;cursor:pointer;transition:transform .12s,box-shadow .12s;display:flex;align-items:center;justify-content:center;gap:11px;margin-bottom:22px;box-shadow:5px 5px 0 rgba(0,51,255,.25)}
+.gen-btn:hover{transform:translate(-2px,-2px);box-shadow:8px 8px 0 rgba(0,51,255,.3)}
+.gen-btn:active{transform:translate(2px,2px);box-shadow:2px 2px 0 rgba(0,51,255,.2)}
+.gen-die{font-size:1.25rem;line-height:1;display:inline-block}
+.gen-die.spin{animation:diespin .55s cubic-bezier(.2,.7,.2,1)}
+@keyframes diespin{from{transform:rotate(0) scale(1)}50%{transform:rotate(180deg) scale(1.25)}to{transform:rotate(360deg) scale(1)}}
+
+.cb-chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px}
+.cb-chip{font-family:var(--font-m);font-size:.66rem;letter-spacing:.1em;border:1px solid var(--line);background:var(--white);padding:8px 15px;transition:border-color .15s,color .15s,transform .15s,box-shadow .15s,background .15s}
+.cb-chip:hover{border-color:var(--blue);color:var(--blue);transform:translateY(-2px);box-shadow:3px 3px 0 rgba(0,51,255,.12)}
+.cb-chip-on{border-color:var(--blue);background:var(--blue);color:#fff}
+.cb-chip-on:hover{color:#fff}
+
+.cb-optrow{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px}
+.cb-opt{font-family:var(--font-m);font-size:.6rem;letter-spacing:.09em;border:1px dashed var(--ink);background:var(--white);padding:9px 13px;transition:border-color .15s,background .15s,color .15s,transform .15s,box-shadow .15s}
+.cb-opt:hover{transform:translateY(-2px);box-shadow:3px 3px 0 rgba(0,51,255,.12)}
+.cb-opt-on{border-style:solid;border-color:var(--blue);background:rgba(0,51,255,.06);color:var(--blue)}
+
+.cb-range{-webkit-appearance:none;appearance:none;width:100%;height:20px;background:var(--line);background-size:100% 4px;background-position:center;background-repeat:no-repeat;outline:none;cursor:pointer;margin-bottom:22px}
+.cb-range::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;width:18px;height:18px;background:var(--blue);border:2px solid var(--white);box-shadow:0 0 0 1.5px var(--blue);cursor:pointer;border-radius:0;transition:transform .12s}
+.cb-range::-webkit-slider-thumb:hover{transform:scale(1.2)}
+.cb-range::-moz-range-thumb{width:15px;height:15px;background:var(--blue);border:2px solid var(--white);box-shadow:0 0 0 1.5px var(--blue);cursor:pointer;border-radius:0}
+
+.cb-alphabet{display:block;font-family:var(--font-m);font-size:.72rem;letter-spacing:.06em;color:var(--muted);border:1px solid var(--line);background:var(--paper);padding:11px 13px;word-break:break-all;margin-bottom:22px}
+.cb-hint{font-size:.78rem;color:var(--muted);line-height:1.6}
+.cb-hint strong{color:var(--ink);font-weight:500}
+
+/* ---- ID spotlight + list ---- */
+.id-primary{background:var(--ink);color:#fff;padding:24px 22px 20px;border-bottom:1px solid var(--ink);position:relative;overflow:hidden}
+.id-primary::after{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.07) 1px,transparent 1px);background-size:22px 22px;pointer-events:none}
+.id-primary-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;position:relative;z-index:1}
+.id-primary-label{font-family:var(--font-m);font-size:.56rem;letter-spacing:.18em;color:var(--blue-soft)}
+.id-primary-copy{font-family:var(--font-m);font-size:.56rem;letter-spacing:.12em;border:1px solid rgba(252,252,250,.35);color:var(--paper);padding:6px 11px;transition:background .15s,border-color .15s,transform .15s}
+.id-primary-copy:hover{background:var(--blue);border-color:var(--blue);transform:translateY(-2px)}
+.id-primary-copy.ok{background:var(--blue);border-color:var(--blue)}
+.id-primary-value{font-family:var(--font-m);font-weight:500;font-size:clamp(.95rem,2.1vw,1.45rem);letter-spacing:.03em;word-break:break-all;line-height:1.55;position:relative;z-index:1;font-variant-numeric:tabular-nums;animation:idflash .4s ease}
+@keyframes idflash{from{opacity:.2;transform:translateY(4px)}to{opacity:1;transform:none}}
+.id-ver{color:var(--blue-soft);font-weight:700;background:rgba(110,134,255,.22);padding:0 2px}
+.id-var{color:#FF9B9B;font-weight:700;background:rgba(255,120,120,.16);padding:0 2px}
+.id-sep{color:rgba(255,255,255,.42)}
+.id-legend{font-family:var(--font-m);font-size:.56rem;letter-spacing:.08em;color:rgba(252,252,250,.55);margin-top:12px;position:relative;z-index:1}
+.id-legend .lg-ver{color:var(--blue-soft)}
+.id-legend .lg-var{color:#FF9B9B}
+
+.id-listwrap{flex:1;overflow-y:auto;padding:16px 22px;scrollbar-width:thin}
+.id-listwrap::-webkit-scrollbar{width:8px}
+.id-listwrap::-webkit-scrollbar-thumb{background:#D9D9D1}
+.id-row{display:flex;align-items:center;gap:12px;padding:9px 12px;border:1px solid var(--line);background:var(--white);margin-bottom:7px;transition:border-color .15s,transform .15s,box-shadow .15s;animation:idin .35s ease both}
+@keyframes idin{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:none}}
+.id-row:hover{border-color:var(--blue);transform:translateX(3px);box-shadow:3px 3px 0 rgba(0,51,255,.12)}
+.id-idx{font-family:var(--font-m);font-size:.58rem;color:var(--muted);flex:none;width:26px}
+.id-val{font-family:var(--font-m);font-size:.76rem;color:var(--ink);flex:1;word-break:break-all;line-height:1.5;font-variant-numeric:tabular-nums}
+.id-copy{font-family:var(--font-m);font-size:.64rem;border:1px solid var(--line);background:var(--white);width:28px;height:26px;flex:none;display:grid;place-items:center;transition:background .15s,color .15s,border-color .15s}
+.id-copy:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
+.id-copy.ok{background:var(--blue);border-color:var(--blue);color:#fff}
+.id-listnote{font-family:var(--font-m);font-size:.62rem;letter-spacing:.06em;color:#B9B9B0;padding:14px 4px;line-height:1.9}
+.id-copyall{font-family:var(--font-m);font-size:.58rem;letter-spacing:.12em;border:1px solid var(--line);background:var(--white);padding:5px 10px;transition:background .15s,color .15s,border-color .15s}
+.id-copyall:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
+.id-copyall.ok{background:var(--blue);border-color:var(--blue);color:#fff}
+
+/* ---- VS badge ---- */
+.vs-badge{
+  position:absolute;left:50%;top:46%;transform:translate(-50%,-50%);z-index:3;
+  width:52px;height:52px;background:var(--ink);color:#fff;pointer-events:none;
+  font-family:var(--font-d);font-weight:700;font-size:.85rem;letter-spacing:-.02em;
+  display:grid;place-items:center;border:1px solid var(--ink);
+  box-shadow:4px 4px 0 rgba(0,51,255,.30);
+}
+
+/* ---- results strip ---- */
+.c-stats{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--ink);background:var(--white)}
+.cstat{padding:15px 18px;border-right:1px solid var(--line)}
+.cstat:last-child{border-right:0}
+.cstat small{display:block;font-family:var(--font-m);font-size:.58rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:3px}
+.cstat b{font-family:var(--font-d);font-weight:700;font-size:clamp(1.05rem,1.9vw,1.7rem);letter-spacing:-.02em;display:inline-block;transition:color .15s,transform .15s;font-variant-numeric:tabular-nums;word-break:break-all}
+.cstat b.bump{color:var(--blue);transform:translateY(-2px)}
+.cstat .c-sub{font-family:var(--font-m);font-size:.56rem;letter-spacing:.1em;color:var(--muted);display:block;margin-top:3px}
+
+/* ================= HEADING BLOCK ================= */
+.phero-head{display:grid;grid-template-columns:1fr auto;gap:48px;align-items:end;margin-top:64px}
+.kicker{font-family:var(--font-m);font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--blue);display:flex;align-items:center;gap:10px;margin-bottom:20px}
+.kicker .ast{display:inline-block;animation:spin 9s linear infinite;font-size:.9rem}
+@keyframes spin{to{transform:rotate(360deg)}}
+h1{font-family:var(--font-d);font-weight:700;font-size:clamp(2.8rem,6vw,5.2rem);line-height:.98;letter-spacing:-.035em;margin-bottom:22px}
+h1 .blue{color:var(--blue)}
+.lede{font-size:1.05rem;color:var(--muted);max-width:600px}
+.lede strong{color:var(--ink);font-weight:500}
+.spec{border:1px solid var(--ink);background:var(--white);min-width:230px;box-shadow:8px 8px 0 rgba(20,20,20,.08)}
+.spec li{display:flex;justify-content:space-between;gap:24px;padding:11px 16px;border-bottom:1px solid var(--line);font-family:var(--font-m);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase}
+.spec li:last-child{border-bottom:0}
+.spec li span{color:var(--muted)}
+.spec li b{font-weight:500;color:var(--blue)}
+
+/* ================= TICKER ================= */
+.ticker{border-top:1px solid var(--ink);border-bottom:1px solid var(--ink);background:var(--white);overflow:hidden}
+.ticker-track{display:flex;width:max-content;animation:tick 46s linear infinite}
+.ticker:hover .ticker-track{animation-play-state:paused}
+@keyframes tick{to{transform:translateX(-50%)}}
+.ticker-track span{font-family:var(--font-m);font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;padding:15px 0;white-space:nowrap}
+.ticker-track i{color:var(--blue);font-style:normal;margin:0 26px}
+
+/* ================= SECTIONS ================= */
+.sec{padding:92px 0}
+.sec-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;border-bottom:2px solid var(--ink);padding-bottom:18px;margin-bottom:14px}
+.sec-head h2{font-family:var(--font-d);font-weight:700;font-size:clamp(1.9rem,3.4vw,2.9rem);letter-spacing:-.025em;line-height:1.05}
+.sec-idx{font-family:var(--font-m);font-size:.72rem;letter-spacing:.16em;color:var(--muted);white-space:nowrap;padding-bottom:8px}
+.sec-kicker{font-family:var(--font-m);font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;color:var(--blue);display:block;margin-bottom:14px}
+
+.tool{display:grid;grid-template-columns:270px 1fr;gap:44px;padding:44px 0;border-bottom:2px solid var(--ink)}
+.tool:first-of-type{border-top:2px solid var(--ink)}
+.tool-num{font-family:var(--font-m);font-size:.8rem;color:var(--blue);display:block;margin-bottom:12px}
+.tool h3{font-family:var(--font-d);font-weight:700;font-size:1.7rem;letter-spacing:-.02em;line-height:1.1;margin-bottom:14px}
+.tool-here{font-family:var(--font-m);font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--blue);display:inline-flex;align-items:center;gap:8px}
+.tool-here::before{content:"";width:7px;height:7px;background:var(--blue);display:inline-block;animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.25}}
+.tool-body>p{font-size:.97rem;color:#3C3C36;max-width:680px;margin-bottom:22px}
+.tool-body>p strong{font-weight:500;color:var(--ink)}
+.example{border:1px solid var(--line);border-left:3px solid var(--blue);background:var(--white);padding:18px 22px;max-width:680px;margin-bottom:22px;transition:transform .25s,box-shadow .25s}
+.example:hover{transform:translateX(6px);box-shadow:8px 8px 0 rgba(20,20,20,.06)}
+.ex-tag{font-family:var(--font-m);font-size:.58rem;letter-spacing:.18em;color:var(--blue);text-transform:uppercase;display:block;margin-bottom:10px}
+.ex-in{font-family:var(--font-m);font-size:.8rem;color:var(--muted);line-height:1.6;word-break:break-word;white-space:pre-wrap}
+.ex-arrow{display:block;font-family:var(--font-d);color:var(--blue);margin:8px 0}
+.ex-out{font-family:var(--font-m);font-size:.82rem;font-weight:500;color:var(--ink);line-height:1.7;white-space:pre-wrap;word-break:break-all}
+.ex-out b{color:var(--blue);font-weight:500}
+.ex-out .ex-v{color:var(--blue);font-weight:700;background:rgba(0,51,255,.08);padding:0 2px}
+.ex-out .ex-r{color:var(--red);font-weight:700;background:rgba(196,0,0,.06);padding:0 2px}
+.tool-use{font-family:var(--font-m);font-size:.64rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.tag{border:1px solid var(--line);background:var(--white);padding:6px 12px;font-family:var(--font-m);font-size:.64rem;letter-spacing:.08em;text-transform:uppercase;color:#3C3C36;transition:border-color .2s,color .2s,transform .2s}
+.tag:hover{border-color:var(--blue);color:var(--blue);transform:translateY(-2px)}
+.rules{margin-top:34px;border:1px dashed var(--ink);background:var(--white);padding:18px 24px;font-family:var(--font-m);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);line-height:2}
+.rules b{color:var(--blue);font-weight:500}
+
+/* ---- privacy band ---- */
+.band{background:var(--ink);color:var(--paper);background-image:radial-gradient(circle,rgba(255,255,255,.07) 1px,transparent 1px);background-size:28px 28px;padding:84px 0}
+.band .sec-kicker{color:var(--blue-soft)}
+.band h2{font-family:var(--font-d);font-weight:700;font-size:clamp(1.9rem,3.6vw,3rem);letter-spacing:-.03em;line-height:1.05;max-width:760px;margin-bottom:20px}
+.band h2 .soft{color:var(--blue-soft)}
+.band-lede{color:rgba(252,252,250,.72);max-width:660px;font-size:1rem;margin-bottom:38px}
+.pipe{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:14px}
+.node{font-family:var(--font-m);font-size:.7rem;letter-spacing:.12em;border:1px dashed rgba(252,252,250,.4);padding:12px 18px}
+.node-live{border:1px solid var(--blue-soft);color:var(--blue-soft)}
+.pipe-arrow{font-family:var(--font-d);font-size:1.2rem;color:rgba(252,252,250,.5)}
+.pipe-dead{margin-bottom:40px}
+.node-dead{border-color:rgba(252,252,250,.22);color:rgba(252,252,250,.45);text-decoration:line-through}
+.facts{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.16)}
+.facts li{background:var(--ink);padding:20px 18px}
+.f-k{display:block;font-family:var(--font-m);font-size:.58rem;letter-spacing:.16em;text-transform:uppercase;color:rgba(252,252,250,.55);margin-bottom:8px}
+.f-v{font-family:var(--font-d);font-weight:700;font-size:1.35rem;color:var(--blue-soft)}
+
+/* ---- FAQ ---- */
+.faq{border-top:2px solid var(--ink)}
+.faq+.faq{border-top:1px solid var(--line)}
+.faq summary{font-family:var(--font-d);font-weight:500;font-size:1.08rem;padding:22px 8px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;list-style:none;transition:color .2s,padding-left .25s}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:hover{color:var(--blue);padding-left:18px}
+.faq summary::after{content:"+";font-family:var(--font-m);font-size:1.3rem;color:var(--blue);transition:transform .3s}
+.faq[open] summary::after{transform:rotate(45deg)}
+.faq p{color:var(--muted);font-size:.95rem;max-width:720px;padding:0 8px 24px}
+
+/* ---- prev / next ---- */
+.prevnext{border-top:2px solid var(--ink);background:var(--white)}
+.pn-grid{display:grid;grid-template-columns:1fr 1fr}
+.pn{padding:30px 24px;text-decoration:none;display:block;transition:background .25s}
+.pn:hover{background:var(--paper)}
+.pn small{font-family:var(--font-m);font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:8px}
+.pn b{font-family:var(--font-d);font-weight:700;font-size:1.25rem;letter-spacing:-.01em;transition:color .2s}
+.pn:hover b{color:var(--blue)}
+.pn--next{text-align:right;border-left:1px solid var(--line)}
+
+/* ================= FOOTER ================= */
+footer{background:var(--white);border-top:2px solid var(--ink)}
+.foot-grid{display:grid;grid-template-columns:2.3fr repeat(5,1fr);gap:36px;padding:64px 0 48px}
+.foot-brand p{font-size:.9rem;color:var(--muted);margin:16px 0 18px;max-width:280px}
+.foot-badge{font-family:var(--font-m);font-size:.62rem;letter-spacing:.14em;color:var(--blue);text-transform:uppercase}
+.foot-grid h4{font-family:var(--font-m);font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:16px;font-weight:500}
+.foot-grid li{margin-bottom:9px}
+.foot-grid li a{font-size:.86rem;text-decoration:none;color:#3C3C36;transition:color .2s,padding-left .2s}
+.foot-grid li a:hover{color:var(--blue);padding-left:6px}
+.foot-grid li .plain{font-size:.86rem;color:#3C3C36}
+.foot-bottom{border-top:1px solid var(--line);padding:22px 0;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.foot-bottom p,.foot-bottom span{font-family:var(--font-m);font-size:.66rem;letter-spacing:.1em;color:var(--muted);text-transform:uppercase}
+.to-top{font-family:var(--font-m);font-size:.66rem;letter-spacing:.12em;text-decoration:none;color:var(--ink);border-bottom:1px solid var(--ink);padding-bottom:2px;transition:color .2s,border-color .2s}
+.to-top:hover{color:var(--blue);border-color:var(--blue)}
+
+/* ================= REVEAL ================= */
+.rv{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}
+.rv.in{opacity:1;transform:none}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width:1120px){
+  .burger{display:grid}
+  .nav{position:fixed;inset:0;background:var(--paper);z-index:90;padding:132px 28px 48px;overflow-y:auto;transform:translateX(103%);transition:transform .4s cubic-bezier(.7,0,.2,1)}
+  body.nav-open .nav{transform:none}
+  .nav-list{flex-direction:column;align-items:stretch;gap:0}
+  .m-link,.m-trigger{display:flex;width:100%;text-align:left;font-size:1.15rem;padding:17px 4px;border-bottom:1px solid var(--line)}
+  .m-link--cta{border:1px solid var(--ink);margin-top:18px;justify-content:center}
+  .m-trigger .caret{margin-left:auto}
+  .mega{position:static;opacity:1;visibility:visible;transform:none;display:none;border:0;box-shadow:none;background:transparent}
+  .m-item.open .mega{display:block}
+  .mega-scroll{max-height:none;overflow:visible;padding:14px 0 22px 10px}
+  .mega-head{flex-direction:column;align-items:flex-start;gap:12px}
+  .mega-grid{grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:22px}
+  .nav-close{
+    display:inline-flex;align-items:center;gap:10px;
+    position:absolute;top:86px;right:22px;z-index:5;
+    font-family:var(--font-m);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;
+    border:1px solid var(--ink);background:var(--white);color:var(--ink);
+    padding:11px 16px;opacity:0;
+    transition:opacity .3s .18s,background .2s,color .2s,border-color .2s,transform .15s;
+  }
+  body.nav-open .nav-close{opacity:1}
+  .nav-close:hover{background:var(--red);border-color:var(--red);color:#fff}
+  .nav-close:active{transform:translateY(2px)}
+  .nav-close svg{transition:transform .35s cubic-bezier(.2,.7,.2,1)}
+  .nav-close:hover svg{transform:rotate(90deg)}
+}
+@media (max-width:960px){
+  .phero-head{grid-template-columns:1fr;gap:32px;align-items:start}
+  .spec{max-width:340px}
+  .c-grid{grid-template-columns:1fr}
+  .c-left{border-right:0;border-bottom:1px solid var(--line)}
+  .vs-badge{display:none}
+  .c-stats{grid-template-columns:1fr 1fr}
+  .cstat{border-bottom:1px solid var(--line)}
+  .cstat:nth-child(2n){border-right:0}
+  .cstat:nth-child(n+3){border-bottom:0}
+  .tool{grid-template-columns:1fr;gap:20px;padding:36px 0}
+  .facts{grid-template-columns:1fr 1fr}
+  .foot-grid{grid-template-columns:1fr 1fr;padding:48px 0 36px}
+  .foot-brand{grid-column:1/-1}
+  .sec{padding:72px 0}
+}
+@media (max-width:640px){
+  .wrap{padding:0 20px}
+  .pn-grid{grid-template-columns:1fr}
+  .pn--next{text-align:left;border-left:0;border-top:1px solid var(--line)}
+  .sec-head{flex-direction:column;align-items:flex-start;gap:8px}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important;transition:none !important}
+  html{scroll-behavior:auto}
+  .rv{opacity:1;transform:none}
+}
+</style>
+</head>
+
+<body id="top">
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ================= HEADER ================= -->
+<header id="site-header">
+  <div class="wrap bar">
+    <a class="logo" href="index.html" aria-label="IrisTool — home">
+      <span class="logo-mark" aria-hidden="true">✱</span>
+      <span class="logo-word">IrisTool</span>
+      <span class="logo-tag">278 tools</span>
+    </a>
+
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+      <span></span><span></span>
+    </button>
+
+    <nav class="nav" id="primary-nav" aria-label="Primary">
+      <button class="nav-close" id="nav-close" type="button" aria-label="Close menu">
+        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+          <path d="M1.5 1.5l12 12M13.5 1.5l-12 12" stroke="currentColor" stroke-width="2"/>
+        </svg>
+        Close
+      </button>
+
+      <ul class="nav-list">
+        <li><a class="m-link" href="index.html">Home</a></li>
+
+        <!-- ============ TEXT TOOLS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Text Tools
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Text Tools</span><p class="mega-sub">55 tools to analyze, clean, sort, extract, compare, convert and encode text.</p></div>
+                <a class="mega-all" href="text-tools.html">View all 55 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup">
+                  <a class="mgroup-t" href="text-analysis-tools.html">Text Analysis</a>
+                
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="case-converter.html">Case Converter</a>
+                 
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="text-cleanup-tools.html">Text Cleanup</a>
+                 
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="sorting-tools.html">Sorting &amp; Reordering</a>
+                
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="text-comparison-tools.html">Comparison &amp; Diff</a>
+                 
+                </div>
+              
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ============ DEVELOPER TOOLS (current) ============ -->
+        <li class="m-item">
+          <button class="m-trigger active" type="button" aria-expanded="false" aria-haspopup="true">Developer Tools
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Developer Tools</span><p class="mega-sub">94 tools for JSON, XML, HTML, CSS, JS, encoding, hashing, colors, timestamps, regex, cron and full SEO suite.</p></div>
+                <a class="mega-all" href="developer-tools.html">View all 94 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup">
+                  <a class="mgroup-t" href="json-tools.html">JSON</a>
+             
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="xml-tools.html">XML</a>
+              
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="html-tools.html">HTML</a>
+                 
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="css-tools.html">CSS</a>
+              
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="javascript-tools.html">JavaScript</a>
+              
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="url-tools.html">URL</a>
+                
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="base64-tools.html">Base64</a>
+               
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="jwt-decoder.html">JWT</a>
+                 
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="hash-tools.html">Hash</a>
+                
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="character-encoding-tools.html">Character Encoding</a>
+               
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="color-tools.html">Color</a>
+                
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="timestamp-tools.html">Timestamp</a>
+                
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="uuid-tools.html" aria-current="page">UUID</a>
+                
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="regex-tools.html">Regex</a>
+                
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="cron-tools.html">Cron</a>
+                
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="data-conversion-tools.html">Data Conversion</a>
+                 
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="seo-tools.html">SEO</a>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ============ CALCULATORS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Calculators
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Calculators</span><p class="mega-sub">60 calculators for health, money, dates, grades, math, units and everyday numbers.</p></div>
+                <a class="mega-all" href="calculators.html">View all 60 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup">
+                  <a class="mgroup-t" href="health-calculators.html">Health</a>
+               
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="finance-calculators.html">Finance</a>
+               
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="date-time-calculators.html">Date &amp; Time</a>
+             
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="math-calculators.html">Math</a>
+             
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="unit-converters.html">Unit Converters</a>
+             
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ============ GENERATORS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Generators
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Generators</span><p class="mega-sub">39 generators for names, random picks, IDs, QR codes, CSS effects, palettes and test data.</p></div>
+                <a class="mega-all" href="generators.html">View all 39 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup">
+                  <a class="mgroup-t" href="identity-name-generators.html">Identity &amp; Name</a>
+              
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="random-generators.html">Random</a>
+              
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="developer-generators.html">Developer</a>
+            
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="css-generators.html">CSS</a>
+               
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="password-tools.html">Password</a>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ============ IMAGE TOOLS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Image Tools
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Image Tools</span><p class="mega-sub">30 tools to edit, convert, compress and inspect images — processed entirely on your device.</p></div>
+                <a class="mega-all" href="image-tools.html">View all 30 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup">
+                  <a class="mgroup-t" href="image-editing-tools.html">Image Editing</a>
+                
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="image-converter-tools.html">Image Converter</a>
+             
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="image-optimization-tools.html">Optimization</a>
+               
+                </div>
+                <div class="mgroup">
+                  <a class="mgroup-t" href="image-inspector-tools.html">Inspector</a>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li><a class="m-link" href="about-us.html">About Us</a></li>
+        <li><a class="m-link m-link--cta" href="contact-us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ================= UUID BENCH FIRST ================= -->
+  <section class="phero" aria-label="Live identifier bench">
+    <div class="wrap">
+      <nav class="crumbs rv" aria-label="Breadcrumb">
+        <a href="index.html">Home</a><span class="sep">/</span>
+        <a href="developer-tools.html">Developer Tools</a><span class="sep">/</span>
+        <span class="here" aria-current="page">UUID</span>
+      </nav>
+
+      <div class="analyzer rv" id="analyzer" data-mode="uuid" aria-label="Live identifier bench">
+        <div class="a-bar">
+          <span class="dot" aria-hidden="true"></span>
+          <span class="dot dot--fill" aria-hidden="true"></span>
+          <span class="dot" aria-hidden="true"></span>
+          <span class="a-file">identifiers.log — 3 tools<span class="caret-block" aria-hidden="true"></span></span>
+          <span class="a-live">● LIVE</span>
+        </div>
+
+        <!-- MODE DECK -->
+        <div class="cmp-deck">
+          <div class="c-tabs" role="group" aria-label="Choose an identifier tool">
+            <button type="button" class="c-tab is-on" data-mode="uuid" aria-pressed="true">
+              <span class="ct-glyph" aria-hidden="true">⬡</span><span class="ct-name">UUID v4</span>
+            </button>
+            <button type="button" class="c-tab" data-mode="guid" aria-pressed="false">
+              <span class="ct-glyph" aria-hidden="true">{}</span><span class="ct-name">GUID</span>
+            </button>
+            <button type="button" class="c-tab" data-mode="nano" aria-pressed="false">
+              <span class="ct-glyph" aria-hidden="true">~</span><span class="ct-name">Nano ID</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="c-grid">
+          <!-- INPUT PANE -->
+          <div class="c-pane c-left">
+            <div class="pane-head">
+              <span class="pane-label">Input · entropy</span>
+              <span class="pane-badge">CSPRNG</span>
+            </div>
+            <div class="cb-controls" id="cb-controls"></div>
+          </div>
+
+          <!-- OUTPUT PANE -->
+          <div class="c-pane c-right">
+            <div class="pane-head">
+              <span class="pane-label">Output · generated</span>
+              <span class="pane-badge" id="cb-badge">BATCH ×5</span>
+              <button type="button" class="id-copyall" id="btn-copyall" style="margin-left:auto">⧉ COPY ALL</button>
+            </div>
+            <div class="id-primary">
+              <div class="id-primary-top">
+                <span class="id-primary-label" id="id-primary-label">FRESHEST · UUID V4</span>
+                <button type="button" class="id-primary-copy" id="btn-copy-primary">⧉ COPY</button>
+              </div>
+              <div class="id-primary-value" id="id-primary-value">—</div>
+              <div class="id-legend" id="id-legend"></div>
+            </div>
+            <div class="id-listwrap" id="id-list"></div>
+          </div>
+
+          <div class="vs-badge" id="vs-badge" aria-hidden="true">⬡</div>
+        </div>
+
+        <!-- RESULTS STRIP -->
+        <div class="c-stats">
+          <div class="cstat"><small id="sl-1">Version</small><b id="sv-1">v4</b><span class="c-sub" id="ss-1">RANDOM</span></div>
+          <div class="cstat"><small id="sl-2">Variant</small><b id="sv-2">RFC 4122</b><span class="c-sub" id="ss-2">STANDARD</span></div>
+          <div class="cstat"><small id="sl-3">Entropy</small><b id="sv-3">122 bits</b><span class="c-sub" id="ss-3">OF RANDOMNESS</span></div>
+          <div class="cstat"><small id="sl-4">Length</small><b id="sv-4">36</b><span class="c-sub" id="ss-4">CHARACTERS</span></div>
+        </div>
+      </div>
+
+      <!-- heading block, below the tool -->
+      <div class="phero-head">
+        <div class="rv">
+          <p class="kicker"><span class="ast" aria-hidden="true">✱</span> Developer Tools · Group 13 of 19</p>
+          <h1>UUID Tools<span class="blue">.</span></h1>
+          <p class="lede">Hit the die and the bench pulls fresh randomness straight from your machine's <strong>cryptographic RNG</strong> — no server, no Math.random. Mint <strong>RFC 4122 v4 UUIDs</strong> with the version and variant bits lit up, <strong>Microsoft-style GUIDs</strong> in uppercase braces, or compact <strong>Nano IDs</strong> with a length dial and a live entropy readout. Generate one or a batch of 25, copy any of them in a click. <strong>Nothing is uploaded, nothing is stored.</strong></p>
+        </div>
+        <ul class="spec rv" aria-label="Page specifications">
+          <li><span>Tools</span><b>03</b></li>
+          <li><span>Entropy</span><b>122–126 b</b></li>
+          <li><span>Source</span><b>CSPRNG</b></li>
+          <li><span>Backend</span><b>none</b></li>
+          <li><span>Cost</span><b>free</b></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TICKER ================= -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track" id="ticker-track">
+      <span>UUID Generator<i>✱</i>GUID Generator<i>✱</i>Nano ID Generator<i>✱</i>JSON Formatter<i>✱</i>Base64 Encode<i>✱</i>JWT Decoder<i>✱</i>SHA256 Generator<i>✱</i>Color Picker<i>✱</i>Unix Timestamp<i>✱</i>Regex Tester<i>✱</i>XML Validator<i>✱</i></span>
+    </div>
+  </div>
+
+  <!-- ================= DETAILED GUIDE ================= -->
+  <section class="sec" id="guide" aria-labelledby="guide-title">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div><span class="sec-kicker">In order, 01 → 03</span><h2 id="guide-title">Three flavors of "never seen before."</h2></div>
+        <span class="sec-idx">( 01 )</span>
+      </div>
+
+      <!-- 01 -->
+      <article class="tool rv" id="uuid-generator">
+        <aside class="tool-side">
+          <span class="tool-num">01 / 03</span>
+          <h3>UUID Generator</h3>
+          <span class="tool-here">runs in the bench above</span>
+        </aside>
+        <div class="tool-body">
+          <p>The standard issue: a <strong>version 4, variant 1 UUID</strong> per RFC 4122 — 128 bits where 122 are pure cryptographic randomness and six are fixed markers that identify the version and variant. The spotlight <strong>lights up both marker bits</strong> so you can see exactly where they live (the <strong>4</strong> and the leading <strong>8/9/a/b</strong> of the fourth group). Format it your way — upper or lower case, hyphens on or off, braces on or off — and pull a batch of up to 25 at a time.</p>
+          <div class="example">
+            <span class="ex-tag">Example · markers highlighted</span>
+            <p class="ex-in">⚄ generate</p>
+            <span class="ex-arrow" aria-hidden="true">↓</span>
+            <p class="ex-out">f47ac10b-58cc-<span class="ex-v">4</span>372-<span class="ex-r">a</span>567-0e02b2c3d479
+<span class="ex-v">■</span> version nibble = 4 &nbsp;·&nbsp; <span class="ex-r">■</span> variant nibble = 8–b</p>
+          </div>
+          <p class="tool-use">Use it for <span class="tag">database keys</span><span class="tag">session IDs</span><span class="tag">idempotency keys</span><span class="tag">deduplication</span></p>
+        </div>
+      </article>
+
+      <!-- 02 -->
+      <article class="tool rv" id="guid-generator">
+        <aside class="tool-side">
+          <span class="tool-num">02 / 03</span>
+          <h3>GUID Generator</h3>
+          <span class="tool-here">runs in the bench above</span>
+        </aside>
+        <div class="tool-body">
+          <p>Same 128-bit engine, different dress code. A <strong>GUID</strong> is Microsoft's name for a UUID, and by convention it's written <strong>uppercase and wrapped in braces</strong> — the form you'll see in .NET, the Windows registry, COM interfaces and Active Directory. This tool generates the identical v4 random value and simply presents it the way those systems expect, ready to paste into a C# literal or a .reg file.</p>
+          <div class="example">
+            <span class="ex-tag">Example · Microsoft convention</span>
+            <p class="ex-in">⚄ generate</p>
+            <span class="ex-arrow" aria-hidden="true">↓</span>
+            <p class="ex-out"><b>{F47AC10B-58CC-4372-A567-0E02B2C3D479}</b>
+uppercase, braced — drop it straight into new Guid("…").</p>
+          </div>
+          <p class="tool-use">Use it for <span class="tag">.NET projects</span><span class="tag">registry entries</span><span class="tag">COM / ActiveX</span><span class="tag">Active Directory</span></p>
+        </div>
+      </article>
+
+      <!-- 03 -->
+      <article class="tool rv" id="nanoid-generator">
+        <aside class="tool-side">
+          <span class="tool-num">03 / 03</span>
+          <h3>Nano ID Generator</h3>
+          <span class="tool-here">runs in the bench above</span>
+        </aside>
+        <div class="tool-body">
+          <p>The compact contender. A Nano ID draws from a <strong>64-character URL-safe alphabet</strong> (A–Z, a–z, 0–9, _ and -), so every character carries 6 bits of entropy — a default 21-character ID packs about <strong>126 bits</strong>, slightly more than a UUID, in far fewer glyphs. Drag the length dial from 6 to 64 and watch the entropy readout tell you exactly how much randomness you still have. Safe in URLs, filenames and keys with no escaping needed.</p>
+          <div class="example">
+            <span class="ex-tag">Example · default length 21</span>
+            <p class="ex-in">⚄ generate</p>
+            <span class="ex-arrow" aria-hidden="true">↓</span>
+            <p class="ex-out"><b>V1StGXR8_Z5jdHi6B-myT</b>
+21 chars · 126 bits · no escaping needed anywhere.</p>
+          </div>
+          <p class="tool-use">Use it for <span class="tag">short URLs</span><span class="tag">Redis keys</span><span class="tag">frontend IDs</span><span class="tag">public tokens</span></p>
+        </div>
+      </article>
+
+      <p class="rules rv"><b>Generation rules</b> · all randomness comes from crypto.getRandomValues — your machine's cryptographic RNG, the same source your OS uses for TLS keys · UUID and GUID are version 4, variant 1: 122 random bits plus 6 fixed marker bits · a GUID is the same value as a UUID, rendered uppercase and braced per Microsoft convention · Nano IDs draw uniformly from a 64-character URL-safe alphabet via a bitmask, so the distribution is unbiased · entropy figures: UUID/GUID 122 bits, Nano ID = length × 6 bits · batches of up to 25, every ID copyable individually or all at once · nothing is transmitted and nothing is stored</p>
+    </div>
+  </section>
+
+  <!-- ================= PRIVACY BAND ================= -->
+  <section class="band" id="privacy" aria-labelledby="privacy-title">
+    <div class="wrap">
+      <span class="sec-kicker rv">The privacy promise</span>
+      <h2 id="privacy-title" class="rv">Mint anything. <span class="soft">We couldn't see it even if we wanted to.</span></h2>
+      <p class="band-lede rv">This page has no backend and no database. Every byte of randomness is drawn from your own machine's cryptographic generator, shaped into an identifier inside your browser tab, and gone the moment you close the page. The IDs never travel a single centimeter of cable — there is nothing to leak, because nothing is ever collected.</p>
+
+      <div class="pipe rv" role="img" aria-label="Data flow: random bytes are shaped into IDs in your browser. No server involved.">
+        <span class="node">RANDOM BYTES</span><span class="pipe-arrow">→</span>
+        <span class="node node-live">SHAPED IN YOUR BROWSER</span><span class="pipe-arrow">→</span>
+        <span class="node">READY TO USE</span>
+      </div>
+      <div class="pipe-dead rv"><span class="node node-dead">✕ SERVER · DATABASE · LOGS · ANALYTICS</span></div>
+
+      <ul class="facts rv">
+        <li><span class="f-k">Database</span><span class="f-v">null</span></li>
+        <li><span class="f-k">Backend</span><span class="f-v">none</span></li>
+        <li><span class="f-k">IDs uploaded</span><span class="f-v">0</span></li>
+        <li><span class="f-k">Session logs</span><span class="f-v">0</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= FAQ ================= -->
+  <section class="sec" id="faq" aria-labelledby="faq-title">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div><span class="sec-kicker">Questions</span><h2 id="faq-title">Asked often, answered plainly.</h2></div>
+        <span class="sec-idx">( 02 )</span>
+      </div>
+
+      <details class="faq rv" open>
+        <summary>What's the difference between a UUID and a GUID?</summary>
+        <p>Underneath, nothing — both are 128-bit values drawn from the same random space. The difference is convention: UUID is the RFC 4122 standard, usually written lowercase with hyphens; GUID is Microsoft's name for the same thing, conventionally written uppercase and wrapped in braces. This bench generates the identical v4 random value and simply dresses it differently for each tool.</p>
+      </details>
+      <details class="faq rv">
+        <summary>Are these actually random?</summary>
+        <p>They come from your browser's cryptographic random number generator (crypto.getRandomValues), which is seeded from hardware entropy and is the same source your operating system uses for TLS keys. A UUID v4 carries 122 bits of true randomness and a default Nano ID about 126. That's not "pseudo-random enough" — it's cryptographically secure for identifiers, tokens and keys.</p>
+      </details>
+      <details class="faq rv">
+        <summary>Can two generated IDs collide?</summary>
+        <p>In practice, no. The v4 space holds 2^122 values; by the birthday bound you'd need to generate roughly 2^61 — about two quintillion — identifiers before a collision became even 50% likely, and Nano IDs are in the same league. For any realistic system, from a side project to a planet-scale database, treating them as unique is safe.</p>
+      </details>
+      <details class="faq rv">
+        <summary>Why is a Nano ID shorter than a UUID?</summary>
+        <p>Because it uses a larger alphabet. A UUID speaks in hex — 16 symbols, 4 bits per character. A Nano ID speaks in 64 URL-safe symbols — 6 bits per character — so 21 characters carry about 126 bits, slightly more than a UUID's 122, in far fewer glyphs. Shorten it and the entropy readout on the bench tells you exactly what you still have.</p>
+      </details>
+      <details class="faq rv">
+        <summary>Is my data saved anywhere?</summary>
+        <p>No. Stack has no backend and no database. The identifiers are generated inside your browser tab and vanish the moment you close or refresh the page. Nothing is logged, because nothing is ever collected.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- ================= PREV / NEXT ================= -->
+  <nav class="prevnext" aria-label="Browse groups">
+    <div class="wrap pn-grid">
+      <a class="pn" href="timestamp-tools.html">
+        <small>← Previous group · Timestamp Tools</small>
+        <b>Timestamp Tools</b>
+      </a>
+      <a class="pn pn--next" href="regex-tools.html">
+        <small>Next group · Regex Tools →</small>
+        <b>Regex Tools</b>
+      </a>
+    </div>
+  </nav>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="logo" href="index.html" aria-label="IrisTool — home">
+          <span class="logo-mark" aria-hidden="true">✱</span>
+          <span class="logo-word">IrisTool</span>
+        </a>
+        <p>278 free tools for text, code, images, SEO and everyday math. Everything runs in your browser — nothing is ever collected.</p>
+        <span class="foot-badge">No backend · No database · No tracking</span>
+      </div>
+
+     <div>
+        <div><a class="m-link" href="index.html">Home</a></div>
+       
+      
+
+      
+        <div><a class="m-link" href="about-us.html">About Us</a></div>
+      
+      
+
+      
+        <div><a class="m-link" href="contact-us.html">Contact Us</a></div>
+        
+       
+      </div>
+    </div>
+
+    <div class="foot-bottom">
+      <p>© <span id="yr">2026</span> IrisTool — All processing happens on your device. Nothing is collected.</p>
+      <span>Made with passion by Sajad Zamani</span>
+      <a class="to-top" href="#top">Back to top ↑</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+  var $  = function(s,c){ return (c||document).querySelector(s); };
+  var $$ = function(s,c){ return Array.prototype.slice.call((c||document).querySelectorAll(s)); };
+  var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* ---- header state ---- */
+  var header = $("#site-header");
+  window.addEventListener("scroll", function(){
+    header.classList.toggle("scrolled", window.scrollY > 8);
+  }, {passive:true});
+
+  /* ---- mobile drawer ---- */
+  var burger = $("#burger");
+  function closeNav(){
+    document.body.classList.remove("nav-open");
+    burger.setAttribute("aria-expanded","false");
+    burger.setAttribute("aria-label","Open menu");
+  }
+  burger.addEventListener("click", function(){
+    var open = document.body.classList.toggle("nav-open");
+    burger.setAttribute("aria-expanded", open);
+    burger.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+  });
+  $("#primary-nav").addEventListener("click", function(e){
+    if (e.target.closest("a")) closeNav();
+  });
+  $("#nav-close").addEventListener("click", closeNav);
+
+  /* ---- mega menu ---- */
+  function closeAllMegas(except){
+    $$(".m-item.open").forEach(function(item){
+      if (item !== except){
+        item.classList.remove("open");
+        var t = $(".m-trigger", item);
+        if (t) t.setAttribute("aria-expanded","false");
+      }
+    });
+  }
+  $$(".m-trigger").forEach(function(btn){
+    btn.addEventListener("click", function(e){
+      e.stopPropagation();
+      var item = btn.closest(".m-item");
+      var isOpen = item.classList.contains("open");
+      closeAllMegas(item);
+      item.classList.toggle("open", !isOpen);
+      btn.setAttribute("aria-expanded", String(!isOpen));
+    });
+  });
+  document.addEventListener("click", function(e){
+    if (!e.target.closest(".m-item")) closeAllMegas(null);
+  });
+  document.addEventListener("keydown", function(e){
+    if (e.key === "Escape"){ closeAllMegas(null); closeNav(); }
+  });
+
+  /* ---- scroll reveal ---- */
+  var revealEls = $$(".rv");
+  if (reduceMotion || !("IntersectionObserver" in window)){
+    revealEls.forEach(function(el){ el.classList.add("in"); });
+  } else {
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if (en.isIntersecting){ en.target.classList.add("in"); io.unobserve(en.target); }
+      });
+    }, {threshold:0.1, rootMargin:"0px 0px -40px 0px"});
+    revealEls.forEach(function(el){ io.observe(el); });
+  }
+
+  /* ---- ticker ---- */
+  var track = $("#ticker-track");
+  track.innerHTML += track.innerHTML;
+
+  /* ---- footer year ---- */
+  $("#yr").textContent = new Date().getFullYear();
+
+  /* ================= ID ENGINE ================= */
+  var cbControls = $("#cb-controls");
+  var idList     = $("#id-list");
+  var idPrimaryValue = $("#id-primary-value");
+  var idPrimaryLabel = $("#id-primary-label");
+  var idLegend   = $("#id-legend");
+  var cbBadge    = $("#cb-badge");
+  var vsBadge    = $("#vs-badge");
+  var sl = [$("#sl-1"),$("#sl-2"),$("#sl-3"),$("#sl-4")];
+  var sv = [$("#sv-1"),$("#sv-2"),$("#sv-3"),$("#sv-4")];
+  var ss = [$("#ss-1"),$("#ss-2"),$("#ss-3"),$("#ss-4")];
+
+  var NANO_ALPHABET = "useandom-26T198340PX75pxJACKVERYMINDBUSHWOLF_GQZbfghjklqvwyzrict";
+
+  var state = { mode:"uuid", count:5, upper:false, hyphens:true, braces:false, nanoLen:21, rawIds:[] };
+
+  var MODES = {
+    "uuid": { glyph:"⬡", label:"UUID V4",  badge:function(){ return "BATCH ×" + state.count; } },
+    "guid": { glyph:"{}", label:"GUID",     badge:function(){ return "BATCH ×" + state.count; } },
+    "nano": { glyph:"~",  label:"NANO ID",  badge:function(){ return "BATCH ×" + state.count; } }
+  };
+
+  function escHtml(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+
+  function setStat(el, val){
+    val = String(val);
+    if (el.textContent !== val){
+      el.textContent = val;
+      el.classList.remove("bump");
+      void el.offsetWidth;
+      el.classList.add("bump");
+      setTimeout(function(){ el.classList.remove("bump"); }, 200);
+    }
+  }
+
+  /* ---- randomness ---- */
+  function randBytes(n){
+    var b = new Uint8Array(n);
+    if (window.crypto && crypto.getRandomValues) crypto.getRandomValues(b);
+    else for (var i=0;i<n;i++) b[i] = Math.floor(Math.random()*256);
+    return b;
+  }
+  function uuidv4Raw(){
+    var b = randBytes(16);
+    b[6] = (b[6] & 0x0f) | 0x40;
+    b[8] = (b[8] & 0x3f) | 0x80;
+    var h = "";
+    for (var i=0;i<16;i++) h += ("0"+b[i].toString(16)).slice(-2);
+    return h.substr(0,8)+"-"+h.substr(8,4)+"-"+h.substr(12,4)+"-"+h.substr(16,4)+"-"+h.substr(20,12);
+  }
+  function nanoid(len){
+    var b = randBytes(len);
+    var id = "";
+    for (var i=0;i<len;i++) id += NANO_ALPHABET[b[i] & 63];
+    return id;
+  }
+
+  /* ---- formatting ---- */
+  function formatId(raw){
+    if (state.mode === "uuid"){
+      var s = raw;
+      if (!state.hyphens) s = s.replace(/-/g,"");
+      if (state.upper) s = s.toUpperCase();
+      if (state.braces) s = "{" + s + "}";
+      return s;
+    }
+    if (state.mode === "guid") return "{" + raw.toUpperCase() + "}";
+    return raw;
+  }
+
+  function renderHighlighted(formatted){
+    var html = "", hexIdx = 0;
+    for (var i=0;i<formatted.length;i++){
+      var c = formatted[i];
+      if (/[0-9a-fA-F]/.test(c)){
+        if (hexIdx === 12) html += '<span class="id-ver">' + c + '</span>';
+        else if (hexIdx === 16) html += '<span class="id-var">' + c + '</span>';
+        else html += c;
+        hexIdx++;
+      } else {
+        html += '<span class="id-sep">' + escHtml(c) + '</span>';
+      }
+    }
+    return html;
+  }
+
+  /* ---- generation + rendering ---- */
+  function generate(){
+    var ids = [];
+    for (var i=0;i<state.count;i++){
+      ids.push(state.mode === "nano" ? nanoid(state.nanoLen) : uuidv4Raw());
+    }
+    state.rawIds = ids;
+    render();
+  }
+
+  function render(){
+    var ids = state.rawIds.map(formatId);
+    var primary = ids[0] || "";
+
+    idPrimaryLabel.textContent = "FRESHEST · " + MODES[state.mode].label;
+    if (state.mode === "nano"){
+      idPrimaryValue.innerHTML = escHtml(primary);
+      idLegend.innerHTML = "LENGTH " + state.nanoLen + " · " + (state.nanoLen*6) + " BITS OF ENTROPY · URL-SAFE";
+    } else {
+      idPrimaryValue.innerHTML = renderHighlighted(primary);
+      idLegend.innerHTML = '<span class="lg-ver">■</span> VERSION NIBBLE (v4) &nbsp;·&nbsp; <span class="lg-var">■</span> VARIANT NIBBLE (RFC 4122)';
+    }
+    idPrimaryValue.style.animation = "none";
+    void idPrimaryValue.offsetWidth;
+    idPrimaryValue.style.animation = "";
+
+    var html = "";
+    for (var i=1;i<ids.length;i++){
+      html += '<div class="id-row" style="animation-delay:' + (i*35) + 'ms">' +
+        '<span class="id-idx">' + ("0"+(i+1)).slice(-2) + '</span>' +
+        '<code class="id-val">' + escHtml(ids[i]) + '</code>' +
+        '<button type="button" class="id-copy" data-copy="' + escHtml(ids[i]) + '" aria-label="Copy ID ' + (i+1) + '">⧉</button>' +
+      '</div>';
+    }
+    if (ids.length <= 1) html = '<p class="id-listnote">Set a higher batch count on the left to mint a whole set at once — every ID gets its own copy button.</p>';
+    idList.innerHTML = html;
+
+    cbBadge.textContent = MODES[state.mode].badge();
+    updateStats();
+  }
+
+  function updateStats(){
+    if (state.mode === "uuid"){
+      setStat(sv[0],"v4"); setStat(sv[1],"RFC 4122"); setStat(sv[2],"122 bits");
+      setStat(sv[3], String(state.hyphens ? 36 : 32) + (state.braces ? "+2" : ""));
+      sl[0].textContent="Version";  ss[0].textContent="RANDOM";
+      sl[1].textContent="Variant";  ss[1].textContent="STANDARD";
+      sl[2].textContent="Entropy";  ss[2].textContent="OF RANDOMNESS";
+      sl[3].textContent="Length";   ss[3].textContent="CHARACTERS";
+    } else if (state.mode === "guid"){
+      setStat(sv[0],"v4"); setStat(sv[1],"Microsoft"); setStat(sv[2],"122 bits"); setStat(sv[3],"38");
+      sl[0].textContent="Version";  ss[0].textContent="RANDOM";
+      sl[1].textContent="Variant";  ss[1].textContent="MICROSOFT";
+      sl[2].textContent="Entropy";  ss[2].textContent="OF RANDOMNESS";
+      sl[3].textContent="Length";   ss[3].textContent="WITH BRACES";
+    } else {
+      setStat(sv[0],"64"); setStat(sv[1], String(state.nanoLen));
+      setStat(sv[2], (state.nanoLen*6) + " bits"); setStat(sv[3], "64^" + state.nanoLen);
+      sl[0].textContent="Alphabet"; ss[0].textContent="URL-SAFE CHARS";
+      sl[1].textContent="Length";   ss[1].textContent="CHARACTERS";
+      sl[2].textContent="Entropy";  ss[2].textContent="OF RANDOMNESS";
+      sl[3].textContent="Keyspace"; ss[3].textContent="POSSIBLE IDS";
+    }
+  }
+
+  /* ---- controls ---- */
+  function countChips(){
+    return '<label class="cb-fieldlabel">BATCH COUNT</label>' +
+      '<div class="cb-chips" id="ctl-count">' +
+        [1,5,10,25].map(function(n){
+          return '<button type="button" class="cb-chip' + (state.count===n?' cb-chip-on':'') + '" data-count="' + n + '">' + n + '</button>';
+        }).join("") +
+      '</div>';
+  }
+  function genButton(){
+    return '<button type="button" class="gen-btn" id="ctl-generate"><span class="gen-die">⚄</span> GENERATE</button>';
+  }
+
+  function buildControls(){
+    var html = genButton() + countChips();
+    if (state.mode === "uuid"){
+      html += '<label class="cb-fieldlabel">FORMAT</label>' +
+        '<div class="cb-optrow">' +
+          '<button type="button" class="cb-opt' + (state.upper?' cb-opt-on':'') + '" id="opt-upper">AA UPPERCASE</button>' +
+          '<button type="button" class="cb-opt' + (state.hyphens?' cb-opt-on':'') + '" id="opt-hyphens">– HYPHENS</button>' +
+          '<button type="button" class="cb-opt' + (state.braces?' cb-opt-on':'') + '" id="opt-braces">{ } BRACES</button>' +
+        '</div>' +
+        '<p class="cb-hint"><strong>Version 4, variant 1.</strong> The version and variant bits are highlighted in the spotlight — flip the format toggles and the batch re-renders without re-rolling.</p>';
+    } else if (state.mode === "guid"){
+      html += '<p class="cb-hint"><strong>Microsoft convention:</strong> uppercase, hyphenated, wrapped in braces — the identical v4 random value as the UUID tool, dressed for .NET, the registry and Active Directory.</p>';
+    } else {
+      html += '<label class="cb-fieldlabel">LENGTH · <em id="nano-len-val">' + state.nanoLen + '</em> CHARS · <em>' + (state.nanoLen*6) + '</em> BITS</label>' +
+        '<input type="range" id="ctl-nanolen" class="cb-range" min="6" max="64" value="' + state.nanoLen + '" aria-label="Nano ID length">' +
+        '<label class="cb-fieldlabel">ALPHABET · 64 URL-SAFE SYMBOLS</label>' +
+        '<code class="cb-alphabet">' + NANO_ALPHABET + '</code>' +
+        '<p class="cb-hint"><strong>6 bits per character.</strong> Drag the dial and the entropy readout follows — 21 chars matches a UUID, shorter is handier, longer is paranoid.</p>';
+    }
+    cbControls.innerHTML = html;
+    wireControls();
+  }
+
+  function wireControls(){
+    $("#ctl-generate").addEventListener("click", function(){
+      var die = this.querySelector(".gen-die");
+      die.classList.remove("spin"); void die.offsetWidth; die.classList.add("spin");
+      generate();
+    });
+    $$("#ctl-count .cb-chip").forEach(function(chip){
+      chip.addEventListener("click", function(){
+        state.count = parseInt(chip.getAttribute("data-count"),10);
+        $$("#ctl-count .cb-chip").forEach(function(c){ c.classList.toggle("cb-chip-on", c===chip); });
+        generate();
+      });
+    });
+
+    if (state.mode === "uuid"){
+      var up = $("#opt-upper"), hy = $("#opt-hyphens"), br = $("#opt-braces");
+      up.addEventListener("click", function(){ state.upper=!state.upper; up.classList.toggle("cb-opt-on",state.upper); render(); });
+      hy.addEventListener("click", function(){ state.hyphens=!state.hyphens; hy.classList.toggle("cb-opt-on",state.hyphens); render(); });
+      br.addEventListener("click", function(){ state.braces=!state.braces; br.classList.toggle("cb-opt-on",state.braces); render(); });
+    }
+    if (state.mode === "nano"){
+      $("#ctl-nanolen").addEventListener("input", function(){
+        state.nanoLen = parseInt(this.value,10);
+        generate();
+      });
+    }
+  }
+
+  /* ---- copy helpers ---- */
+  function doCopy(val, done){
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(val).then(done, done);
+    } else {
+      var ta = document.createElement("textarea");
+      ta.value = val; ta.style.position="fixed"; ta.style.opacity="0";
+      document.body.appendChild(ta); ta.select();
+      try { document.execCommand("copy"); } catch(e){}
+      document.body.removeChild(ta); done();
+    }
+  }
+  function flashCopy(btn, val){
+    doCopy(val, function(){
+      var orig = btn.textContent;
+      btn.textContent = "✓"; btn.classList.add("ok");
+      setTimeout(function(){ btn.textContent = orig; btn.classList.remove("ok"); }, 1000);
+    });
+  }
+
+  $("#btn-copy-primary").addEventListener("click", function(){
+    flashCopy(this, formatId(state.rawIds[0] || ""));
+  });
+  $("#btn-copyall").addEventListener("click", function(){
+    var btn = this;
+    doCopy(state.rawIds.map(formatId).join("\n"), function(){
+      btn.textContent = "✓ COPIED"; btn.classList.add("ok");
+      setTimeout(function(){ btn.textContent = "⧉ COPY ALL"; btn.classList.remove("ok"); }, 1100);
+    });
+  });
+  idList.addEventListener("click", function(e){
+    var btn = e.target.closest(".id-copy");
+    if (!btn) return;
+    flashCopy(btn, btn.getAttribute("data-copy"));
+  });
+
+  /* ---- mode switching ---- */
+  function setMode(m){
+    state.mode = m;
+    $$(".c-tab").forEach(function(t){
+      var on = t.getAttribute("data-mode") === m;
+      t.classList.toggle("is-on", on);
+      t.setAttribute("aria-pressed", String(on));
+    });
+    $("#analyzer").setAttribute("data-mode", m);
+    vsBadge.textContent = MODES[m].glyph;
+    buildControls();
+    generate();
+  }
+  $$(".c-tab").forEach(function(t){
+    t.addEventListener("click", function(){ setMode(t.getAttribute("data-mode")); });
+  });
+
+  /* ---- init ---- */
+  setMode("uuid");
+})();
+</script>
+</body>
+</html>
