@@ -2,16 +2,6 @@
   "name": "iristool",
   "compatibility_date": "2026-09-25",
   "assets": {
-    "directory": ".",
-    "exclude": [
-      ".git/**",
-      ".github/**",
-      ".wrangler/**",
-      "node_modules/**",
-      ".gitignore",
-      "wrangler.jsonc",
-      "CNAME",
-      "README.md"
-    ]
+    "directory": "./site"
   }
 }
