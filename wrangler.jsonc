@@ -1,8 +1,17 @@
 {
-  "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "iristool",
   "compatibility_date": "2026-09-25",
   "assets": {
-    "directory": "."
+    "directory": ".",
+    "exclude": [
+      ".git/**",
+      ".github/**",
+      ".wrangler/**",
+      "node_modules/**",
+      ".gitignore",
+      "wrangler.jsonc",
+      "CNAME",
+      "README.md"
+    ]
   }
 }
