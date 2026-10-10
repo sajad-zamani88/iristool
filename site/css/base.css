@@ -1,0 +1,52 @@
+/* ==============================================================================
+   IrisTool - base.css
+   Shared design tokens, reset and base element rules, plus the
+   utility classes that used to be inline style="..." attributes.
+   Loaded by every page BEFORE the page stylesheet.
+   ========================================================================== */
+
+/* ================= TOKENS ================= */
+:root{
+  --paper:#FCFCFA;
+  --white:#FFFFFF;
+  --ink:#141414;
+  --muted:#6C6C64;
+  --line:#E4E4DC;
+  --blue:#0033FF;
+  --blue-soft:#6E86FF;
+  --font-d:'Space Grotesk',ui-sans-serif,system-ui,sans-serif;
+  --font-b:'IBM Plex Sans',ui-sans-serif,system-ui,sans-serif;
+  --font-m:'IBM Plex Mono',ui-monospace,'SFMono-Regular',monospace;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  font-family:var(--font-b);
+  color:var(--ink);
+  background-color:var(--paper);
+  background-image:radial-gradient(circle,#E7E7DF 1px,transparent 1px);
+  background-size:28px 28px;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+::selection{background:var(--blue);color:#fff}
+a{color:inherit}
+ul{list-style:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+:focus-visible{outline:2px solid var(--blue);outline-offset:3px}
+section[id]{scroll-margin-top:96px}
+.wrap{max-width:1280px;margin:0 auto;padding:0 32px}
+
+.skip{position:absolute;left:-999px;top:0;background:var(--ink);color:#fff;padding:10px 18px;z-index:999;font-family:var(--font-m);font-size:.75rem}
+.skip:focus{left:12px;top:12px}
+
+/* ================= UTILITIES =================
+   Replaces the inline style="..." attributes removed from the markup. */
+.u-contents{display:contents}  /* gauge segment wrapper (#g-segs) */
+.u-flush-top{padding-top:0}  /* section without top padding */
+.u-flush-bottom{margin-bottom:0}  /* element without bottom margin */
+.u-mt-20{margin-top:20px}  /* label above a secondary control */
+.u-mt-18{margin-top:18px}  /* hint text below a control */
+.u-ml-auto{margin-left:auto}  /* button pushed to the right */
+.ex-chip--blue{background:#0033FF}  /* example chip, primary blue */
+.ex-chip--blue-soft{background:#6E86FF}  /* example chip, soft blue */
