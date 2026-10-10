@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- ============ PRIMARY SEO ============ -->
+<title>Text Comparison &amp; Diff Tools — Compare Texts, Find Duplicate Lines, View Diffs | IrisTool</title>
+<meta name="title" content="Text Comparison &amp; Diff Tools — Compare Texts, Find Duplicate Lines, View Diffs | IrisTool">
+<meta name="description" content="3 free comparison tools: live text compare with a similarity score and unique-line highlighting, a duplicate line finder with counts and positions, and an LCS-based unified diff viewer. 100% in-browser, nothing stored.">
+<meta name="keywords" content="text compare, compare two texts, text diff, diff viewer, duplicate line finder, find duplicate lines, text similarity, compare documents online, free online tools">
+<meta name="author" content="IrisTool">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="googlebot" content="index, follow">
+<meta name="language" content="English">
+<meta name="rating" content="general">
+<meta name="distribution" content="global">
+<meta name="coverage" content="Worldwide">
+<meta name="revisit-after" content="7 days">
+<meta name="theme-color" content="#FCFCFA">
+<meta name="color-scheme" content="light">
+
+<link rel="canonical" href="https://IrisTool.com/text-comparison-tools.html">
+
+<!-- ============ GEO TAGS ============ -->
+<meta name="geo.region" content="US">
+<meta name="geo.placename" content="United States">
+<meta name="geo.position" content="37.09024;-95.712891">
+<meta name="ICBM" content="37.09024, -95.712891">
+
+<!-- ============ HREFLANG ============ -->
+<link rel="alternate" hreflang="en" href="https://IrisTool.com/text-comparison-tools.html">
+<link rel="alternate" hreflang="x-default" href="https://IrisTool.com/index.html">
+
+<!-- ============ SOCIAL / OPEN GRAPH ============ -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="IrisTool">
+<meta property="og:url" content="https://IrisTool.com/text-comparison-tools.html">
+<meta property="og:title" content="Text Comparison &amp; Diff Tools — Compare Texts, Find Duplicate Lines, View Diffs | IrisTool">
+<meta property="og:description" content="Put two texts side by side and watch the differences surface — unique lines painted live, a unified diff, and a duplicate hunter. Nothing stored.">
+<meta property="og:image" content="https://IrisTool.com/assets/og-text-comparison-1200x630.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Text Comparison & Diff Tools — side-by-side panes with live difference highlighting, entirely in your browser">
+<meta property="og:locale" content="en_US">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://IrisTool.com/text-comparison-tools.html">
+<meta name="twitter:title" content="Text Comparison &amp; Diff Tools — Compare Texts, Find Duplicate Lines, View Diffs | IrisTool">
+<meta name="twitter:description" content="3 free comparison tools with live highlighting. 100% client-side — nothing you paste is ever stored.">
+<meta name="twitter:image" content="https://IrisTool.com/assets/og-text-comparison-1200x630.png">
+
+<!-- ============ ICONS ============ -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230033FF'/%3E%3Ctext x='32' y='46' font-size='42' text-anchor='middle' fill='%23fff' font-family='monospace'%3E%E2%9C%B1%3C/text%3E%3C/svg%3E">
+
+<!-- ============ FONTS (fontsource CDN) ============ -->
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link href="https://cdn.jsdelivr.net/fontsource/css/space-grotesk@latest/latin-500.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/space-grotesk@latest/latin-700.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/ibm-plex-sans@latest/latin-400.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/ibm-plex-sans@latest/latin-500.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/ibm-plex-mono@latest/latin-400.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/ibm-plex-mono@latest/latin-500.css" rel="stylesheet">
+
+<!-- ============ STRUCTURED DATA ============ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://IrisTool.com/index.html" },
+    { "@type": "ListItem", "position": 2, "name": "Text Tools", "item": "https://IrisTool.com/text-tools.html" },
+    { "@type": "ListItem", "position": 3, "name": "Comparison & Diff", "item": "https://IrisTool.com/text-comparison-tools.html" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Text Comparison & Diff Tools — Compare Texts, Find Duplicate Lines, View Diffs",
+  "description": "3 free comparison tools: live text compare with a similarity score and unique-line highlighting, a duplicate line finder with counts and positions, and an LCS-based unified diff viewer. 100% in-browser, nothing stored.",
+  "url": "https://IrisTool.com/text-comparison-tools.html",
+  "inLanguage": "en",
+  "isPartOf": { "@type": "WebSite", "name": "IrisTool", "url": "https://IrisTool.com/index.html" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Text Comparison & Diff Tools — all available on this page",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Text Compare", "url": "https://IrisTool.com/text-comparison-tools.html#text-compare", "description": "Side-by-side comparison with a live similarity score and unique lines painted in each pane." },
+    { "@type": "ListItem", "position": 2, "name": "Duplicate Line Finder", "url": "https://IrisTool.com/text-comparison-tools.html#duplicate-line-finder", "description": "Finds repeated lines inside one text, with counts and exact line positions." },
+    { "@type": "ListItem", "position": 3, "name": "Diff Viewer", "url": "https://IrisTool.com/text-comparison-tools.html#diff-viewer", "description": "A unified, line-numbered diff built on longest-common-subsequence." }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "What exactly does the similarity % mean?", "acceptedAnswer": { "@type": "Answer", "text": "It's the multiset overlap of normalized lines: the number of shared line copies divided by the total number of line copies across both texts. 100% means both panes hold the same bag of lines; 0% means they share nothing at all." } },
+    { "@type": "Question", "name": "What's the difference between Text Compare and Diff Viewer?", "acceptedAnswer": { "@type": "Answer", "text": "Compare is symmetric — it paints what's unique in each pane and gives you counts and a similarity score. Diff is directional storytelling — it walks from A to B and lists removals, additions and kept lines in reading order, exactly like a code review." } },
+    { "@type": "Question", "name": "Does the Duplicate Line Finder compare across the two panes?", "acceptedAnswer": { "@type": "Answer", "text": "No — it hunts inside Text A alone, reporting every line that appears more than once with its count and positions. For cross-text repetition, switch to Text Compare: any line present in both panes is counted as shared." } },
+    { "@type": "Question", "name": "Is the text I paste saved anywhere?", "acceptedAnswer": { "@type": "Answer", "text": "No. IrisTool has no backend and no database. All comparison runs inside your browser tab and disappears the moment you close or refresh the page." } },
+    { "@type": "Question", "name": "Can I use these tools offline?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Once the page has loaded, every tool on it keeps working offline because all the logic runs locally in your browser." } }
+  ]
+}
+</script>
+
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/text-comparison-tools.css">
+</head>
+
+<body id="top">
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ================= HEADER ================= -->
+<header id="site-header">
+  <div class="wrap bar">
+    <a class="logo" href="index.html" aria-label="IrisTool — home">
+      <span class="logo-mark" aria-hidden="true">✱</span>
+      <span class="logo-word">IrisTool</span>
+      <span class="logo-tag">278 tools</span>
+    </a>
+
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+      <span></span><span></span>
+    </button>
+
+    <nav class="nav" id="primary-nav" aria-label="Primary">
+      <button class="nav-close" id="nav-close" type="button" aria-label="Close menu">
+        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+          <path d="M1.5 1.5l12 12M13.5 1.5l-12 12" stroke="currentColor" stroke-width="2"/>
+        </svg>
+        Close
+      </button>
+
+      <ul class="nav-list">
+        <li><a class="m-link" href="index.html">Home</a></li>
+
+        <!-- ============ TEXT TOOLS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Text Tools
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Text Tools</span><p class="mega-sub">55 tools to analyze, clean, sort, extract, compare, convert and encode text.</p></div>
+                <a class="mega-all" href="text-tools.html">View all 55 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup"><a class="mgroup-t" href="text-analysis-tools.html">Text Analysis</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="case-converter.html">Case Converter</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="text-cleanup-tools.html">Text Cleanup</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="sorting-tools.html">Sorting &amp; Reordering</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="text-extraction-tools.html">Text Extraction</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="find-replace-tools.html">Find &amp; Replace</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="text-generators.html">Text Generators</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="text-comparison-tools.html">Comparison &amp; Diff</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="text-conversion-tools.html">Conversion &amp; Encoding</a></div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ============ DEVELOPER TOOLS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Developer Tools
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Developer Tools</span><p class="mega-sub">94 tools for JSON, XML, HTML, CSS, JS, encoding, hashing, colors, timestamps, regex, cron and full SEO suite.</p></div>
+                <a class="mega-all" href="developer-tools.html">View all 94 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup"><a class="mgroup-t" href="json-tools.html">JSON</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="xml-tools.html">XML</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="html-tools.html">HTML</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="css-tools.html">CSS</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="javascript-tools.html">JavaScript</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="url-tools.html">URL</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="base64-tools.html">Base64</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="jwt-decoder.html">JWT</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="hash-tools.html">Hash</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="character-encoding-tools.html">Character Encoding</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="color-tools.html">Color</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="timestamp-tools.html">Timestamp</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="uuid-tools.html">UUID</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="regex-tools.html">Regex</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="cron-tools.html">Cron</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="escape-unescape-tools.html">Escape &amp; Unescape</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="data-conversion-tools.html">Data Conversion</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="csv-tsv-tools.html">CSV &amp; TSV</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="seo-tools.html">SEO</a></div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ============ CALCULATORS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Calculators
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Calculators</span><p class="mega-sub">60 calculators for health, money, dates, grades, math, units and everyday numbers.</p></div>
+                <a class="mega-all" href="calculators.html">View all 60 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup"><a class="mgroup-t" href="health-calculators.html">Health</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="finance-calculators.html">Finance</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="date-time-calculators.html">Date &amp; Time</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="education-statistics-calculators.html">Education &amp; Statistics</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="math-calculators.html">Math</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="unit-converters.html">Unit Converters</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="number-converters.html">Number Converters</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="fitness-tools.html">Fitness</a></div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ============ GENERATORS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Generators
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Generators</span><p class="mega-sub">39 generators for names, random picks, IDs, QR codes, CSS effects, palettes and test data.</p></div>
+                <a class="mega-all" href="generators.html">View all 39 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup"><a class="mgroup-t" href="identity-name-generators.html">Identity &amp; Name</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="random-generators.html">Random</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="developer-generators.html">Developer</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="css-generators.html">CSS</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="design-generators.html">Design</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="password-tools.html">Password</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="fake-data-generators.html">Fake Data</a></div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ============ IMAGE TOOLS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Image Tools
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Image Tools</span><p class="mega-sub">30 tools to edit, convert, compress and inspect images — processed entirely on your device.</p></div>
+                <a class="mega-all" href="image-tools.html">View all 30 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup"><a class="mgroup-t" href="image-editing-tools.html">Image Editing</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="image-converter-tools.html">Image Converter</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="image-optimization-tools.html">Optimization</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="image-inspector-tools.html">Inspector</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="image-design-tools.html">Image Design</a></div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li><a class="m-link" href="about-us.html">About Us</a></li>
+        <li><a class="m-link m-link--cta" href="contact-us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ================= COMPARISON BENCH FIRST ================= -->
+  <section class="phero" aria-label="Live text comparison bench">
+    <div class="wrap">
+      <nav class="crumbs rv" aria-label="Breadcrumb">
+        <a href="index.html">Home</a><span class="sep">/</span>
+        <a href="text-tools.html">Text Tools</a><span class="sep">/</span>
+        <span class="here" aria-current="page">Comparison &amp; Diff</span>
+      </nav>
+
+      <div class="analyzer rv" id="analyzer" data-mode="compare" aria-label="Live text comparison bench">
+        <div class="a-bar">
+          <span class="dot" aria-hidden="true"></span>
+          <span class="dot dot--fill" aria-hidden="true"></span>
+          <span class="dot" aria-hidden="true"></span>
+          <span class="a-file">text-comparison.txt — 3 tools<span class="caret-block" aria-hidden="true"></span></span>
+          <span class="a-live">● LIVE</span>
+        </div>
+
+        <!-- MODE DECK -->
+        <div class="cmp-deck">
+          <div class="c-tabs" role="group" aria-label="Choose a comparison tool">
+            <button type="button" class="c-tab is-on" data-mode="compare" aria-pressed="true">
+              <span class="ct-glyph" aria-hidden="true">⇄</span><span class="ct-name">Text Compare</span>
+            </button>
+            <button type="button" class="c-tab" data-mode="dup" aria-pressed="false">
+              <span class="ct-glyph" aria-hidden="true">⧉</span><span class="ct-name">Duplicate Lines</span>
+            </button>
+            <button type="button" class="c-tab" data-mode="diff" aria-pressed="false">
+              <span class="ct-glyph" aria-hidden="true">±</span><span class="ct-name">Diff Viewer</span>
+            </button>
+          </div>
+          <div class="cmp-opts">
+            <button type="button" class="tgl" id="tgl-case" aria-pressed="false">Aa case-sensitive</button>
+            <button type="button" class="tgl" id="tgl-trim" aria-pressed="true">⌫ trim edges</button>
+            <button type="button" class="swap-btn" id="btn-swap" title="Trade the contents of pane A and pane B">⇄ Swap A/B</button>
+          </div>
+        </div>
+
+        <div class="c-grid">
+          <!-- PANE A -->
+          <div class="c-pane c-left">
+            <div class="pane-head">
+              <span class="pane-label">Text A · original</span>
+              <span class="pane-badge" id="badge-a">0 LINES</span>
+              <button type="button" class="pane-copy uniq" id="copy-uniq-a" title="Copy the lines that exist only in A">⧉ unique</button>
+            </div>
+            <div class="hl-wrap">
+              <div class="hl-backdrop" id="bd-a" aria-hidden="true"></div>
+              <label class="skip" for="src-a">Original text</label>
+              <textarea class="cmp-ta" id="src-a" spellcheck="false">The lighthouse keeper kept three logs.
+The first recorded the weather.
+The second recorded the ships.
+The third recorded nothing at all.
+
+Storm from the north-east at dawn.
+Two fishing boats passed before noon.
+The lamp was trimmed at six o'clock.
+The lamp was trimmed at six o'clock.
+
+All quiet by midnight.</textarea>
+            </div>
+            <div class="pane-actions">
+              <button type="button" class="mini-btn" id="btn-copy-a">⧉ Copy A</button>
+              <button type="button" class="mini-btn" id="btn-clear-a">✕ Clear A</button>
+              <button type="button" class="mini-btn" id="btn-sample">↺ Load sample</button>
+              <span class="a-note">NETWORK PAYLOAD: <em>0 BYTES</em> · PROCESSING: <em>LOCAL</em></span>
+            </div>
+          </div>
+
+          <!-- PANE B / DUPLICATE PANEL -->
+          <div class="c-pane c-right">
+            <div class="pane-head b-part">
+              <span class="pane-label">Text B · revised</span>
+              <span class="pane-badge" id="badge-b">0 LINES</span>
+              <button type="button" class="pane-copy uniq" id="copy-uniq-b" title="Copy the lines that exist only in B">⧉ unique</button>
+            </div>
+            <div class="hl-wrap b-part" id="wrap-b">
+              <div class="hl-backdrop" id="bd-b" aria-hidden="true"></div>
+              <label class="skip" for="src-b">Revised text</label>
+              <textarea class="cmp-ta" id="src-b" spellcheck="false">The lighthouse keeper kept three logs.
+The first recorded the weather.
+The second recorded the fishing boats.
+The third recorded nothing at all.
+
+Storm from the north at dawn.
+Two fishing boats passed before noon.
+The lamp was trimmed at seven o'clock.
+
+All quiet by midnight.
+The keeper slept until four.</textarea>
+            </div>
+            <div class="pane-actions b-part">
+              <button type="button" class="mini-btn" id="btn-copy-b">⧉ Copy B</button>
+              <button type="button" class="mini-btn" id="btn-clear-b">✕ Clear B</button>
+            </div>
+
+            <div class="dup-panel" id="dup-panel">
+              <div class="pane-head">
+                <span class="pane-label">Duplicates in A</span>
+                <span class="pane-badge" id="dup-count">0 FOUND</span>
+              </div>
+              <div class="dup-scroll" id="dup-scroll"></div>
+            </div>
+          </div>
+
+          <div class="vs-badge" id="vs-badge" aria-hidden="true">—</div>
+        </div>
+
+        <!-- DIFF OUTPUT -->
+        <div class="diff-out" id="diff-out">
+          <div class="diff-head">
+            <span class="pane-label">Unified diff · A → B</span>
+            <span class="diff-badges">
+              <b class="db-add" id="db-add">+0 added</b>
+              <b class="db-del" id="db-del">−0 removed</b>
+              <b class="db-eq" id="db-eq">=0 kept</b>
+            </span>
+            <button type="button" class="pane-copy" id="copy-diff" title="Copy the diff as plain text">⧉ copy diff</button>
+          </div>
+          <div class="diff-scroll" id="diff-scroll"></div>
+          <div class="diff-note">longest-common-subsequence line diff · − removed from A · + added in B · fast fallback for very large texts</div>
+        </div>
+
+        <!-- RESULTS STRIP -->
+        <div class="c-stats">
+          <div class="cstat"><small id="sl-1">Similarity</small><b id="sv-1">0%</b><span class="c-sub" id="ss-1">MULTISET OVERLAP</span></div>
+          <div class="cstat"><small id="sl-2">Only in A</small><b id="sv-2">0</b><span class="c-sub" id="ss-2">PAINTED RED</span></div>
+          <div class="cstat"><small id="sl-3">Only in B</small><b id="sv-3">0</b><span class="c-sub" id="ss-3">PAINTED BLUE</span></div>
+          <div class="cstat"><small id="sl-4">Shared lines</small><b id="sv-4">0</b><span class="c-sub" id="ss-4">PRESENT IN BOTH</span></div>
+        </div>
+      </div>
+
+      <!-- heading block, below the tool -->
+      <div class="phero-head">
+        <div class="rv">
+          <p class="kicker"><span class="ast" aria-hidden="true">✱</span> Text Tools · Group 08 of 09</p>
+          <h1>Text Comparison<span class="blue">.</span></h1>
+          <p class="lede">Put two texts side by side and <strong>watch the differences surface on their own</strong> — unique lines painted red and blue in each pane, a line-numbered unified diff below, and a duplicate hunter for the copies hiding inside a single text. The badge in the middle keeps score as you type. <strong>Nothing is uploaded, nothing is stored.</strong></p>
+        </div>
+        <ul class="spec rv" aria-label="Page specifications">
+          <li><span>Tools</span><b>03</b></li>
+          <li><span>Comparison</span><b>live</b></li>
+          <li><span>Uploads</span><b>0</b></li>
+          <li><span>Backend</span><b>none</b></li>
+          <li><span>Cost</span><b>free</b></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TICKER ================= -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track" id="ticker-track">
+      <span>Text Compare<i>✱</i>Duplicate Line Finder<i>✱</i>Diff Viewer<i>✱</i>Word Counter<i>✱</i>JSON Formatter<i>✱</i>Regex Tester<i>✱</i>Image Compressor<i>✱</i>BMI Calculator<i>✱</i>Color Picker<i>✱</i>Lorem Ipsum<i>✱</i></span>
+    </div>
+  </div>
+
+  <!-- ================= DETAILED GUIDE ================= -->
+  <section class="sec" id="guide" aria-labelledby="guide-title">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div><span class="sec-kicker">In order, 01 → 03</span><h2 id="guide-title">What each tool reveals, with examples.</h2></div>
+        <span class="sec-idx">( 01 )</span>
+      </div>
+
+      <!-- 01 -->
+      <article class="tool rv" id="text-compare">
+        <aside class="tool-side">
+          <span class="tool-num">01 / 03</span>
+          <h3>Text Compare</h3>
+          <span class="tool-here">runs in the bench above</span>
+        </aside>
+        <div class="tool-body">
+          <p>A symmetric, live comparison of two texts. As you type, every line that exists <strong>only in A is painted red</strong> and every line that exists <strong>only in B is painted blue</strong> — no button press needed. The score badge reports multiset similarity, the stat strip counts what's unique and shared, and "⧉ unique" copies either side's exclusive lines in one click. Two toggles shape the matching: <strong>Aa</strong> for case-sensitive comparison and <strong>⌫</strong> for trimming line edges first.</p>
+          <div class="example">
+            <span class="ex-tag">Example</span>
+            <p class="ex-in">A: "red apple / green pear"
+B: "red apple / yellow plum"</p>
+            <span class="ex-arrow" aria-hidden="true">↓</span>
+            <p class="ex-out"><b>50% similar</b> — "red apple" is shared; "green pear" paints red in A, "yellow plum" paints blue in B.</p>
+          </div>
+          <p class="tool-use">Use it for <span class="tag">version checks</span><span class="tag">edit review</span><span class="tag">contract comparison</span><span class="tag">copy audits</span></p>
+        </div>
+      </article>
+
+      <!-- 02 -->
+      <article class="tool rv" id="duplicate-line-finder">
+        <aside class="tool-side">
+          <span class="tool-num">02 / 03</span>
+          <h3>Duplicate Line Finder</h3>
+          <span class="tool-here">runs in the bench above</span>
+        </aside>
+        <div class="tool-body">
+          <p>Hunts <strong>repeated lines inside a single text</strong>. Every line that appears more than once gets a row in the results panel — with its count, every line number where it occurs, and a jump button that selects the first occurrence in the editor. All instances of a duplicated line are painted red in the pane, so repeats are visible at a glance. Blank lines are never reported, and the Aa / ⌫ toggles control how strictly lines are matched.</p>
+          <div class="example">
+            <span class="ex-tag">Example</span>
+            <p class="ex-in">apple
+banana
+apple
+cherry
+apple</p>
+            <span class="ex-arrow" aria-hidden="true">↓</span>
+            <p class="ex-out"><b>×3 "apple"</b> at #1 · #3 · #5 — one row in the panel, all three copies painted in the editor.</p>
+          </div>
+          <p class="tool-use">Use it for <span class="tag">log prep</span><span class="tag">list cleaning</span><span class="tag">data audits</span><span class="tag">keyword dedupe</span></p>
+        </div>
+      </article>
+
+      <!-- 03 -->
+      <article class="tool rv" id="diff-viewer">
+        <aside class="tool-side">
+          <span class="tool-num">03 / 03</span>
+          <h3>Diff Viewer</h3>
+          <span class="tool-here">runs in the bench above</span>
+        </aside>
+        <div class="tool-body">
+          <p>The directional story of the change from A to B, told the way code review tells it. The engine aligns both texts with a <strong>longest-common-subsequence algorithm</strong>, then walks them line by line: kept lines carry numbers on both sides, removals are marked <strong>−</strong> in red, additions <strong>+</strong> in blue. The same lines are painted in the panes above, and the whole diff can be copied as plain text for a commit message or changelog.</p>
+          <div class="example">
+            <span class="ex-tag">Example</span>
+            <p class="ex-in">A: "The lamp was trimmed at six o'clock."
+B: "The lamp was trimmed at seven o'clock."</p>
+            <span class="ex-arrow" aria-hidden="true">↓</span>
+            <p class="ex-out"><b>− The lamp was trimmed at six o'clock.
++ The lamp was trimmed at seven o'clock.</b>
+one removal, one addition, numbered on both sides.</p>
+          </div>
+          <p class="tool-use">Use it for <span class="tag">changelogs</span><span class="tag">code review</span><span class="tag">edit tracking</span><span class="tag">release notes</span></p>
+        </div>
+      </article>
+
+      <p class="rules rv"><b>Comparison rules</b> · lines are the unit everywhere · compare &amp; duplicates honour the Aa (case) and ⌫ (trim) toggles · the diff always compares raw lines · blank lines are never reported as duplicates · similarity = shared line copies ÷ total line copies across both texts · diff uses LCS alignment, with a fast multiset fallback for very large texts · swap never loses text — it only trades panes</p>
+    </div>
+  </section>
+
+  <!-- ================= PRIVACY BAND ================= -->
+  <section class="band" id="privacy" aria-labelledby="privacy-title">
+    <div class="wrap">
+      <span class="sec-kicker rv">The privacy promise</span>
+      <h2 id="privacy-title" class="rv">Compare anything. <span class="soft">We couldn't read it even if we wanted to.</span></h2>
+      <p class="band-lede rv">This page has no backend and no database. Every difference you just saw highlighted was computed by JavaScript inside your own browser tab — your texts never traveled a single centimeter of cable. Close the page and they're gone for good.</p>
+
+      <div class="pipe rv" role="img" aria-label="Data flow: your two texts are compared in your browser. No server involved.">
+        <span class="node">TEXT A + TEXT B</span><span class="pipe-arrow">→</span>
+        <span class="node node-live">COMPARED IN YOUR BROWSER</span><span class="pipe-arrow">→</span>
+        <span class="node">THE DIFFERENCE</span>
+      </div>
+      <div class="pipe-dead rv"><span class="node node-dead">✕ SERVER · DATABASE · LOGS · ANALYTICS</span></div>
+
+      <ul class="facts rv">
+        <li><span class="f-k">Database</span><span class="f-v">null</span></li>
+        <li><span class="f-k">Backend</span><span class="f-v">none</span></li>
+        <li><span class="f-k">Text uploads</span><span class="f-v">0</span></li>
+        <li><span class="f-k">Session logs</span><span class="f-v">0</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= FAQ ================= -->
+  <section class="sec" id="faq" aria-labelledby="faq-title">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div><span class="sec-kicker">Questions</span><h2 id="faq-title">Asked often, answered plainly.</h2></div>
+        <span class="sec-idx">( 02 )</span>
+      </div>
+
+      <details class="faq rv" open>
+        <summary>What exactly does the similarity % mean?</summary>
+        <p>It's the multiset overlap of normalized lines: the number of shared line copies divided by the total number of line copies across both texts. 100% means both panes hold the same bag of lines; 0% means they share nothing at all. Repeated lines count each time, so a text padded with duplicates scores accordingly.</p>
+      </details>
+      <details class="faq rv">
+        <summary>What's the difference between Text Compare and Diff Viewer?</summary>
+        <p>Compare is symmetric — it paints what's unique in each pane and gives you counts and a similarity score, without claiming which text came first. Diff is directional storytelling — it walks from A to B and lists removals, additions and kept lines in reading order, exactly like a code review. Same data, two different questions.</p>
+      </details>
+      <details class="faq rv">
+        <summary>Does the Duplicate Line Finder compare across the two panes?</summary>
+        <p>No — it hunts inside Text A alone, reporting every line that appears more than once with its count and exact positions. For cross-text repetition, switch to Text Compare: any line present in both panes is counted as shared and left unpainted.</p>
+      </details>
+      <details class="faq rv">
+        <summary>Is the text I paste saved anywhere?</summary>
+        <p>No. IrisTool has no backend and no database. All comparison runs inside your browser tab and disappears the moment you close or refresh the page. There is nothing to leak, because nothing is ever collected.</p>
+      </details>
+      <details class="faq rv">
+        <summary>Can I use these tools offline?</summary>
+        <p>Yes. Once the page has loaded, every tool on it keeps working offline, because all the logic runs locally in your browser.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- ================= PREV / NEXT ================= -->
+  <nav class="prevnext" aria-label="Browse groups">
+    <div class="wrap pn-grid">
+      <a class="pn" href="text-generators.html">
+        <small>← Previous group · Text Generators</small>
+        <b>Text Generators</b>
+      </a>
+      <a class="pn pn--next" href="text-conversion-tools.html">
+        <small>Next group · Conversion &amp; Encoding →</small>
+        <b>Conversion &amp; Encoding</b>
+      </a>
+    </div>
+  </nav>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="logo" href="index.html" aria-label="IrisTool — home">
+          <span class="logo-mark" aria-hidden="true">✱</span>
+          <span class="logo-word">IrisTool</span>
+        </a>
+        <p>278 free tools for text, code, images, SEO and everyday math. Everything runs in your browser — nothing is ever collected.</p>
+        <span class="foot-badge">No backend · No database · No tracking</span>
+      </div>
+          <div>
+        <div><a class="m-link" href="index.html">Home</a></div>
+       
+      
+
+      
+        <div><a class="m-link" href="about-us.html">About Us</a></div>
+      
+      
+
+      
+        <div><a class="m-link" href="contact-us.html">Contact Us</a></div>
+        
+       
+      </div>
+    
+    </div>
+
+    <div class="foot-bottom">
+      <p>© <span id="yr">2026</span> IrisTool — All processing happens on your device. Nothing is collected.</p>
+      <span>Made with passion by Sajad Zamani</span>
+      <a class="to-top" href="#top">Back to top ↑</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/text-comparison-tools.js"></script>
+</body>
+</html>

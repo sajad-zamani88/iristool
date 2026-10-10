@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- ============ PRIMARY SEO ============ -->
+<title>Timestamp Tools — Unix Timestamp &amp; Epoch Converter | IrisTool</title>
+<meta name="title" content="Timestamp Tools — Unix Timestamp &amp; Epoch Converter | IrisTool">
+<meta name="description" content="2 free time tools in one live bench: a bidirectional Unix timestamp ↔ date converter, and an epoch converter that decomposes any moment into ISO, UTC, local, RFC 2822, relative, hex and binary — with a ticking live clock. 100% in-browser, nothing stored.">
+<meta name="keywords" content="unix timestamp converter, epoch converter, timestamp to date, date to timestamp, unix time, epoch time, iso 8601, rfc 2822, current unix time, free online tools">
+<meta name="author" content="IrisTool">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="googlebot" content="index, follow">
+<meta name="language" content="English">
+<meta name="rating" content="general">
+<meta name="distribution" content="global">
+<meta name="coverage" content="Worldwide">
+<meta name="revisit-after" content="7 days">
+<meta name="theme-color" content="#FCFCFA">
+<meta name="color-scheme" content="light">
+
+<link rel="canonical" href="https://IrisTool.com/timestamp-tools.html">
+
+<!-- ============ GEO TAGS ============ -->
+<meta name="geo.region" content="US">
+<meta name="geo.placename" content="United States">
+<meta name="geo.position" content="37.09024;-95.712891">
+<meta name="ICBM" content="37.09024, -95.712891">
+
+<!-- ============ HREFLANG ============ -->
+<link rel="alternate" hreflang="en" href="https://IrisTool.com/timestamp-tools.html">
+<link rel="alternate" hreflang="x-default" href="https://IrisTool.com/index.html">
+
+<!-- ============ SOCIAL / OPEN GRAPH ============ -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="IrisTool">
+<meta property="og:url" content="https://IrisTool.com/timestamp-tools.html">
+<meta property="og:title" content="Timestamp Tools — Unix Timestamp &amp; Epoch Converter | IrisTool">
+<meta property="og:description" content="A ticking Unix clock, a bidirectional timestamp↔date converter, and an epoch decomposer that turns any moment into every format it knows. Live in your browser.">
+<meta property="og:image" content="https://IrisTool.com/assets/og-timestamp-tools-1200x630.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Timestamp Tools — a live ticking Unix timestamp with conversion readouts, entirely in your browser">
+<meta property="og:locale" content="en_US">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://IrisTool.com/timestamp-tools.html">
+<meta name="twitter:title" content="Timestamp Tools — Unix Timestamp &amp; Epoch Converter | IrisTool">
+<meta name="twitter:description" content="2 free time tools with a live ticking clock. 100% client-side — nothing you enter is ever stored.">
+<meta name="twitter:image" content="https://IrisTool.com/assets/og-timestamp-tools-1200x630.png">
+
+<!-- ============ ICONS ============ -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230033FF'/%3E%3Ctext x='32' y='46' font-size='42' text-anchor='middle' fill='%23fff' font-family='monospace'%3E%E2%9C%B1%3C/text%3E%3C/svg%3E">
+
+<!-- ============ FONTS (fontsource CDN) ============ -->
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link href="https://cdn.jsdelivr.net/fontsource/css/space-grotesk@latest/latin-500.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/space-grotesk@latest/latin-700.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/ibm-plex-sans@latest/latin-400.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/ibm-plex-sans@latest/latin-500.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/ibm-plex-mono@latest/latin-400.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/ibm-plex-mono@latest/latin-500.css" rel="stylesheet">
+
+<!-- ============ STRUCTURED DATA ============ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://IrisTool.com/index.html" },
+    { "@type": "ListItem", "position": 2, "name": "Developer Tools", "item": "https://IrisTool.com/developer-tools.html" },
+    { "@type": "ListItem", "position": 3, "name": "Timestamp Tools", "item": "https://IrisTool.com/timestamp-tools.html" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Timestamp Tools — Unix Timestamp & Epoch Converter",
+  "description": "2 free time tools in one live bench: a bidirectional Unix timestamp ↔ date converter, and an epoch converter that decomposes any moment into ISO, UTC, local, RFC 2822, relative, hex and binary — with a ticking live clock. 100% in-browser, nothing stored.",
+  "url": "https://IrisTool.com/timestamp-tools.html",
+  "inLanguage": "en",
+  "isPartOf": { "@type": "WebSite", "name": "IrisTool", "url": "https://IrisTool.com/index.html" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Timestamp Tools — all available on this page",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Unix Timestamp Converter", "url": "https://IrisTool.com/timestamp-tools.html#unix-timestamp-converter", "description": "Bidirectional Unix timestamp (seconds or milliseconds) ↔ date conversion, with UTC, ISO 8601, local and relative readouts, live." },
+    { "@type": "ListItem", "position": 2, "name": "Epoch Converter", "url": "https://IrisTool.com/timestamp-tools.html#epoch-converter", "description": "Decomposes any epoch value into ISO 8601, UTC, local, RFC 2822, relative time, hex and binary, plus a days/hours/minutes/seconds breakdown." }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "What's the difference between Unix time and epoch time?", "acceptedAnswer": { "@type": "Answer", "text": "Nothing — they're two names for the same thing: a count of seconds since 1970-01-01 00:00:00 UTC, the Unix epoch. On this page the Unix Timestamp Converter focuses on going back and forth between a timestamp and a calendar date, while the Epoch Converter takes any value and decomposes it into every representation it knows." } },
+    { "@type": "Question", "name": "Seconds or milliseconds — which does the bench expect?", "acceptedAnswer": { "@type": "Answer", "text": "Both, auto-detected. Values whose magnitude is above 100 billion are read as milliseconds (the convention JavaScript uses); anything smaller is read as seconds (the convention most APIs, databases and operating systems use). The readouts always show both, so there's no ambiguity in the output." } },
+    { "@type": "Question", "name": "Why does my local time differ from UTC?", "acceptedAnswer": { "@type": "Answer", "text": "UTC is the single worldwide reference; your local time is UTC plus your timezone offset, including any daylight-saving adjustment in force on that particular date. The bench shows both side by side, and the LOCAL readout names the timezone abbreviation it used." } },
+    { "@type": "Question", "name": "Can it handle dates before 1970?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — timestamps before the epoch are simply negative, and the bench handles them throughout: conversion, decomposition, hex and binary all work with negative values, so the Moon landing (-14159020) converts just as cleanly as tomorrow." } },
+    { "@type": "Question", "name": "Is my data saved anywhere?", "acceptedAnswer": { "@type": "Answer", "text": "No. IrisTool has no backend and no database. Every conversion happens inside your browser tab and disappears the moment you close or refresh the page. There is nothing to leak, because nothing is ever collected." } }
+  ]
+}
+</script>
+
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/timestamp-tools.css">
+</head>
+
+<body id="top">
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ================= HEADER ================= -->
+<header id="site-header">
+  <div class="wrap bar">
+    <a class="logo" href="index.html" aria-label="IrisTool — home">
+      <span class="logo-mark" aria-hidden="true">✱</span>
+      <span class="logo-word">IrisTool</span>
+      <span class="logo-tag">278 tools</span>
+    </a>
+
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+      <span></span><span></span>
+    </button>
+
+    <nav class="nav" id="primary-nav" aria-label="Primary">
+      <button class="nav-close" id="nav-close" type="button" aria-label="Close menu">
+        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+          <path d="M1.5 1.5l12 12M13.5 1.5l-12 12" stroke="currentColor" stroke-width="2"/>
+        </svg>
+        Close
+      </button>
+
+      <ul class="nav-list">
+        <li><a class="m-link" href="index.html">Home</a></li>
+
+        <!-- ============ TEXT TOOLS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Text Tools
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Text Tools</span><p class="mega-sub">55 tools to analyze, clean, sort, extract, compare, convert and encode text.</p></div>
+                <a class="mega-all" href="text-tools.html">View all 55 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup"><a class="mgroup-t" href="text-analysis-tools.html">Text Analysis</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="case-converter.html">Case Converter</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="text-cleanup-tools.html">Text Cleanup</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="sorting-tools.html">Sorting &amp; Reordering</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="text-extraction-tools.html">Text Extraction</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="find-replace-tools.html">Find &amp; Replace</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="text-generators.html">Text Generators</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="text-comparison-tools.html">Comparison &amp; Diff</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="text-conversion-tools.html">Conversion &amp; Encoding</a></div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ============ DEVELOPER TOOLS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Developer Tools
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Developer Tools</span><p class="mega-sub">94 tools for JSON, XML, HTML, CSS, JS, encoding, hashing, colors, timestamps, regex, cron and full SEO suite.</p></div>
+                <a class="mega-all" href="developer-tools.html">View all 94 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup"><a class="mgroup-t" href="json-tools.html">JSON</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="xml-tools.html">XML</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="html-tools.html">HTML</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="css-tools.html">CSS</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="javascript-tools.html">JavaScript</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="url-tools.html">URL</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="base64-tools.html">Base64</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="jwt-decoder.html">JWT</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="hash-tools.html">Hash</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="character-encoding-tools.html">Character Encoding</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="color-tools.html">Color</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="timestamp-tools.html">Timestamp</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="uuid-tools.html">UUID</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="regex-tools.html">Regex</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="cron-tools.html">Cron</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="escape-unescape-tools.html">Escape &amp; Unescape</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="data-conversion-tools.html">Data Conversion</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="csv-tsv-tools.html">CSV &amp; TSV</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="seo-tools.html">SEO</a></div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ============ CALCULATORS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Calculators
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Calculators</span><p class="mega-sub">60 calculators for health, money, dates, grades, math, units and everyday numbers.</p></div>
+                <a class="mega-all" href="calculators.html">View all 60 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup"><a class="mgroup-t" href="health-calculators.html">Health</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="finance-calculators.html">Finance</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="date-time-calculators.html">Date &amp; Time</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="education-statistics-calculators.html">Education &amp; Statistics</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="math-calculators.html">Math</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="unit-converters.html">Unit Converters</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="number-converters.html">Number Converters</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="fitness-tools.html">Fitness</a></div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ============ GENERATORS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Generators
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Generators</span><p class="mega-sub">39 generators for names, random picks, IDs, QR codes, CSS effects, palettes and test data.</p></div>
+                <a class="mega-all" href="generators.html">View all 39 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup"><a class="mgroup-t" href="identity-name-generators.html">Identity &amp; Name</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="random-generators.html">Random</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="developer-generators.html">Developer</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="css-generators.html">CSS</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="design-generators.html">Design</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="password-tools.html">Password</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="fake-data-generators.html">Fake Data</a></div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ============ IMAGE TOOLS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Image Tools
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Image Tools</span><p class="mega-sub">30 tools to edit, convert, compress and inspect images — processed entirely on your device.</p></div>
+                <a class="mega-all" href="image-tools.html">View all 30 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup"><a class="mgroup-t" href="image-editing-tools.html">Image Editing</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="image-converter-tools.html">Image Converter</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="image-optimization-tools.html">Optimization</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="image-inspector-tools.html">Inspector</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="image-design-tools.html">Image Design</a></div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li><a class="m-link" href="about-us.html">About Us</a></li>
+        <li><a class="m-link m-link--cta" href="contact-us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ================= TIMESTAMP BENCH FIRST ================= -->
+  <section class="phero" aria-label="Live timestamp bench">
+    <div class="wrap">
+      <nav class="crumbs rv" aria-label="Breadcrumb">
+        <a href="index.html">Home</a><span class="sep">/</span>
+        <a href="developer-tools.html">Developer Tools</a><span class="sep">/</span>
+        <span class="here" aria-current="page">Timestamp</span>
+      </nav>
+
+      <div class="analyzer rv" id="analyzer" data-mode="unix" aria-label="Live timestamp bench">
+        <div class="a-bar">
+          <span class="dot" aria-hidden="true"></span>
+          <span class="dot dot--fill" aria-hidden="true"></span>
+          <span class="dot" aria-hidden="true"></span>
+          <span class="a-file">epoch.log — 2 tools<span class="caret-block" aria-hidden="true"></span></span>
+          <span class="a-live">● LIVE</span>
+        </div>
+
+        <!-- LIVE NOW STRIP -->
+        <div class="now-strip" aria-label="Current Unix time, ticking live">
+          <div class="now-main">
+            <span class="now-label"><span class="now-live"><i></i>UNIX TIME</span><span>SECONDS SINCE 1970</span></span>
+            <span class="now-value" id="now-ts">—</span>
+            <button type="button" class="now-copy" id="now-copy">⧉ COPY</button>
+          </div>
+          <div class="now-subs">
+            <span><b>UTC</b> · <span id="now-utc">—</span></span>
+            <span><b>LOCAL</b> · <span id="now-local">—</span></span>
+          </div>
+        </div>
+
+        <!-- MODE DECK -->
+        <div class="cmp-deck">
+          <div class="c-tabs" role="group" aria-label="Choose a timestamp tool">
+            <button type="button" class="c-tab is-on" data-mode="unix" aria-pressed="true">
+              <span class="ct-glyph" aria-hidden="true">⇄</span><span class="ct-name">UNIX ⇄ DATE</span>
+            </button>
+            <button type="button" class="c-tab" data-mode="epoch" aria-pressed="false">
+              <span class="ct-glyph" aria-hidden="true">◷</span><span class="ct-name">EPOCH → ALL</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="c-grid">
+          <!-- INPUT PANE -->
+          <div class="c-pane c-left">
+            <div class="pane-head">
+              <span class="pane-label">Input · <span id="cb-in-label">TIMESTAMP / DATE</span></span>
+              <span class="pane-badge">SEC · MS</span>
+            </div>
+            <div class="cb-controls" id="cb-controls"></div>
+          </div>
+
+          <!-- OUTPUT PANE -->
+          <div class="c-pane c-right">
+            <div class="pane-head">
+              <span class="pane-label">Output · <span id="cb-out-label">EVERY FORMAT</span></span>
+              <span class="pane-badge" id="cb-badge">LIVE</span>
+            </div>
+            <div class="cb-readouts" id="cb-readouts"></div>
+          </div>
+
+          <div class="vs-badge" id="vs-badge" aria-hidden="true">⇄</div>
+        </div>
+
+        <!-- RESULTS STRIP -->
+        <div class="c-stats">
+          <div class="cstat"><small id="sl-1">Unix seconds</small><b id="sv-1">—</b><span class="c-sub" id="ss-1">SINCE 1970-01-01</span></div>
+          <div class="cstat"><small id="sl-2">Weekday</small><b id="sv-2">—</b><span class="c-sub" id="ss-2">UTC</span></div>
+          <div class="cstat"><small id="sl-3">Day of year</small><b id="sv-3">—</b><span class="c-sub" id="ss-3">UTC</span></div>
+          <div class="cstat"><small id="sl-4">UTC clock</small><b id="sv-4">—</b><span class="c-sub" id="ss-4">HH:MM:SS</span></div>
+        </div>
+      </div>
+
+      <!-- heading block, below the tool -->
+      <div class="phero-head">
+        <div class="rv">
+          <p class="kicker"><span class="ast" aria-hidden="true">✱</span> Developer Tools · Group 12 of 19</p>
+          <h1>Timestamp Tools<span class="blue">.</span></h1>
+          <p class="lede">The clock at the top of the bench never stops — it's the current Unix time, <strong>ticking one second at a time</strong>, right where you'll use it. Below it, two tools: a <strong>bidirectional timestamp ↔ date converter</strong> where editing either side updates the other, and an <strong>epoch decomposer</strong> that turns any moment into ISO 8601, UTC, local, RFC 2822, relative time, hex and binary. Seconds and milliseconds auto-detected, negative pre-1970 values welcome. <strong>Nothing is uploaded, nothing is stored.</strong></p>
+        </div>
+        <ul class="spec rv" aria-label="Page specifications">
+          <li><span>Tools</span><b>02</b></li>
+          <li><span>Reference</span><b>1970-01-01</b></li>
+          <li><span>Precision</span><b>sec · ms</b></li>
+          <li><span>Backend</span><b>none</b></li>
+          <li><span>Cost</span><b>free</b></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TICKER ================= -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track" id="ticker-track">
+      <span>Unix Timestamp Converter<i>✱</i>Epoch Converter<i>✱</i>JSON Formatter<i>✱</i>Base64 Encode<i>✱</i>JWT Decoder<i>✱</i>SHA256 Generator<i>✱</i>Color Picker<i>✱</i>UUID Generator<i>✱</i>Regex Tester<i>✱</i>Cron Parser<i>✱</i>XML Validator<i>✱</i></span>
+    </div>
+  </div>
+
+  <!-- ================= DETAILED GUIDE ================= -->
+  <section class="sec" id="guide" aria-labelledby="guide-title">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div><span class="sec-kicker">In order, 01 → 02</span><h2 id="guide-title">Two tools, one relentless clock.</h2></div>
+        <span class="sec-idx">( 01 )</span>
+      </div>
+
+      <!-- 01 -->
+      <article class="tool rv" id="unix-timestamp-converter">
+        <aside class="tool-side">
+          <span class="tool-num">01 / 02</span>
+          <h3>Unix Timestamp Converter</h3>
+          <span class="tool-here">runs in the bench above</span>
+        </aside>
+        <div class="tool-body">
+          <p>The everyday workhorse, and it runs both ways. Type a <strong>timestamp</strong> — seconds or milliseconds, auto-detected by magnitude — and the date field, the readouts and the stat strip all resolve to that moment. Or pick a <strong>date and time</strong> and watch the timestamp appear. The two inputs stay in sync, so you never convert the same value twice. Negative values work too, so dates before 1970 are first-class citizens.</p>
+          <div class="example">
+            <span class="ex-tag">Example · a famous second</span>
+            <p class="ex-in">1234567890</p>
+            <span class="ex-arrow" aria-hidden="true">↓</span>
+            <p class="ex-out"><b>Fri, 13 Feb 2009 23:31:30 UTC</b>
+the moment geeks around the world raised a glass — 1234567890.</p>
+          </div>
+          <p class="tool-use">Use it for <span class="tag">API debugging</span><span class="tag">log reading</span><span class="tag">database values</span><span class="tag">scheduling</span></p>
+        </div>
+      </article>
+
+      <!-- 02 -->
+      <article class="tool rv" id="epoch-converter">
+        <aside class="tool-side">
+          <span class="tool-num">02 / 02</span>
+          <h3>Epoch Converter</h3>
+          <span class="tool-here">runs in the bench above</span>
+        </aside>
+        <div class="tool-body">
+          <p>Drop in any epoch value and the bench <strong>tells you everything it knows</strong> about that moment: ISO 8601, the UTC and local renderings, RFC 2822 for mail headers, a plain-English relative reading, and — for the low-level minded — the value in <strong>hex and binary</strong>. The stat strip decomposes the whole span into days, hours, minutes and seconds since 1970. Quick chips jump to now, an hour or a day ahead, the Moon landing, or the stroke of Y2K.</p>
+          <div class="example">
+            <span class="ex-tag">Example · the starting gun</span>
+            <p class="ex-in">0</p>
+            <span class="ex-arrow" aria-hidden="true">↓</span>
+            <p class="ex-out"><b>1970-01-01T00:00:00.000Z · Thu, 01 Jan 1970 00:00:00 GMT · 0x0</b>
+the epoch itself — every count starts here.</p>
+          </div>
+          <p class="tool-use">Use it for <span class="tag">forensics</span><span class="tag">file metadata</span><span class="tag">protocol work</span><span class="tag">teaching time</span></p>
+        </div>
+      </article>
+
+      <p class="rules rv"><b>Time rules</b> · the reference is 1970-01-01 00:00:00 UTC — the Unix epoch · values above 100 billion in magnitude are read as milliseconds, anything smaller as seconds · both readouts always show seconds and milliseconds, so the output is never ambiguous · UTC is the reference; LOCAL adds your timezone offset including the DST rule in force on that date · negative timestamps (pre-1970) convert, decompose and render in hex/binary just like positive ones · relative readings are computed against your machine's clock at the moment of rendering · the live clock at the top ticks in your browser — it never phones home</p>
+    </div>
+  </section>
+
+  <!-- ================= PRIVACY BAND ================= -->
+  <section class="band" id="privacy" aria-labelledby="privacy-title">
+    <div class="wrap">
+      <span class="sec-kicker rv">The privacy promise</span>
+      <h2 id="privacy-title" class="rv">Count anything. <span class="soft">We couldn't see it even if we wanted to.</span></h2>
+      <p class="band-lede rv">This page has no backend and no database. Every second counted, every date resolved and every hex digit emitted just now happened inside your own browser tab — your timestamps never traveled a single centimeter of cable. Even the live clock is yours: it ticks locally, and when you close the page it's gone for good.</p>
+
+      <div class="pipe rv" role="img" aria-label="Data flow: ticking seconds are computed in your browser. No server involved.">
+        <span class="node">TICKING SECONDS</span><span class="pipe-arrow">→</span>
+        <span class="node node-live">COMPUTED IN YOUR BROWSER</span><span class="pipe-arrow">→</span>
+        <span class="node">EVERY FORMAT</span>
+      </div>
+      <div class="pipe-dead rv"><span class="node node-dead">✕ SERVER · DATABASE · LOGS · ANALYTICS</span></div>
+
+      <ul class="facts rv">
+        <li><span class="f-k">Database</span><span class="f-v">null</span></li>
+        <li><span class="f-k">Backend</span><span class="f-v">none</span></li>
+        <li><span class="f-k">Time uploads</span><span class="f-v">0</span></li>
+        <li><span class="f-k">Session logs</span><span class="f-v">0</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= FAQ ================= -->
+  <section class="sec" id="faq" aria-labelledby="faq-title">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div><span class="sec-kicker">Questions</span><h2 id="faq-title">Asked often, answered plainly.</h2></div>
+        <span class="sec-idx">( 02 )</span>
+      </div>
+
+      <details class="faq rv" open>
+        <summary>What's the difference between Unix time and epoch time?</summary>
+        <p>Nothing — they're two names for the same thing: a count of seconds since 1970-01-01 00:00:00 UTC, the Unix epoch. On this page the Unix Timestamp Converter focuses on going back and forth between a timestamp and a calendar date, while the Epoch Converter takes any value and decomposes it into every representation it knows — string formats, relative time, hex and binary.</p>
+      </details>
+      <details class="faq rv">
+        <summary>Seconds or milliseconds — which does the bench expect?</summary>
+        <p>Both, auto-detected. Values whose magnitude is above 100 billion are read as milliseconds — the convention JavaScript and many runtimes use — and anything smaller is read as seconds, the convention of most APIs, databases and operating systems. The readouts always show both, so there's never ambiguity in the output.</p>
+      </details>
+      <details class="faq rv">
+        <summary>Why does my local time differ from UTC?</summary>
+        <p>UTC is the single worldwide reference; your local time is UTC plus your timezone offset, including whatever daylight-saving rule is in force on that particular date — which is why the offset can be different in January than in July for the same place. The bench shows both side by side, and the LOCAL readout names the timezone abbreviation it used.</p>
+      </details>
+      <details class="faq rv">
+        <summary>Can it handle dates before 1970?</summary>
+        <p>Yes — timestamps before the epoch are simply negative, and the bench handles them throughout. Conversion, decomposition, hex and binary all work with negative values, so the Moon landing (around -14159020) converts just as cleanly as tomorrow. The quick chips on the Epoch tab let you verify with one click.</p>
+      </details>
+      <details class="faq rv">
+        <summary>Is my data saved anywhere?</summary>
+        <p>No. IrisTool has no backend and no database. Every conversion happens inside your browser tab and disappears the moment you close or refresh the page. There is nothing to leak, because nothing is ever collected.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- ================= PREV / NEXT ================= -->
+  <nav class="prevnext" aria-label="Browse groups">
+    <div class="wrap pn-grid">
+      <a class="pn" href="color-tools.html">
+        <small>← Previous group · Color Tools</small>
+        <b>Color Tools</b>
+      </a>
+      <a class="pn pn--next" href="uuid-tools.html">
+        <small>Next group · UUID Tools →</small>
+        <b>UUID Tools</b>
+      </a>
+    </div>
+  </nav>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="logo" href="index.html" aria-label="IrisTool — home">
+          <span class="logo-mark" aria-hidden="true">✱</span>
+          <span class="logo-word">IrisTool</span>
+        </a>
+        <p>278 free tools for text, code, images, SEO and everyday math. Everything runs in your browser — nothing is ever collected.</p>
+        <span class="foot-badge">No backend · No database · No tracking</span>
+      </div>
+
+        <div>
+        <div><a class="m-link" href="index.html">Home</a></div>
+       
+      
+
+      
+        <div><a class="m-link" href="about-us.html">About Us</a></div>
+      
+      
+
+      
+        <div><a class="m-link" href="contact-us.html">Contact Us</a></div>
+        
+       
+      </div>
+    </div>
+
+    <div class="foot-bottom">
+      <p>© <span id="yr">2026</span> IrisTool — All processing happens on your device. Nothing is collected.</p>
+      <span>Made with passion by Sajad Zamani</span>
+      <a class="to-top" href="#top">Back to top ↑</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/timestamp-tools.js"></script>
+</body>
+</html>
