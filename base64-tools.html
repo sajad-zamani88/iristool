@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- ============ PRIMARY SEO ============ -->
+<title>Base64 Tools — Base64 Encode &amp; Decode with UTF-8 Support | IrisTool</title>
+<meta name="title" content="Base64 Tools — Base64 Encode &amp; Decode with UTF-8 Support | IrisTool">
+<meta name="description" content="2 free Base64 tools in one bench: a UTF-8-aware encoder with URL-safe alphabet and 76-char MIME wrapping, and a decoder that auto-detects URL-safe input, ignores whitespace and never throws. 100% in-browser, nothing stored.">
+<meta name="keywords" content="base64 encode, base64 decode, base64 converter, base64 to text, text to base64, url-safe base64, utf-8 base64, free online tools">
+<meta name="author" content="IrisTool">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="googlebot" content="index, follow">
+<meta name="language" content="English">
+<meta name="rating" content="general">
+<meta name="distribution" content="global">
+<meta name="coverage" content="Worldwide">
+<meta name="revisit-after" content="7 days">
+<meta name="theme-color" content="#FCFCFA">
+<meta name="color-scheme" content="light">
+
+<link rel="canonical" href="https://IrisTool.com/base64-tools.html">
+
+<!-- ============ GEO TAGS ============ -->
+<meta name="geo.region" content="US">
+<meta name="geo.placename" content="United States">
+<meta name="geo.position" content="37.09024;-95.712891">
+<meta name="ICBM" content="37.09024, -95.712891">
+
+<!-- ============ HREFLANG ============ -->
+<link rel="alternate" hreflang="en" href="https://IrisTool.com/base64-tools.html">
+<link rel="alternate" hreflang="x-default" href="https://IrisTool.com/index.html">
+
+<!-- ============ SOCIAL / OPEN GRAPH ============ -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="IrisTool">
+<meta property="og:url" content="https://IrisTool.com/base64-tools.html">
+<meta property="og:title" content="Base64 Tools — Base64 Encode &amp; Decode with UTF-8 Support | IrisTool">
+<meta property="og:description" content="Turn text into text-safe bytes and back — UTF-8 aware, URL-safe fluent, MIME-wrap ready. Live on every keystroke, entirely in your browser.">
+<meta property="og:image" content="https://IrisTool.com/assets/og-base64-tools-1200x630.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Base64 Tools — input and output panes with live encoding and decoding, entirely in your browser">
+<meta property="og:locale" content="en_US">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://IrisTool.com/base64-tools.html">
+<meta name="twitter:title" content="Base64 Tools — Base64 Encode &amp; Decode with UTF-8 Support | IrisTool">
+<meta name="twitter:description" content="2 free Base64 tools with UTF-8 support, URL-safe alphabet and MIME wrapping. 100% client-side — nothing you paste is ever stored.">
+<meta name="twitter:image" content="https://IrisTool.com/assets/og-base64-tools-1200x630.png">
+
+<!-- ============ ICONS ============ -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230033FF'/%3E%3Ctext x='32' y='46' font-size='42' text-anchor='middle' fill='%23fff' font-family='monospace'%3E%E2%9C%B1%3C/text%3E%3C/svg%3E">
+
+<!-- ============ FONTS (fontsource CDN) ============ -->
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link href="https://cdn.jsdelivr.net/fontsource/css/space-grotesk@latest/latin-500.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/space-grotesk@latest/latin-700.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/ibm-plex-sans@latest/latin-400.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/ibm-plex-sans@latest/latin-500.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/ibm-plex-mono@latest/latin-400.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/ibm-plex-mono@latest/latin-500.css" rel="stylesheet">
+
+<!-- ============ STRUCTURED DATA ============ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://IrisTool.com/index.html" },
+    { "@type": "ListItem", "position": 2, "name": "Developer Tools", "item": "https://IrisTool.com/developer-tools.html" },
+    { "@type": "ListItem", "position": 3, "name": "Base64 Tools", "item": "https://IrisTool.com/base64-tools.html" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Base64 Tools — Base64 Encode & Decode with UTF-8 Support",
+  "description": "2 free Base64 tools in one bench: a UTF-8-aware encoder with URL-safe alphabet and 76-char MIME wrapping, and a decoder that auto-detects URL-safe input, ignores whitespace and never throws. 100% in-browser, nothing stored.",
+  "url": "https://IrisTool.com/base64-tools.html",
+  "inLanguage": "en",
+  "isPartOf": { "@type": "WebSite", "name": "IrisTool", "url": "https://IrisTool.com/index.html" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Base64 Tools — all available on this page",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Base64 Encode", "url": "https://IrisTool.com/base64-tools.html#base64-encode", "description": "Converts text to UTF-8 bytes and packs them into Base64 — standard or URL-safe alphabet, optional 76-character MIME wrapping." },
+    { "@type": "ListItem", "position": 2, "name": "Base64 Decode", "url": "https://IrisTool.com/base64-tools.html#base64-decode", "description": "Unpacks Base64 back into text — auto-detects URL-safe input, ignores line wraps, discards invalid characters with a count, and reassembles UTF-8." }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "Why is the Base64 output about 33% larger than my input?", "acceptedAnswer": { "@type": "Answer", "text": "That's the fixed price of text-safety. Base64 regroups every 3 bytes (24 bits) into 4 characters of 6 bits each, because only 64 values fit comfortably through any text channel. 3 bytes become 4 characters, so the payload grows by a third — the Size change stat on the bench shows the exact figure for your input." } },
+    { "@type": "Question", "name": "What is URL-safe Base64?", "acceptedAnswer": { "@type": "Answer", "text": "Standard Base64 uses + and / — both of which carry meaning in URLs and query strings. The URL-safe variant (RFC 4648) swaps them for - and _, and usually drops the = padding. Flip the −_ URL-safe toggle on the encoder to produce it; the decoder on this page reads both alphabets automatically, padding or no padding." } },
+    { "@type": "Question", "name": "Can I encode images or binary files here?", "acceptedAnswer": { "@type": "Answer", "text": "This bench is built for text payloads — what you paste is read as UTF-8 text, so raw binary pasted into the textarea would be interpreted as characters first and its bytes wouldn't survive. For images and files, use a file-based converter; for JSON, JWT segments, CSS snippets, SVG source and every other text payload, this bench is exactly right." } },
+    { "@type": "Question", "name": "What does the LOSSY verdict mean?", "acceptedAnswer": { "@type": "Answer", "text": "It means the decoded bytes don't form valid UTF-8 — which usually happens when the original payload was raw binary rather than text. Instead of failing, the decoder maps each byte to its Latin-1 character so you can still see what came out, and the verdict tells you not to trust those characters as real text. CLEAN means the bytes reassembled into perfect UTF-8." } },
+    { "@type": "Question", "name": "Is my data saved anywhere?", "acceptedAnswer": { "@type": "Answer", "text": "No. IrisTool has no backend and no database. Encoding happens inside your browser tab and the payload disappears the moment you close or refresh the page. There is nothing to leak, because nothing is ever collected." } }
+  ]
+}
+</script>
+
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/base64-tools.css">
+</head>
+
+<body id="top">
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ================= HEADER ================= -->
+<header id="site-header">
+  <div class="wrap bar">
+    <a class="logo" href="index.html" aria-label="IrisTool — home">
+      <span class="logo-mark" aria-hidden="true">✱</span>
+      <span class="logo-word">IrisTool</span>
+      <span class="logo-tag">278 tools</span>
+    </a>
+
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+      <span></span><span></span>
+    </button>
+
+    <nav class="nav" id="primary-nav" aria-label="Primary">
+      <button class="nav-close" id="nav-close" type="button" aria-label="Close menu">
+        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+          <path d="M1.5 1.5l12 12M13.5 1.5l-12 12" stroke="currentColor" stroke-width="2"/>
+        </svg>
+        Close
+      </button>
+
+      <ul class="nav-list">
+        <li><a class="m-link" href="index.html">Home</a></li>
+
+        <!-- ============ TEXT TOOLS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Text Tools
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Text Tools</span><p class="mega-sub">55 tools to analyze, clean, sort, extract, compare, convert and encode text.</p></div>
+                <a class="mega-all" href="text-tools.html">View all 55 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup"><a class="mgroup-t" href="text-analysis-tools.html">Text Analysis</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="case-converter.html">Case Converter</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="text-cleanup-tools.html">Text Cleanup</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="sorting-tools.html">Sorting &amp; Reordering</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="text-extraction-tools.html">Text Extraction</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="find-replace-tools.html">Find &amp; Replace</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="text-generators.html">Text Generators</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="text-comparison-tools.html">Comparison &amp; Diff</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="text-conversion-tools.html">Conversion &amp; Encoding</a></div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ============ DEVELOPER TOOLS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Developer Tools
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Developer Tools</span><p class="mega-sub">94 tools for JSON, XML, HTML, CSS, JS, encoding, hashing, colors, timestamps, regex, cron and full SEO suite.</p></div>
+                <a class="mega-all" href="developer-tools.html">View all 94 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup"><a class="mgroup-t" href="json-tools.html">JSON</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="xml-tools.html">XML</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="html-tools.html">HTML</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="css-tools.html">CSS</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="javascript-tools.html">JavaScript</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="url-tools.html">URL</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="base64-tools.html">Base64</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="jwt-decoder.html">JWT</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="hash-tools.html">Hash</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="character-encoding-tools.html">Character Encoding</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="color-tools.html">Color</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="timestamp-tools.html">Timestamp</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="uuid-tools.html">UUID</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="regex-tools.html">Regex</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="cron-tools.html">Cron</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="escape-unescape-tools.html">Escape &amp; Unescape</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="data-conversion-tools.html">Data Conversion</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="csv-tsv-tools.html">CSV &amp; TSV</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="seo-tools.html">SEO</a></div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ============ CALCULATORS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Calculators
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Calculators</span><p class="mega-sub">60 calculators for health, money, dates, grades, math, units and everyday numbers.</p></div>
+                <a class="mega-all" href="calculators.html">View all 60 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup"><a class="mgroup-t" href="health-calculators.html">Health</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="finance-calculators.html">Finance</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="date-time-calculators.html">Date &amp; Time</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="education-statistics-calculators.html">Education &amp; Statistics</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="math-calculators.html">Math</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="unit-converters.html">Unit Converters</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="number-converters.html">Number Converters</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="fitness-tools.html">Fitness</a></div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ============ GENERATORS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Generators
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Generators</span><p class="mega-sub">39 generators for names, random picks, IDs, QR codes, CSS effects, palettes and test data.</p></div>
+                <a class="mega-all" href="generators.html">View all 39 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup"><a class="mgroup-t" href="identity-name-generators.html">Identity &amp; Name</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="random-generators.html">Random</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="developer-generators.html">Developer</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="css-generators.html">CSS</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="design-generators.html">Design</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="password-tools.html">Password</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="fake-data-generators.html">Fake Data</a></div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ============ IMAGE TOOLS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Image Tools
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Image Tools</span><p class="mega-sub">30 tools to edit, convert, compress and inspect images — processed entirely on your device.</p></div>
+                <a class="mega-all" href="image-tools.html">View all 30 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup"><a class="mgroup-t" href="image-editing-tools.html">Image Editing</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="image-converter-tools.html">Image Converter</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="image-optimization-tools.html">Optimization</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="image-inspector-tools.html">Inspector</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="image-design-tools.html">Image Design</a></div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li><a class="m-link" href="about-us.html">About Us</a></li>
+        <li><a class="m-link m-link--cta" href="contact-us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ================= BASE64 BENCH FIRST ================= -->
+  <section class="phero" aria-label="Live Base64 bench">
+    <div class="wrap">
+      <nav class="crumbs rv" aria-label="Breadcrumb">
+        <a href="index.html">Home</a><span class="sep">/</span>
+        <a href="developer-tools.html">Developer Tools</a><span class="sep">/</span>
+        <span class="here" aria-current="page">Base64</span>
+      </nav>
+
+      <div class="analyzer rv" id="analyzer" data-mode="encode" aria-label="Live Base64 bench">
+        <div class="a-bar">
+          <span class="dot" aria-hidden="true"></span>
+          <span class="dot dot--fill" aria-hidden="true"></span>
+          <span class="dot" aria-hidden="true"></span>
+          <span class="a-file">payload.b64 — 2 tools<span class="caret-block" aria-hidden="true"></span></span>
+          <span class="a-live">● LIVE</span>
+        </div>
+
+        <!-- MODE DECK -->
+        <div class="cmp-deck">
+          <div class="c-tabs" role="group" aria-label="Choose a Base64 tool">
+            <button type="button" class="c-tab is-on" data-mode="encode" aria-pressed="true">
+              <span class="ct-glyph" aria-hidden="true">▤</span><span class="ct-name">Encode</span>
+            </button>
+            <button type="button" class="c-tab" data-mode="decode" aria-pressed="false">
+              <span class="ct-glyph" aria-hidden="true">▥</span><span class="ct-name">Decode</span>
+            </button>
+          </div>
+          <div class="cmp-opts">
+            <span class="opts-holder" id="opts-holder"></span>
+            <button type="button" class="swap-btn" id="btn-swap" title="Feed the output back into the input">⇄ Output → Input</button>
+          </div>
+        </div>
+
+        <div class="c-grid">
+          <!-- INPUT PANE -->
+          <div class="c-pane c-left">
+            <div class="pane-head">
+              <span class="pane-label">Input · raw</span>
+              <span class="pane-badge" id="badge-in">0 CHARS</span>
+            </div>
+            <div class="hl-wrap">
+              <label class="skip" for="src-in">Raw input</label>
+              <textarea class="cmp-ta" id="src-in" spellcheck="false"></textarea>
+            </div>
+            <div class="pane-actions">
+              <button type="button" class="mini-btn" id="btn-copy-in">⧉ Copy input</button>
+              <button type="button" class="mini-btn" id="btn-clear-in">✕ Clear</button>
+              <button type="button" class="mini-btn" id="btn-sample">↺ Load sample</button>
+              <span class="a-note">NETWORK PAYLOAD: <em>0 BYTES</em> · PROCESSING: <em>LOCAL</em></span>
+            </div>
+          </div>
+
+          <!-- OUTPUT PANE -->
+          <div class="c-pane c-right">
+            <div class="pane-head">
+              <span class="pane-label">Output · converted</span>
+              <span class="pane-badge" id="badge-out">0 CHARS</span>
+            </div>
+            <div class="hl-wrap">
+              <textarea class="cmp-ta out-ta" id="out-ta" readonly spellcheck="false" aria-label="Converted output"></textarea>
+            </div>
+            <div class="pane-actions">
+              <button type="button" class="mini-btn" id="btn-copy-out">⧉ Copy output</button>
+              <span class="a-note">READ-ONLY · UPDATES <em>ON EVERY KEYSTROKE</em></span>
+            </div>
+          </div>
+
+          <div class="vs-badge" id="vs-badge" aria-hidden="true">▤</div>
+        </div>
+
+        <!-- RESULTS STRIP -->
+        <div class="c-stats">
+          <div class="cstat"><small id="sl-1">Characters in</small><b id="sv-1">0</b><span class="c-sub" id="ss-1">RAW TEXT</span></div>
+          <div class="cstat"><small id="sl-2">Characters out</small><b id="sv-2">0</b><span class="c-sub" id="ss-2">BASE64</span></div>
+          <div class="cstat"><small id="sl-3">Bytes encoded</small><b id="sv-3">0</b><span class="c-sub" id="ss-3">UTF-8 SOURCE</span></div>
+          <div class="cstat"><small id="sl-4">Size change</small><b id="sv-4">0%</b><span class="c-sub" id="ss-4">+33% IS TYPICAL</span></div>
+        </div>
+      </div>
+
+      <!-- heading block, below the tool -->
+      <div class="phero-head">
+        <div class="rv">
+          <p class="kicker"><span class="ast" aria-hidden="true">✱</span> Developer Tools · Group 07 of 19</p>
+          <h1>Base64 Tools<span class="blue">.</span></h1>
+          <p class="lede">Sixty-four characters are all it takes to push any byte stream through a text-only channel — and this bench speaks both directions fluently. The encoder reads your text as <strong>UTF-8 bytes</strong>, regroups them into 6-bit packs and writes them out in the standard or <strong>URL-safe alphabet</strong>, with optional 76-character MIME wrapping. The decoder reads both alphabets, shrugs off line breaks, counts whatever it discards and <strong>reassembles the UTF-8</strong> on the other side. <strong>Nothing is uploaded, nothing is stored.</strong></p>
+        </div>
+        <ul class="spec rv" aria-label="Page specifications">
+          <li><span>Tools</span><b>02</b></li>
+          <li><span>Alphabet</span><b>64 chars</b></li>
+          <li><span>Uploads</span><b>0</b></li>
+          <li><span>Backend</span><b>none</b></li>
+          <li><span>Cost</span><b>free</b></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TICKER ================= -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track" id="ticker-track">
+      <span>Base64 Encode<i>✱</i>Base64 Decode<i>✱</i>URL Encoder<i>✱</i>JSON Formatter<i>✱</i>JWT Decoder<i>✱</i>MD5 Generator<i>✱</i>JavaScript Minifier<i>✱</i>UUID Generator<i>✱</i>SHA256 Generator<i>✱</i>HTML Encoder<i>✱</i>XML Validator<i>✱</i></span>
+    </div>
+  </div>
+
+  <!-- ================= DETAILED GUIDE ================= -->
+  <section class="sec" id="guide" aria-labelledby="guide-title">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div><span class="sec-kicker">In order, 01 → 02</span><h2 id="guide-title">Two directions, one 64-character alphabet.</h2></div>
+        <span class="sec-idx">( 01 )</span>
+      </div>
+
+      <!-- 01 -->
+      <article class="tool rv" id="base64-encode">
+        <aside class="tool-side">
+          <span class="tool-num">01 / 02</span>
+          <h3>Base64 Encode</h3>
+          <span class="tool-here">runs in the bench above</span>
+        </aside>
+        <div class="tool-body">
+          <p>The pipeline is honest about its steps: your text is first read as <strong>UTF-8 bytes</strong> — so Persian, euro signs and emoji all survive as real byte sequences — then every three bytes are regrouped into <strong>four 6-bit packs</strong> and mapped onto the 64-character alphabet. Two toggles shape the output: <strong>⏎ wrap at 76</strong> breaks the result into MIME-style lines for email and PEM bodies, and <strong>−_ URL-safe</strong> swaps + and / for - and _ and drops the = padding, per RFC 4648. The Size change stat reports the exact toll: three bytes become four characters, so payloads typically grow by a third.</p>
+          <div class="example">
+            <span class="ex-tag">Example</span>
+            <p class="ex-in">Hello, stars! ★</p>
+            <span class="ex-arrow" aria-hidden="true">↓</span>
+            <p class="ex-out"><b>SGVsbG8sIHN0YXJzISDimIU=</b>
+the ★ rides along as three UTF-8 bytes → four Base64 characters.</p>
+          </div>
+          <p class="tool-use">Use it for <span class="tag">data URIs</span><span class="tag">JWT payloads</span><span class="tag">email attachments</span><span class="tag">embedded SVG</span></p>
+        </div>
+      </article>
+
+      <!-- 02 -->
+      <article class="tool rv" id="base64-decode">
+        <aside class="tool-side">
+          <span class="tool-num">02 / 02</span>
+          <h3>Base64 Decode</h3>
+          <span class="tool-here">runs in the bench above</span>
+        </aside>
+        <div class="tool-body">
+          <p>The trip home, built to be unshockable. The decoder <strong>auto-detects both alphabets</strong> — - and _ are quietly remapped to + and / — strips = padding, and with the <strong>␣ ignore whitespace</strong> toggle on it folds wrapped, multi-line payloads back together before decoding. Anything outside the alphabet is <strong>discarded and counted</strong> in the Discarded stat rather than crashing the run, and the byte buffer is reassembled as UTF-8. The verdict cell tells you how it went: <strong>CLEAN</strong> when the bytes formed valid UTF-8, <strong>LOSSY</strong> when the payload was raw binary and each byte was mapped to its Latin-1 character instead.</p>
+          <div class="example">
+            <span class="ex-tag">Example</span>
+            <p class="ex-in">SGVsbG8sIHN0YXJzIQ==</p>
+            <span class="ex-arrow" aria-hidden="true">↓</span>
+            <p class="ex-out"><b>Hello, stars!</b>
+padding stripped · 14 bytes out · verdict CLEAN.</p>
+          </div>
+          <p class="tool-use">Use it for <span class="tag">reading data URIs</span><span class="tag">JWT segments</span><span class="tag">email payloads</span><span class="tag">API debugging</span></p>
+        </div>
+      </article>
+
+      <p class="rules rv"><b>Encoding rules</b> · the encoder works in two steps — UTF-8 first, then Base64 — so every character becomes its real byte sequence before packing · every 3 bytes become 4 characters of 6 bits, padded with = to a multiple of four in standard mode · URL-safe mode uses - and _ and drops the padding entirely, per RFC 4648 · wrap mode breaks lines at 76 characters, MIME style · the decoder reads both alphabets automatically, strips padding and, with the toggle on, ignores all whitespace before decoding · characters outside the alphabet are discarded and counted — the run never fails · decoded bytes are reassembled as UTF-8; when they don't form valid UTF-8 the verdict flips to LOSSY and each byte maps to its Latin-1 character · encode then decode and you're home, byte for byte · ⇄ Output → Input feeds any result straight back for the return trip</p>
+    </div>
+  </section>
+
+  <!-- ================= PRIVACY BAND ================= -->
+  <section class="band" id="privacy" aria-labelledby="privacy-title">
+    <div class="wrap">
+      <span class="sec-kicker rv">The privacy promise</span>
+      <h2 id="privacy-title" class="rv">Paste anything. <span class="soft">We couldn't read it even if we wanted to.</span></h2>
+      <p class="band-lede rv">This page has no backend and no database. Every byte packed, every character unpacked and every verdict issued just now was computed by JavaScript inside your own browser tab — your payload never traveled a single centimeter of cable. Close the page and it's gone for good.</p>
+
+      <div class="pipe rv" role="img" aria-label="Data flow: raw text is encoded in your browser. No server involved.">
+        <span class="node">RAW TEXT</span><span class="pipe-arrow">→</span>
+        <span class="node node-live">ENCODED IN YOUR BROWSER</span><span class="pipe-arrow">→</span>
+        <span class="node">TEXT-SAFE PAYLOAD</span>
+      </div>
+      <div class="pipe-dead rv"><span class="node node-dead">✕ SERVER · DATABASE · LOGS · ANALYTICS</span></div>
+
+      <ul class="facts rv">
+        <li><span class="f-k">Database</span><span class="f-v">null</span></li>
+        <li><span class="f-k">Backend</span><span class="f-v">none</span></li>
+        <li><span class="f-k">Payload uploads</span><span class="f-v">0</span></li>
+        <li><span class="f-k">Session logs</span><span class="f-v">0</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= FAQ ================= -->
+  <section class="sec" id="faq" aria-labelledby="faq-title">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div><span class="sec-kicker">Questions</span><h2 id="faq-title">Asked often, answered plainly.</h2></div>
+        <span class="sec-idx">( 02 )</span>
+      </div>
+
+      <details class="faq rv" open>
+        <summary>Why is the Base64 output about 33% larger than my input?</summary>
+        <p>That's the fixed price of text-safety, baked into the scheme itself. Base64 regroups every 3 bytes (24 bits) into 4 characters of 6 bits each, because 64 values are all that fit comfortably through any text channel — email bodies, URLs, JSON strings, source code. Three bytes in, four characters out, so the payload grows by a third. The Size change stat on the bench shows the exact figure for your input, padding included.</p>
+      </details>
+      <details class="faq rv">
+        <summary>What is URL-safe Base64?</summary>
+        <p>Standard Base64 uses + and / — both of which carry meaning in URLs and query strings, where + can read as a space and / as a path separator. The URL-safe variant defined in RFC 4648 swaps them for - and _, and usually drops the = padding since its length can be recomputed. Flip the −_ URL-safe toggle on the encoder to produce it; the decoder on this page reads both alphabets automatically, padding or no padding, so you never have to choose a direction.</p>
+      </details>
+      <details class="faq rv">
+        <summary>Can I encode images or binary files here?</summary>
+        <p>This bench is built for text payloads. What you paste is read as UTF-8 text, so raw binary dropped into the textarea would be interpreted as characters first, and its original bytes wouldn't survive the trip. For images and files, use a file-based converter. For JSON, JWT segments, CSS snippets, SVG source, config dumps and every other text payload, this bench is exactly the right tool.</p>
+      </details>
+      <details class="faq rv">
+        <summary>What does the LOSSY verdict mean?</summary>
+        <p>It means the decoded bytes don't form valid UTF-8 — which usually happens when the original payload was raw binary rather than text, or when the Base64 was truncated. Instead of failing, the decoder maps each byte to its Latin-1 character so you can still see what came out, and the red LOSSY verdict tells you not to trust those characters as real text. CLEAN means the bytes reassembled into perfect UTF-8 and what you're reading is exactly what was encoded.</p>
+      </details>
+      <details class="faq rv">
+        <summary>Is my data saved anywhere?</summary>
+        <p>No. IrisTool has no backend and no database. Encoding happens inside your browser tab and the payload disappears the moment you close or refresh the page. There is nothing to leak, because nothing is ever collected.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- ================= PREV / NEXT ================= -->
+  <nav class="prevnext" aria-label="Browse groups">
+    <div class="wrap pn-grid">
+      <a class="pn" href="url-tools.html">
+        <small>← Previous group · URL Tools</small>
+        <b>URL Tools</b>
+      </a>
+      <a class="pn pn--next" href="jwt-decoder.html">
+        <small>Next group · JWT Decoder →</small>
+        <b>JWT Decoder</b>
+      </a>
+    </div>
+  </nav>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="logo" href="index.html" aria-label="IrisTool — home">
+          <span class="logo-mark" aria-hidden="true">✱</span>
+          <span class="logo-word">IrisTool</span>
+        </a>
+        <p>278 free tools for text, code, images, SEO and everyday math. Everything runs in your browser — nothing is ever collected.</p>
+        <span class="foot-badge">No backend · No database · No tracking</span>
+      </div>
+
+        <div>
+        <div><a class="m-link" href="index.html">Home</a></div>
+       
+      
+
+      
+        <div><a class="m-link" href="about-us.html">About Us</a></div>
+      
+      
+
+      
+        <div><a class="m-link" href="contact-us.html">Contact Us</a></div>
+        
+       
+      </div>
+    </div>
+
+    <div class="foot-bottom">
+      <p>© <span id="yr">2026</span> IrisTool — All processing happens on your device. Nothing is collected.</p>
+      <span>Made with passion by Sajad Zamani</span>
+      <a class="to-top" href="#top">Back to top ↑</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/base64-tools.js"></script>
+</body>
+</html>

@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- ============ PRIMARY SEO ============ -->
+<title>UUID Tools — UUID, GUID &amp; Nano ID Generators | IrisTool</title>
+<meta name="title" content="UUID Tools — UUID, GUID &amp; Nano ID Generators | IrisTool">
+<meta name="description" content="3 free identifier generators in one bench: RFC 4122 v4 UUIDs with version/variant bits highlighted, Microsoft-style GUIDs, and URL-safe Nano IDs with adjustable length — all from a cryptographic RNG, in batches, with one-click copy. 100% in-browser.">
+<meta name="keywords" content="uuid generator, guid generator, nanoid generator, uuid v4, generate uuid online, random id generator, unique identifier, crypto random, free online tools">
+<meta name="author" content="IrisTool">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="googlebot" content="index, follow">
+<meta name="language" content="English">
+<meta name="rating" content="general">
+<meta name="distribution" content="global">
+<meta name="coverage" content="Worldwide">
+<meta name="revisit-after" content="7 days">
+<meta name="theme-color" content="#FCFCFA">
+<meta name="color-scheme" content="light">
+
+<link rel="canonical" href="https://IrisTool.com/uuid-tools.html">
+
+<!-- ============ GEO TAGS ============ -->
+<meta name="geo.region" content="US">
+<meta name="geo.placename" content="United States">
+<meta name="geo.position" content="37.09024;-95.712891">
+<meta name="ICBM" content="37.09024, -95.712891">
+
+<!-- ============ HREFLANG ============ -->
+<link rel="alternate" hreflang="en" href="https://IrisTool.com/uuid-tools.html">
+<link rel="alternate" hreflang="x-default" href="https://IrisTool.com/index.html">
+
+<!-- ============ SOCIAL / OPEN GRAPH ============ -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="IrisTool">
+<meta property="og:url" content="https://IrisTool.com/uuid-tools.html">
+<meta property="og:title" content="UUID Tools — UUID, GUID &amp; Nano ID Generators | IrisTool">
+<meta property="og:description" content="Cryptographically random UUIDs, GUIDs and Nano IDs — generated in batches, formatted your way, with the version and variant bits lit up. All in your browser.">
+<meta property="og:image" content="https://IrisTool.com/assets/og-uuid-tools-1200x630.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="UUID Tools — a spotlighted UUID with version and variant bits highlighted and a batch list below, entirely in your browser">
+<meta property="og:locale" content="en_US">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://IrisTool.com/uuid-tools.html">
+<meta name="twitter:title" content="UUID Tools — UUID, GUID &amp; Nano ID Generators | IrisTool">
+<meta name="twitter:description" content="3 free ID generators from a cryptographic RNG. 100% client-side — nothing you generate is ever stored.">
+<meta name="twitter:image" content="https://IrisTool.com/assets/og-uuid-tools-1200x630.png">
+
+<!-- ============ ICONS ============ -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230033FF'/%3E%3Ctext x='32' y='46' font-size='42' text-anchor='middle' fill='%23fff' font-family='monospace'%3E%E2%9C%B1%3C/text%3E%3C/svg%3E">
+
+<!-- ============ FONTS (fontsource CDN) ============ -->
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link href="https://cdn.jsdelivr.net/fontsource/css/space-grotesk@latest/latin-500.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/space-grotesk@latest/latin-700.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/ibm-plex-sans@latest/latin-400.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/ibm-plex-sans@latest/latin-500.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/ibm-plex-mono@latest/latin-400.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/ibm-plex-mono@latest/latin-500.css" rel="stylesheet">
+
+<!-- ============ STRUCTURED DATA ============ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://IrisTool.com/index.html" },
+    { "@type": "ListItem", "position": 2, "name": "Developer Tools", "item": "https://IrisTool.com/developer-tools.html" },
+    { "@type": "ListItem", "position": 3, "name": "UUID Tools", "item": "https://IrisTool.com/uuid-tools.html" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "UUID Tools — UUID, GUID & Nano ID Generators",
+  "description": "3 free identifier generators in one bench: RFC 4122 v4 UUIDs with version/variant bits highlighted, Microsoft-style GUIDs, and URL-safe Nano IDs with adjustable length — all from a cryptographic RNG, in batches, with one-click copy. 100% in-browser.",
+  "url": "https://IrisTool.com/uuid-tools.html",
+  "inLanguage": "en",
+  "isPartOf": { "@type": "WebSite", "name": "IrisTool", "url": "https://IrisTool.com/index.html" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "UUID Tools — all available on this page",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "UUID Generator", "url": "https://IrisTool.com/uuid-tools.html#uuid-generator", "description": "RFC 4122 version 4 UUIDs from a cryptographic RNG, in batches, with case/hyphen/brace formatting and the version & variant bits highlighted." },
+    { "@type": "ListItem", "position": 2, "name": "GUID Generator", "url": "https://IrisTool.com/uuid-tools.html#guid-generator", "description": "Microsoft-style GUIDs — uppercase, braced, 128 bits — from the same cryptographic engine." },
+    { "@type": "ListItem", "position": 3, "name": "Nano ID Generator", "url": "https://IrisTool.com/uuid-tools.html#nanoid-generator", "description": "Compact URL-safe IDs from a 64-character alphabet with adjustable length and live entropy readout." }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "What's the difference between a UUID and a GUID?", "acceptedAnswer": { "@type": "Answer", "text": "Underneath, nothing — both are 128-bit values from the same random space. The difference is convention: UUID is the RFC 4122 standard, usually written lowercase with hyphens; GUID is Microsoft's name for the same thing, conventionally written uppercase and wrapped in braces. This bench generates the identical v4 random value and simply dresses it differently for each." } },
+    { "@type": "Question", "name": "Are these actually random?", "acceptedAnswer": { "@type": "Answer", "text": "They come from your browser's cryptographic random number generator (crypto.getRandomValues), which is seeded from hardware entropy and is the same source your OS uses for TLS keys. A UUID v4 carries 122 bits of true randomness; a default Nano ID carries about 126. That's not 'pseudo-random enough' — it's cryptographically secure for identifiers, tokens and keys." } },
+    { "@type": "Question", "name": "Can two generated IDs collide?", "acceptedAnswer": { "@type": "Answer", "text": "In practice, no. The v4 space holds 2^122 values; by the birthday bound you'd need to generate roughly 2^61 — about two quintillion — IDs before a collision became even 50% likely. Nano IDs are in the same league. For any realistic system, treating them as unique is safe." } },
+    { "@type": "Question", "name": "Why is a Nano ID shorter than a UUID?", "acceptedAnswer": { "@type": "Answer", "text": "Because it uses a larger alphabet. A UUID speaks in hex — 16 symbols, 4 bits per character. A Nano ID speaks in 64 URL-safe symbols — 6 bits per character — so 21 characters carry about 126 bits, slightly more than a UUID's 122, in far fewer glyphs. Shorten it and the entropy readout on the bench tells you exactly what you still have." } },
+    { "@type": "Question", "name": "Is my data saved anywhere?", "acceptedAnswer": { "@type": "Answer", "text": "No. IrisTool has no backend and no database. The IDs are generated inside your browser tab and vanish the moment you close or refresh the page. Nothing is logged, because nothing is ever collected." } }
+  ]
+}
+</script>
+
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/uuid-tools.css">
+</head>
+
+<body id="top">
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ================= HEADER ================= -->
+<header id="site-header">
+  <div class="wrap bar">
+    <a class="logo" href="index.html" aria-label="IrisTool — home">
+      <span class="logo-mark" aria-hidden="true">✱</span>
+      <span class="logo-word">IrisTool</span>
+      <span class="logo-tag">278 tools</span>
+    </a>
+
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+      <span></span><span></span>
+    </button>
+
+    <nav class="nav" id="primary-nav" aria-label="Primary">
+      <button class="nav-close" id="nav-close" type="button" aria-label="Close menu">
+        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+          <path d="M1.5 1.5l12 12M13.5 1.5l-12 12" stroke="currentColor" stroke-width="2"/>
+        </svg>
+        Close
+      </button>
+
+      <ul class="nav-list">
+        <li><a class="m-link" href="index.html">Home</a></li>
+
+        <!-- ============ TEXT TOOLS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Text Tools
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Text Tools</span><p class="mega-sub">55 tools to analyze, clean, sort, extract, compare, convert and encode text.</p></div>
+                <a class="mega-all" href="text-tools.html">View all 55 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup"><a class="mgroup-t" href="text-analysis-tools.html">Text Analysis</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="case-converter.html">Case Converter</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="text-cleanup-tools.html">Text Cleanup</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="sorting-tools.html">Sorting &amp; Reordering</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="text-extraction-tools.html">Text Extraction</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="find-replace-tools.html">Find &amp; Replace</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="text-generators.html">Text Generators</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="text-comparison-tools.html">Comparison &amp; Diff</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="text-conversion-tools.html">Conversion &amp; Encoding</a></div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ============ DEVELOPER TOOLS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Developer Tools
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Developer Tools</span><p class="mega-sub">94 tools for JSON, XML, HTML, CSS, JS, encoding, hashing, colors, timestamps, regex, cron and full SEO suite.</p></div>
+                <a class="mega-all" href="developer-tools.html">View all 94 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup"><a class="mgroup-t" href="json-tools.html">JSON</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="xml-tools.html">XML</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="html-tools.html">HTML</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="css-tools.html">CSS</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="javascript-tools.html">JavaScript</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="url-tools.html">URL</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="base64-tools.html">Base64</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="jwt-decoder.html">JWT</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="hash-tools.html">Hash</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="character-encoding-tools.html">Character Encoding</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="color-tools.html">Color</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="timestamp-tools.html">Timestamp</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="uuid-tools.html">UUID</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="regex-tools.html">Regex</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="cron-tools.html">Cron</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="escape-unescape-tools.html">Escape &amp; Unescape</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="data-conversion-tools.html">Data Conversion</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="csv-tsv-tools.html">CSV &amp; TSV</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="seo-tools.html">SEO</a></div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ============ CALCULATORS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Calculators
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Calculators</span><p class="mega-sub">60 calculators for health, money, dates, grades, math, units and everyday numbers.</p></div>
+                <a class="mega-all" href="calculators.html">View all 60 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup"><a class="mgroup-t" href="health-calculators.html">Health</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="finance-calculators.html">Finance</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="date-time-calculators.html">Date &amp; Time</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="education-statistics-calculators.html">Education &amp; Statistics</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="math-calculators.html">Math</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="unit-converters.html">Unit Converters</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="number-converters.html">Number Converters</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="fitness-tools.html">Fitness</a></div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ============ GENERATORS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Generators
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Generators</span><p class="mega-sub">39 generators for names, random picks, IDs, QR codes, CSS effects, palettes and test data.</p></div>
+                <a class="mega-all" href="generators.html">View all 39 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup"><a class="mgroup-t" href="identity-name-generators.html">Identity &amp; Name</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="random-generators.html">Random</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="developer-generators.html">Developer</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="css-generators.html">CSS</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="design-generators.html">Design</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="password-tools.html">Password</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="fake-data-generators.html">Fake Data</a></div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ============ IMAGE TOOLS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Image Tools
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Image Tools</span><p class="mega-sub">30 tools to edit, convert, compress and inspect images — processed entirely on your device.</p></div>
+                <a class="mega-all" href="image-tools.html">View all 30 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup"><a class="mgroup-t" href="image-editing-tools.html">Image Editing</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="image-converter-tools.html">Image Converter</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="image-optimization-tools.html">Optimization</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="image-inspector-tools.html">Inspector</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="image-design-tools.html">Image Design</a></div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li><a class="m-link" href="about-us.html">About Us</a></li>
+        <li><a class="m-link m-link--cta" href="contact-us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ================= UUID BENCH FIRST ================= -->
+  <section class="phero" aria-label="Live identifier bench">
+    <div class="wrap">
+      <nav class="crumbs rv" aria-label="Breadcrumb">
+        <a href="index.html">Home</a><span class="sep">/</span>
+        <a href="developer-tools.html">Developer Tools</a><span class="sep">/</span>
+        <span class="here" aria-current="page">UUID</span>
+      </nav>
+
+      <div class="analyzer rv" id="analyzer" data-mode="uuid" aria-label="Live identifier bench">
+        <div class="a-bar">
+          <span class="dot" aria-hidden="true"></span>
+          <span class="dot dot--fill" aria-hidden="true"></span>
+          <span class="dot" aria-hidden="true"></span>
+          <span class="a-file">identifiers.log — 3 tools<span class="caret-block" aria-hidden="true"></span></span>
+          <span class="a-live">● LIVE</span>
+        </div>
+
+        <!-- MODE DECK -->
+        <div class="cmp-deck">
+          <div class="c-tabs" role="group" aria-label="Choose an identifier tool">
+            <button type="button" class="c-tab is-on" data-mode="uuid" aria-pressed="true">
+              <span class="ct-glyph" aria-hidden="true">⬡</span><span class="ct-name">UUID v4</span>
+            </button>
+            <button type="button" class="c-tab" data-mode="guid" aria-pressed="false">
+              <span class="ct-glyph" aria-hidden="true">{}</span><span class="ct-name">GUID</span>
+            </button>
+            <button type="button" class="c-tab" data-mode="nano" aria-pressed="false">
+              <span class="ct-glyph" aria-hidden="true">~</span><span class="ct-name">Nano ID</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="c-grid">
+          <!-- INPUT PANE -->
+          <div class="c-pane c-left">
+            <div class="pane-head">
+              <span class="pane-label">Input · entropy</span>
+              <span class="pane-badge">CSPRNG</span>
+            </div>
+            <div class="cb-controls" id="cb-controls"></div>
+          </div>
+
+          <!-- OUTPUT PANE -->
+          <div class="c-pane c-right">
+            <div class="pane-head">
+              <span class="pane-label">Output · generated</span>
+              <span class="pane-badge" id="cb-badge">BATCH ×5</span>
+              <button type="button" class="id-copyall u-ml-auto" id="btn-copyall">⧉ COPY ALL</button>
+            </div>
+            <div class="id-primary">
+              <div class="id-primary-top">
+                <span class="id-primary-label" id="id-primary-label">FRESHEST · UUID V4</span>
+                <button type="button" class="id-primary-copy" id="btn-copy-primary">⧉ COPY</button>
+              </div>
+              <div class="id-primary-value" id="id-primary-value">—</div>
+              <div class="id-legend" id="id-legend"></div>
+            </div>
+            <div class="id-listwrap" id="id-list"></div>
+          </div>
+
+          <div class="vs-badge" id="vs-badge" aria-hidden="true">⬡</div>
+        </div>
+
+        <!-- RESULTS STRIP -->
+        <div class="c-stats">
+          <div class="cstat"><small id="sl-1">Version</small><b id="sv-1">v4</b><span class="c-sub" id="ss-1">RANDOM</span></div>
+          <div class="cstat"><small id="sl-2">Variant</small><b id="sv-2">RFC 4122</b><span class="c-sub" id="ss-2">STANDARD</span></div>
+          <div class="cstat"><small id="sl-3">Entropy</small><b id="sv-3">122 bits</b><span class="c-sub" id="ss-3">OF RANDOMNESS</span></div>
+          <div class="cstat"><small id="sl-4">Length</small><b id="sv-4">36</b><span class="c-sub" id="ss-4">CHARACTERS</span></div>
+        </div>
+      </div>
+
+      <!-- heading block, below the tool -->
+      <div class="phero-head">
+        <div class="rv">
+          <p class="kicker"><span class="ast" aria-hidden="true">✱</span> Developer Tools · Group 13 of 19</p>
+          <h1>UUID Tools<span class="blue">.</span></h1>
+          <p class="lede">Hit the die and the bench pulls fresh randomness straight from your machine's <strong>cryptographic RNG</strong> — no server, no Math.random. Mint <strong>RFC 4122 v4 UUIDs</strong> with the version and variant bits lit up, <strong>Microsoft-style GUIDs</strong> in uppercase braces, or compact <strong>Nano IDs</strong> with a length dial and a live entropy readout. Generate one or a batch of 25, copy any of them in a click. <strong>Nothing is uploaded, nothing is stored.</strong></p>
+        </div>
+        <ul class="spec rv" aria-label="Page specifications">
+          <li><span>Tools</span><b>03</b></li>
+          <li><span>Entropy</span><b>122–126 b</b></li>
+          <li><span>Source</span><b>CSPRNG</b></li>
+          <li><span>Backend</span><b>none</b></li>
+          <li><span>Cost</span><b>free</b></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TICKER ================= -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track" id="ticker-track">
+      <span>UUID Generator<i>✱</i>GUID Generator<i>✱</i>Nano ID Generator<i>✱</i>JSON Formatter<i>✱</i>Base64 Encode<i>✱</i>JWT Decoder<i>✱</i>SHA256 Generator<i>✱</i>Color Picker<i>✱</i>Unix Timestamp<i>✱</i>Regex Tester<i>✱</i>XML Validator<i>✱</i></span>
+    </div>
+  </div>
+
+  <!-- ================= DETAILED GUIDE ================= -->
+  <section class="sec" id="guide" aria-labelledby="guide-title">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div><span class="sec-kicker">In order, 01 → 03</span><h2 id="guide-title">Three flavors of "never seen before."</h2></div>
+        <span class="sec-idx">( 01 )</span>
+      </div>
+
+      <!-- 01 -->
+      <article class="tool rv" id="uuid-generator">
+        <aside class="tool-side">
+          <span class="tool-num">01 / 03</span>
+          <h3>UUID Generator</h3>
+          <span class="tool-here">runs in the bench above</span>
+        </aside>
+        <div class="tool-body">
+          <p>The standard issue: a <strong>version 4, variant 1 UUID</strong> per RFC 4122 — 128 bits where 122 are pure cryptographic randomness and six are fixed markers that identify the version and variant. The spotlight <strong>lights up both marker bits</strong> so you can see exactly where they live (the <strong>4</strong> and the leading <strong>8/9/a/b</strong> of the fourth group). Format it your way — upper or lower case, hyphens on or off, braces on or off — and pull a batch of up to 25 at a time.</p>
+          <div class="example">
+            <span class="ex-tag">Example · markers highlighted</span>
+            <p class="ex-in">⚄ generate</p>
+            <span class="ex-arrow" aria-hidden="true">↓</span>
+            <p class="ex-out">f47ac10b-58cc-<span class="ex-v">4</span>372-<span class="ex-r">a</span>567-0e02b2c3d479
+<span class="ex-v">■</span> version nibble = 4 &nbsp;·&nbsp; <span class="ex-r">■</span> variant nibble = 8–b</p>
+          </div>
+          <p class="tool-use">Use it for <span class="tag">database keys</span><span class="tag">session IDs</span><span class="tag">idempotency keys</span><span class="tag">deduplication</span></p>
+        </div>
+      </article>
+
+      <!-- 02 -->
+      <article class="tool rv" id="guid-generator">
+        <aside class="tool-side">
+          <span class="tool-num">02 / 03</span>
+          <h3>GUID Generator</h3>
+          <span class="tool-here">runs in the bench above</span>
+        </aside>
+        <div class="tool-body">
+          <p>Same 128-bit engine, different dress code. A <strong>GUID</strong> is Microsoft's name for a UUID, and by convention it's written <strong>uppercase and wrapped in braces</strong> — the form you'll see in .NET, the Windows registry, COM interfaces and Active Directory. This tool generates the identical v4 random value and simply presents it the way those systems expect, ready to paste into a C# literal or a .reg file.</p>
+          <div class="example">
+            <span class="ex-tag">Example · Microsoft convention</span>
+            <p class="ex-in">⚄ generate</p>
+            <span class="ex-arrow" aria-hidden="true">↓</span>
+            <p class="ex-out"><b>{F47AC10B-58CC-4372-A567-0E02B2C3D479}</b>
+uppercase, braced — drop it straight into new Guid("…").</p>
+          </div>
+          <p class="tool-use">Use it for <span class="tag">.NET projects</span><span class="tag">registry entries</span><span class="tag">COM / ActiveX</span><span class="tag">Active Directory</span></p>
+        </div>
+      </article>
+
+      <!-- 03 -->
+      <article class="tool rv" id="nanoid-generator">
+        <aside class="tool-side">
+          <span class="tool-num">03 / 03</span>
+          <h3>Nano ID Generator</h3>
+          <span class="tool-here">runs in the bench above</span>
+        </aside>
+        <div class="tool-body">
+          <p>The compact contender. A Nano ID draws from a <strong>64-character URL-safe alphabet</strong> (A–Z, a–z, 0–9, _ and -), so every character carries 6 bits of entropy — a default 21-character ID packs about <strong>126 bits</strong>, slightly more than a UUID, in far fewer glyphs. Drag the length dial from 6 to 64 and watch the entropy readout tell you exactly how much randomness you still have. Safe in URLs, filenames and keys with no escaping needed.</p>
+          <div class="example">
+            <span class="ex-tag">Example · default length 21</span>
+            <p class="ex-in">⚄ generate</p>
+            <span class="ex-arrow" aria-hidden="true">↓</span>
+            <p class="ex-out"><b>V1StGXR8_Z5jdHi6B-myT</b>
+21 chars · 126 bits · no escaping needed anywhere.</p>
+          </div>
+          <p class="tool-use">Use it for <span class="tag">short URLs</span><span class="tag">Redis keys</span><span class="tag">frontend IDs</span><span class="tag">public tokens</span></p>
+        </div>
+      </article>
+
+      <p class="rules rv"><b>Generation rules</b> · all randomness comes from crypto.getRandomValues — your machine's cryptographic RNG, the same source your OS uses for TLS keys · UUID and GUID are version 4, variant 1: 122 random bits plus 6 fixed marker bits · a GUID is the same value as a UUID, rendered uppercase and braced per Microsoft convention · Nano IDs draw uniformly from a 64-character URL-safe alphabet via a bitmask, so the distribution is unbiased · entropy figures: UUID/GUID 122 bits, Nano ID = length × 6 bits · batches of up to 25, every ID copyable individually or all at once · nothing is transmitted and nothing is stored</p>
+    </div>
+  </section>
+
+  <!-- ================= PRIVACY BAND ================= -->
+  <section class="band" id="privacy" aria-labelledby="privacy-title">
+    <div class="wrap">
+      <span class="sec-kicker rv">The privacy promise</span>
+      <h2 id="privacy-title" class="rv">Mint anything. <span class="soft">We couldn't see it even if we wanted to.</span></h2>
+      <p class="band-lede rv">This page has no backend and no database. Every byte of randomness is drawn from your own machine's cryptographic generator, shaped into an identifier inside your browser tab, and gone the moment you close the page. The IDs never travel a single centimeter of cable — there is nothing to leak, because nothing is ever collected.</p>
+
+      <div class="pipe rv" role="img" aria-label="Data flow: random bytes are shaped into IDs in your browser. No server involved.">
+        <span class="node">RANDOM BYTES</span><span class="pipe-arrow">→</span>
+        <span class="node node-live">SHAPED IN YOUR BROWSER</span><span class="pipe-arrow">→</span>
+        <span class="node">READY TO USE</span>
+      </div>
+      <div class="pipe-dead rv"><span class="node node-dead">✕ SERVER · DATABASE · LOGS · ANALYTICS</span></div>
+
+      <ul class="facts rv">
+        <li><span class="f-k">Database</span><span class="f-v">null</span></li>
+        <li><span class="f-k">Backend</span><span class="f-v">none</span></li>
+        <li><span class="f-k">IDs uploaded</span><span class="f-v">0</span></li>
+        <li><span class="f-k">Session logs</span><span class="f-v">0</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= FAQ ================= -->
+  <section class="sec" id="faq" aria-labelledby="faq-title">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div><span class="sec-kicker">Questions</span><h2 id="faq-title">Asked often, answered plainly.</h2></div>
+        <span class="sec-idx">( 02 )</span>
+      </div>
+
+      <details class="faq rv" open>
+        <summary>What's the difference between a UUID and a GUID?</summary>
+        <p>Underneath, nothing — both are 128-bit values drawn from the same random space. The difference is convention: UUID is the RFC 4122 standard, usually written lowercase with hyphens; GUID is Microsoft's name for the same thing, conventionally written uppercase and wrapped in braces. This bench generates the identical v4 random value and simply dresses it differently for each tool.</p>
+      </details>
+      <details class="faq rv">
+        <summary>Are these actually random?</summary>
+        <p>They come from your browser's cryptographic random number generator (crypto.getRandomValues), which is seeded from hardware entropy and is the same source your operating system uses for TLS keys. A UUID v4 carries 122 bits of true randomness and a default Nano ID about 126. That's not "pseudo-random enough" — it's cryptographically secure for identifiers, tokens and keys.</p>
+      </details>
+      <details class="faq rv">
+        <summary>Can two generated IDs collide?</summary>
+        <p>In practice, no. The v4 space holds 2^122 values; by the birthday bound you'd need to generate roughly 2^61 — about two quintillion — identifiers before a collision became even 50% likely, and Nano IDs are in the same league. For any realistic system, from a side project to a planet-scale database, treating them as unique is safe.</p>
+      </details>
+      <details class="faq rv">
+        <summary>Why is a Nano ID shorter than a UUID?</summary>
+        <p>Because it uses a larger alphabet. A UUID speaks in hex — 16 symbols, 4 bits per character. A Nano ID speaks in 64 URL-safe symbols — 6 bits per character — so 21 characters carry about 126 bits, slightly more than a UUID's 122, in far fewer glyphs. Shorten it and the entropy readout on the bench tells you exactly what you still have.</p>
+      </details>
+      <details class="faq rv">
+        <summary>Is my data saved anywhere?</summary>
+        <p>No. Stack has no backend and no database. The identifiers are generated inside your browser tab and vanish the moment you close or refresh the page. Nothing is logged, because nothing is ever collected.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- ================= PREV / NEXT ================= -->
+  <nav class="prevnext" aria-label="Browse groups">
+    <div class="wrap pn-grid">
+      <a class="pn" href="timestamp-tools.html">
+        <small>← Previous group · Timestamp Tools</small>
+        <b>Timestamp Tools</b>
+      </a>
+      <a class="pn pn--next" href="regex-tools.html">
+        <small>Next group · Regex Tools →</small>
+        <b>Regex Tools</b>
+      </a>
+    </div>
+  </nav>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="logo" href="index.html" aria-label="IrisTool — home">
+          <span class="logo-mark" aria-hidden="true">✱</span>
+          <span class="logo-word">IrisTool</span>
+        </a>
+        <p>278 free tools for text, code, images, SEO and everyday math. Everything runs in your browser — nothing is ever collected.</p>
+        <span class="foot-badge">No backend · No database · No tracking</span>
+      </div>
+
+     <div>
+        <div><a class="m-link" href="index.html">Home</a></div>
+       
+      
+
+      
+        <div><a class="m-link" href="about-us.html">About Us</a></div>
+      
+      
+
+      
+        <div><a class="m-link" href="contact-us.html">Contact Us</a></div>
+        
+       
+      </div>
+    </div>
+
+    <div class="foot-bottom">
+      <p>© <span id="yr">2026</span> IrisTool — All processing happens on your device. Nothing is collected.</p>
+      <span>Made with passion by Sajad Zamani</span>
+      <a class="to-top" href="#top">Back to top ↑</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/uuid-tools.js"></script>
+</body>
+</html>

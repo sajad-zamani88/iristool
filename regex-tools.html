@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- ============ PRIMARY SEO ============ -->
+<title>Regex Tools — Regex Tester &amp; Cheat Sheet | IrisTool</title>
+<meta name="title" content="Regex Tools — Regex Tester &amp; Cheat Sheet | IrisTool">
+<meta name="description" content="2 free regex tools in one bench: a live tester that highlights every match, capture group and named group as you type — with g/i/m/s/u flag toggles and instant error reporting — plus a searchable cheat sheet where every token loads into the tester with one click. 100% in-browser.">
+<meta name="keywords" content="regex tester, regular expression tester, regex cheat sheet, regex online, match groups, named groups, javascript regex, pattern matching, free online tools">
+<meta name="author" content="IrisTool">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="googlebot" content="index, follow">
+<meta name="language" content="English">
+<meta name="rating" content="general">
+<meta name="distribution" content="global">
+<meta name="coverage" content="Worldwide">
+<meta name="revisit-after" content="7 days">
+<meta name="theme-color" content="#FCFCFA">
+<meta name="color-scheme" content="light">
+
+<link rel="canonical" href="https://IrisTool.com/regex-tools.html">
+
+<!-- ============ GEO TAGS ============ -->
+<meta name="geo.region" content="US">
+<meta name="geo.placename" content="United States">
+<meta name="geo.position" content="37.09024;-95.712891">
+<meta name="ICBM" content="37.09024, -95.712891">
+
+<!-- ============ HREFLANG ============ -->
+<link rel="alternate" hreflang="en" href="https://IrisTool.com/regex-tools.html">
+<link rel="alternate" hreflang="x-default" href="https://IrisTool.com/index.html">
+
+<!-- ============ SOCIAL / OPEN GRAPH ============ -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="IrisTool">
+<meta property="og:url" content="https://IrisTool.com/regex-tools.html">
+<meta property="og:title" content="Regex Tools — Regex Tester &amp; Cheat Sheet | IrisTool">
+<meta property="og:description" content="Type a pattern and watch every match light up in the test string — groups, named groups, flags and errors included, with a one-click cheat sheet beside it.">
+<meta property="og:image" content="https://IrisTool.com/assets/og-regex-tools-1200x630.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Regex Tools — a test string with live match highlighting and a match list with capture groups, entirely in your browser">
+<meta property="og:locale" content="en_US">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://IrisTool.com/regex-tools.html">
+<meta name="twitter:title" content="Regex Tools — Regex Tester &amp; Cheat Sheet | IrisTool">
+<meta name="twitter:description" content="2 free regex tools with live highlighting and a searchable cheat sheet. 100% client-side — nothing you type is ever stored.">
+<meta name="twitter:image" content="https://IrisTool.com/assets/og-regex-tools-1200x630.png">
+
+<!-- ============ ICONS ============ -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230033FF'/%3E%3Ctext x='32' y='46' font-size='42' text-anchor='middle' fill='%23fff' font-family='monospace'%3E%E2%9C%B1%3C/text%3E%3C/svg%3E">
+
+<!-- ============ FONTS (fontsource CDN) ============ -->
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link href="https://cdn.jsdelivr.net/fontsource/css/space-grotesk@latest/latin-500.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/space-grotesk@latest/latin-700.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/ibm-plex-sans@latest/latin-400.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/ibm-plex-sans@latest/latin-500.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/ibm-plex-mono@latest/latin-400.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/ibm-plex-mono@latest/latin-500.css" rel="stylesheet">
+
+<!-- ============ STRUCTURED DATA ============ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://IrisTool.com/index.html" },
+    { "@type": "ListItem", "position": 2, "name": "Developer Tools", "item": "https://IrisTool.com/developer-tools.html" },
+    { "@type": "ListItem", "position": 3, "name": "Regex Tools", "item": "https://IrisTool.com/regex-tools.html" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Regex Tools — Regex Tester & Cheat Sheet",
+  "description": "2 free regex tools in one bench: a live tester that highlights every match, capture group and named group as you type — with g/i/m/s/u flag toggles and instant error reporting — plus a searchable cheat sheet where every token loads into the tester with one click. 100% in-browser.",
+  "url": "https://IrisTool.com/regex-tools.html",
+  "inLanguage": "en",
+  "isPartOf": { "@type": "WebSite", "name": "IrisTool", "url": "https://IrisTool.com/index.html" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Regex Tools — all available on this page",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Regex Tester", "url": "https://IrisTool.com/regex-tools.html#regex-tester", "description": "Live match highlighting, numbered and named capture groups, g/i/m/s/u flag toggles and instant engine error reporting — all updating on every keystroke." },
+    { "@type": "ListItem", "position": 2, "name": "Regex Cheat Sheet", "url": "https://IrisTool.com/regex-tools.html#regex-cheat-sheet", "description": "A searchable reference of anchors, character classes, quantifiers, groups, lookaround, escapes, flags and common patterns — every token loads into the tester with one click." }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "Which regex flavor does the tester use?", "acceptedAnswer": { "@type": "Answer", "text": "JavaScript's native ECMAScript RegExp engine — the same one that runs in every browser. That means full support for named groups (?<name>…), lookbehind (?<=…), Unicode property escapes like \\p{L} with the u flag, and dotall with s. PCRE-only constructs like \\K or atomic groups aren't part of the spec and won't work here." } },
+    { "@type": "Question", "name": "Why does my pattern show an error?", "acceptedAnswer": { "@type": "Answer", "text": "The tester surfaces the engine's exact message the moment the pattern stops compiling. The usual culprits are an unbalanced parenthesis or bracket, a dangling quantifier like a lone *, an invalid escape, or a malformed group like (?<). Fix the pattern and the matches reappear instantly — no submit button involved." } },
+    { "@type": "Question", "name": "What are named groups?", "acceptedAnswer": { "@type": "Answer", "text": "A capture group written as (?<name>…) captures its match under a label instead of just a number, so you can read it as groups.year instead of groups[1]. The tester lists them alongside the numbered groups in every match, clearly marked, which makes complex patterns far easier to reason about." } },
+    { "@type": "Question", "name": "Why are some of my matches empty?", "acceptedAnswer": { "@type": "Answer", "text": "Anchors (^, $, \\b) and lookaround assertions are zero-width — they match a position, not characters, so the matched text is empty. That's correct behavior. The tester also guards against the classic infinite-loop trap where a zero-length match would otherwise run forever." } },
+    { "@type": "Question", "name": "Is my data saved anywhere?", "acceptedAnswer": { "@type": "Answer", "text": "No. Stack has no backend and no database. Matching happens inside your browser tab and the pattern and test string vanish the moment you close or refresh the page. Nothing is logged, because nothing is ever collected." } }
+  ]
+}
+</script>
+
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/regex-tools.css">
+</head>
+
+<body id="top">
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ================= HEADER ================= -->
+<header id="site-header">
+  <div class="wrap bar">
+    <a class="logo" href="index.html" aria-label="IrisTool — home">
+      <span class="logo-mark" aria-hidden="true">✱</span>
+      <span class="logo-word">IrisTool</span>
+      <span class="logo-tag">278 tools</span>
+    </a>
+
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+      <span></span><span></span>
+    </button>
+
+    <nav class="nav" id="primary-nav" aria-label="Primary">
+      <button class="nav-close" id="nav-close" type="button" aria-label="Close menu">
+        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+          <path d="M1.5 1.5l12 12M13.5 1.5l-12 12" stroke="currentColor" stroke-width="2"/>
+        </svg>
+        Close
+      </button>
+
+      <ul class="nav-list">
+        <li><a class="m-link" href="index.html">Home</a></li>
+
+        <!-- ============ TEXT TOOLS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Text Tools
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Text Tools</span><p class="mega-sub">55 tools to analyze, clean, sort, extract, compare, convert and encode text.</p></div>
+                <a class="mega-all" href="text-tools.html">View all 55 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup"><a class="mgroup-t" href="text-analysis-tools.html">Text Analysis</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="case-converter.html">Case Converter</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="text-cleanup-tools.html">Text Cleanup</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="sorting-tools.html">Sorting &amp; Reordering</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="text-extraction-tools.html">Text Extraction</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="find-replace-tools.html">Find &amp; Replace</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="text-generators.html">Text Generators</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="text-comparison-tools.html">Comparison &amp; Diff</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="text-conversion-tools.html">Conversion &amp; Encoding</a></div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ============ DEVELOPER TOOLS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Developer Tools
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Developer Tools</span><p class="mega-sub">94 tools for JSON, XML, HTML, CSS, JS, encoding, hashing, colors, timestamps, regex, cron and full SEO suite.</p></div>
+                <a class="mega-all" href="developer-tools.html">View all 94 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup"><a class="mgroup-t" href="json-tools.html">JSON</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="xml-tools.html">XML</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="html-tools.html">HTML</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="css-tools.html">CSS</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="javascript-tools.html">JavaScript</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="url-tools.html">URL</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="base64-tools.html">Base64</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="jwt-decoder.html">JWT</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="hash-tools.html">Hash</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="character-encoding-tools.html">Character Encoding</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="color-tools.html">Color</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="timestamp-tools.html">Timestamp</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="uuid-tools.html">UUID</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="regex-tools.html">Regex</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="cron-tools.html">Cron</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="escape-unescape-tools.html">Escape &amp; Unescape</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="data-conversion-tools.html">Data Conversion</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="csv-tsv-tools.html">CSV &amp; TSV</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="seo-tools.html">SEO</a></div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ============ CALCULATORS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Calculators
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Calculators</span><p class="mega-sub">60 calculators for health, money, dates, grades, math, units and everyday numbers.</p></div>
+                <a class="mega-all" href="calculators.html">View all 60 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup"><a class="mgroup-t" href="health-calculators.html">Health</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="finance-calculators.html">Finance</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="date-time-calculators.html">Date &amp; Time</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="education-statistics-calculators.html">Education &amp; Statistics</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="math-calculators.html">Math</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="unit-converters.html">Unit Converters</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="number-converters.html">Number Converters</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="fitness-tools.html">Fitness</a></div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ============ GENERATORS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Generators
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Generators</span><p class="mega-sub">39 generators for names, random picks, IDs, QR codes, CSS effects, palettes and test data.</p></div>
+                <a class="mega-all" href="generators.html">View all 39 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup"><a class="mgroup-t" href="identity-name-generators.html">Identity &amp; Name</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="random-generators.html">Random</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="developer-generators.html">Developer</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="css-generators.html">CSS</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="design-generators.html">Design</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="password-tools.html">Password</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="fake-data-generators.html">Fake Data</a></div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ============ IMAGE TOOLS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Image Tools
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Image Tools</span><p class="mega-sub">30 tools to edit, convert, compress and inspect images — processed entirely on your device.</p></div>
+                <a class="mega-all" href="image-tools.html">View all 30 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup"><a class="mgroup-t" href="image-editing-tools.html">Image Editing</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="image-converter-tools.html">Image Converter</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="image-optimization-tools.html">Optimization</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="image-inspector-tools.html">Inspector</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="image-design-tools.html">Image Design</a></div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li><a class="m-link" href="about-us.html">About Us</a></li>
+        <li><a class="m-link m-link--cta" href="contact-us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ================= REGEX BENCH FIRST ================= -->
+  <section class="phero" aria-label="Live regex bench">
+    <div class="wrap">
+      <nav class="crumbs rv" aria-label="Breadcrumb">
+        <a href="index.html">Home</a><span class="sep">/</span>
+        <a href="developer-tools.html">Developer Tools</a><span class="sep">/</span>
+        <span class="here" aria-current="page">Regex</span>
+      </nav>
+
+      <div class="analyzer rv" id="analyzer" data-mode="tester" aria-label="Live regex bench">
+        <div class="a-bar">
+          <span class="dot" aria-hidden="true"></span>
+          <span class="dot dot--fill" aria-hidden="true"></span>
+          <span class="dot" aria-hidden="true"></span>
+          <span class="a-file">pattern.re — 2 tools<span class="caret-block" aria-hidden="true"></span></span>
+          <span class="a-live">● LIVE</span>
+        </div>
+
+        <!-- MODE DECK -->
+        <div class="cmp-deck">
+          <div class="c-tabs" role="group" aria-label="Choose a regex tool">
+            <button type="button" class="c-tab is-on" data-mode="tester" aria-pressed="true">
+              <span class="ct-glyph" aria-hidden="true">.*</span><span class="ct-name">Tester</span>
+            </button>
+            <button type="button" class="c-tab" data-mode="cheat" aria-pressed="false">
+              <span class="ct-glyph" aria-hidden="true">▤</span><span class="ct-name">Cheat Sheet</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- TESTER VIEW -->
+        <div class="c-grid" id="tester-view">
+          <div class="c-pane c-left">
+            <div class="pane-head">
+              <span class="pane-label">Input · pattern + text</span>
+              <span class="pane-badge">ECMAScript</span>
+            </div>
+            <div class="cb-controls">
+              <label class="cb-fieldlabel" for="rx-pattern">PATTERN</label>
+              <div class="rx-pattern-wrap" id="rx-pwrap">
+                <span class="rx-slash">/</span>
+                <input type="text" id="rx-pattern" class="rx-pattern" spellcheck="false" autocomplete="off" aria-label="Regex pattern">
+                <span class="rx-slash rx-slash--end">/</span>
+                <span class="rx-flags-disp" id="rx-flags-disp">g</span>
+              </div>
+              <label class="cb-fieldlabel">FLAGS</label>
+              <div class="rx-flagrow" id="rx-flagrow"></div>
+              <label class="cb-fieldlabel" for="rx-test">TEST STRING · MATCHES HIGHLIGHT LIVE</label>
+              <div class="rx-test-wrap">
+                <div class="rx-backdrop" id="rx-backdrop" aria-hidden="true"></div>
+                <textarea id="rx-test" class="rx-test" spellcheck="false"></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="c-pane c-right">
+            <div class="pane-head">
+              <span class="pane-label">Output · matches</span>
+              <span class="pane-badge" id="rx-count-badge">LIVE</span>
+            </div>
+            <div class="rx-results" id="rx-results"></div>
+          </div>
+          <div class="vs-badge" aria-hidden="true">.*</div>
+        </div>
+
+        <!-- CHEAT SHEET VIEW -->
+        <div id="cheat-view" style="display:none">
+          <div class="cheat-wrap">
+            <input type="text" id="cheat-filter" class="cheat-filter" placeholder="Filter the sheet — try 'look', 'digit', 'email'…" aria-label="Filter cheat sheet">
+            <div class="cheat-grid" id="cheat-grid"></div>
+          </div>
+        </div>
+
+        <!-- RESULTS STRIP -->
+        <div class="c-stats">
+          <div class="cstat"><small id="sl-1">Matches</small><b id="sv-1">0</b><span class="c-sub" id="ss-1">FOUND LIVE</span></div>
+          <div class="cstat"><small id="sl-2">Capture groups</small><b id="sv-2">0</b><span class="c-sub" id="ss-2">PER MATCH</span></div>
+          <div class="cstat"><small id="sl-3">Named groups</small><b id="sv-3">0</b><span class="c-sub" id="ss-3">(?&lt;NAME&gt;…)</span></div>
+          <div class="cstat"><small id="sl-4">Test chars</small><b id="sv-4">0</b><span class="c-sub" id="ss-4">IN THE LAB</span></div>
+        </div>
+      </div>
+
+      <!-- heading block, below the tool -->
+      <div class="phero-head">
+        <div class="rv">
+          <p class="kicker"><span class="ast" aria-hidden="true">✱</span> Developer Tools · Group 14 of 19</p>
+          <h1>Regex Tools<span class="blue">.</span></h1>
+          <p class="lede">Type a pattern and <strong>watch every match light up</strong> in the test string as you type — no run button, no waiting. The match list breaks each hit into <strong>numbered and named capture groups</strong>, the flag toggles flip g/i/m/s/u live, and a broken pattern reports the engine's exact error the instant it breaks. Beside it, a <strong>searchable cheat sheet</strong> where every token loads into the tester with one click. <strong>Nothing is uploaded, nothing is stored.</strong></p>
+        </div>
+        <ul class="spec rv" aria-label="Page specifications">
+          <li><span>Tools</span><b>02</b></li>
+          <li><span>Engine</span><b>ECMAScript</b></li>
+          <li><span>Flags</span><b>g·i·m·s·u</b></li>
+          <li><span>Backend</span><b>none</b></li>
+          <li><span>Cost</span><b>free</b></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TICKER ================= -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track" id="ticker-track">
+      <span>Regex Tester<i>✱</i>Regex Cheat Sheet<i>✱</i>JSON Formatter<i>✱</i>UUID Generator<i>✱</i>Base64 Encode<i>✱</i>JWT Decoder<i>✱</i>SHA256 Generator<i>✱</i>Unix Timestamp<i>✱</i>Color Picker<i>✱</i>XML Validator<i>✱</i>Nano ID<i>✱</i></span>
+    </div>
+  </div>
+
+  <!-- ================= DETAILED GUIDE ================= -->
+  <section class="sec" id="guide" aria-labelledby="guide-title">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div><span class="sec-kicker">In order, 01 → 02</span><h2 id="guide-title">One engine, one reference, zero guesswork.</h2></div>
+        <span class="sec-idx">( 01 )</span>
+      </div>
+
+      <!-- 01 -->
+      <article class="tool rv" id="regex-tester">
+        <aside class="tool-side">
+          <span class="tool-num">01 / 02</span>
+          <h3>Regex Tester</h3>
+          <span class="tool-here">runs in the bench above</span>
+        </aside>
+        <div class="tool-body">
+          <p>The lab runs on your browser's own <strong>ECMAScript RegExp engine</strong> — the same one your code will use in production, so what you see is what will ship. Every match is <strong>underlined in the test string the moment it exists</strong>, listed with its index, and exploded into numbered <strong>$1…$n</strong> and named <strong>&lt;name&gt;</strong> capture groups. Flip the <strong>g, i, m, s, u</strong> flags and the whole picture re-renders. A pattern that stops compiling turns the field red and prints the engine's exact message — no submit button between you and the answer.</p>
+          <div class="example">
+            <span class="ex-tag">Example · named groups, live</span>
+            <p class="ex-in">/(?&lt;y&gt;\d{4})-(?&lt;m&gt;\d{2})-(?&lt;d&gt;\d{2})/g
+Released 2024-01-15, patched 2024-02-20.</p>
+            <span class="ex-arrow" aria-hidden="true">↓</span>
+            <p class="ex-out">Released <span class="hl">2024-01-15</span>, patched <span class="hl">2024-02-20</span>.
+<b>2 matches</b> · each with &lt;y&gt; &lt;m&gt; &lt;d&gt; spelled out</p>
+          </div>
+          <p class="tool-use">Use it for <span class="tag">building patterns</span><span class="tag">debugging</span><span class="tag">format validation</span><span class="tag">learning regex</span></p>
+        </div>
+      </article>
+
+      <!-- 02 -->
+      <article class="tool rv" id="regex-cheat-sheet">
+        <aside class="tool-side">
+          <span class="tool-num">02 / 02</span>
+          <h3>Regex Cheat Sheet</h3>
+          <span class="tool-here">runs in the bench above</span>
+        </aside>
+        <div class="tool-body">
+          <p>A reference that <strong>does something</strong>. Every anchor, character class, quantifier, group, lookaround, escape and flag is documented with a one-line explanation — and a <strong>▶ TRY</strong> button that loads a working pattern and sample text straight into the tester, flags included. Filter the whole sheet by typing ("look", "digit", "email"), and a row of ready-made <strong>common patterns</strong> — email, URL, IPv4, ISO date, hex color, UUID, slug — is one click from being yours.</p>
+          <div class="example">
+            <span class="ex-tag">Example · one click from the sheet</span>
+            <p class="ex-in">▶ TRY &nbsp;(?&lt;= \$)\d+ &nbsp;·&nbsp; positive lookbehind</p>
+            <span class="ex-arrow" aria-hidden="true">↓</span>
+            <p class="ex-out">pattern + sample load into the tester, <b>$100</b> lights up, the digits match — the $ doesn't.</p>
+          </div>
+          <p class="tool-use">Use it for <span class="tag">quick reference</span><span class="tag">learning</span><span class="tag">on the job</span><span class="tag">pattern recipes</span></p>
+        </div>
+      </article>
+
+      <p class="rules rv"><b>Testing rules</b> · the engine is your browser's native ECMAScript RegExp — identical to what runs in production · matching is live on every keystroke of the pattern, the flags and the test string · named groups (?&lt;name&gt;…) and lookbehind are fully supported; \p{…} needs the u flag · zero-length matches (anchors, lookaround) are handled with an infinite-loop guard · a non-compiling pattern is reported with the engine's exact message and matched nothing is harmed · the cheat sheet's TRY button loads pattern, sample and flags together · everything runs locally — your pattern and your data never leave the tab</p>
+    </div>
+  </section>
+
+  <!-- ================= PRIVACY BAND ================= -->
+  <section class="band" id="privacy" aria-labelledby="privacy-title">
+    <div class="wrap">
+      <span class="sec-kicker rv">The privacy promise</span>
+      <h2 id="privacy-title" class="rv">Test anything. <span class="soft">We couldn't read it even if we wanted to.</span></h2>
+      <p class="band-lede rv">This page has no backend and no database. Every match found, every group captured and every error surfaced just now was computed by your browser's own regex engine, inside your own tab — your pattern and your test data never traveled a single centimeter of cable. Close the page and they're gone for good.</p>
+
+      <div class="pipe rv" role="img" aria-label="Data flow: pattern and text are matched in your browser. No server involved.">
+        <span class="node">PATTERN + TEXT</span><span class="pipe-arrow">→</span>
+        <span class="node node-live">MATCHED IN YOUR BROWSER</span><span class="pipe-arrow">→</span>
+        <span class="node">HIGHLIGHTED LIVE</span>
+      </div>
+      <div class="pipe-dead rv"><span class="node node-dead">✕ SERVER · DATABASE · LOGS · ANALYTICS</span></div>
+
+      <ul class="facts rv">
+        <li><span class="f-k">Database</span><span class="f-v">null</span></li>
+        <li><span class="f-k">Backend</span><span class="f-v">none</span></li>
+        <li><span class="f-k">Data uploads</span><span class="f-v">0</span></li>
+        <li><span class="f-k">Session logs</span><span class="f-v">0</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= FAQ ================= -->
+  <section class="sec" id="faq" aria-labelledby="faq-title">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div><span class="sec-kicker">Questions</span><h2 id="faq-title">Asked often, answered plainly.</h2></div>
+        <span class="sec-idx">( 02 )</span>
+      </div>
+
+      <details class="faq rv" open>
+        <summary>Which regex flavor does the tester use?</summary>
+        <p>JavaScript's native ECMAScript RegExp engine — the same one that runs in every browser. That means full support for named groups (?&lt;name&gt;…), lookbehind (?&lt;=…), Unicode property escapes like \p{L} with the u flag, and dotall with s. PCRE-only constructs like \K or atomic groups aren't part of the ECMAScript spec and won't work here.</p>
+      </details>
+      <details class="faq rv">
+        <summary>Why does my pattern show an error?</summary>
+        <p>The tester surfaces the engine's exact message the moment the pattern stops compiling. The usual culprits are an unbalanced parenthesis or bracket, a dangling quantifier like a lone *, an invalid escape, or a malformed group like (?&lt;). Fix the pattern and the matches reappear instantly — there's no submit button between you and the answer.</p>
+      </details>
+      <details class="faq rv">
+        <summary>What are named groups?</summary>
+        <p>A capture group written as (?&lt;name&gt;…) captures its match under a label instead of just a number, so you can read it as groups.year instead of groups[1]. The tester lists them alongside the numbered groups in every match, clearly marked in blue, which makes complex patterns far easier to reason about.</p>
+      </details>
+      <details class="faq rv">
+        <summary>Why are some of my matches empty?</summary>
+        <p>Anchors (^, $, \b) and lookaround assertions are zero-width — they match a position, not characters, so the matched text is empty. That's correct behavior, and the highlight shows you exactly where they land. The tester also guards against the classic infinite-loop trap where a zero-length match would otherwise run forever.</p>
+      </details>
+      <details class="faq rv">
+        <summary>Is my data saved anywhere?</summary>
+        <p>No. Stack has no backend and no database. Matching happens inside your browser tab and the pattern and test string vanish the moment you close or refresh the page. Nothing is logged, because nothing is ever collected.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- ================= PREV / NEXT ================= -->
+  <nav class="prevnext" aria-label="Browse groups">
+    <div class="wrap pn-grid">
+      <a class="pn" href="uuid-tools.html">
+        <small>← Previous group · UUID Tools</small>
+        <b>UUID Tools</b>
+      </a>
+      <a class="pn pn--next" href="cron-tools.html">
+        <small>Next group · Cron Tools →</small>
+        <b>Cron Tools</b>
+      </a>
+    </div>
+  </nav>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="logo" href="index.html" aria-label="IrisTool — home">
+          <span class="logo-mark" aria-hidden="true">✱</span>
+          <span class="logo-word">IrisTool</span>
+        </a>
+        <p>278 free tools for text, code, images, SEO and everyday math. Everything runs in your browser — nothing is ever collected.</p>
+        <span class="foot-badge">No backend · No database · No tracking</span>
+      </div>
+
+        <div>
+        <div><a class="m-link" href="index.html">Home</a></div>
+       
+      
+
+      
+        <div><a class="m-link" href="about-us.html">About Us</a></div>
+      
+      
+
+      
+        <div><a class="m-link" href="contact-us.html">Contact Us</a></div>
+        
+       
+      </div>
+    </div>
+
+    <div class="foot-bottom">
+      <p>© <span id="yr">2026</span> IrisTool — All processing happens on your device. Nothing is collected.</p>
+      <span>Made with passion by Sajad Zamani</span>
+      <a class="to-top" href="#top">Back to top ↑</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/regex-tools.js"></script>
+</body>
+</html>

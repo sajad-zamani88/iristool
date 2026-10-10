@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- ============ PRIMARY SEO ============ -->
+<title>CSS Tools — CSS Beautifier &amp; CSS Minifier with Byte-Level Reports | IrisTool</title>
+<meta name="title" content="CSS Tools — CSS Beautifier &amp; CSS Minifier with Byte-Level Reports | IrisTool">
+<meta name="description" content="2 free CSS tools in one bench: a beautifier with selectable indent and declaration sorting, and a minifier with comment stripping, aggressive micro-optimizations and exact byte savings. 100% in-browser, nothing stored.">
+<meta name="keywords" content="css beautifier, css minifier, css formatter, pretty print css, minify css online, compress css, css optimizer, free online tools">
+<meta name="author" content="IrisTool">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="googlebot" content="index, follow">
+<meta name="language" content="English">
+<meta name="rating" content="general">
+<meta name="distribution" content="global">
+<meta name="coverage" content="Worldwide">
+<meta name="revisit-after" content="7 days">
+<meta name="theme-color" content="#FCFCFA">
+<meta name="color-scheme" content="light">
+
+<link rel="canonical" href="https://IrisTool.com/css-tools.html">
+
+<!-- ============ GEO TAGS ============ -->
+<meta name="geo.region" content="US">
+<meta name="geo.placename" content="United States">
+<meta name="geo.position" content="37.09024;-95.712891">
+<meta name="ICBM" content="37.09024, -95.712891">
+
+<!-- ============ HREFLANG ============ -->
+<link rel="alternate" hreflang="en" href="https://IrisTool.com/css-tools.html">
+<link rel="alternate" hreflang="x-default" href="https://IrisTool.com/index.html">
+
+<!-- ============ SOCIAL / OPEN GRAPH ============ -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="IrisTool">
+<meta property="og:url" content="https://IrisTool.com/css-tools.html">
+<meta property="og:title" content="CSS Tools — CSS Beautifier &amp; CSS Minifier with Byte-Level Reports | IrisTool">
+<meta property="og:description" content="One tokenizer, two machines: beautify stylesheets with sorted declarations, or minify them to the last byte — strings and data URIs untouched. Entirely in your browser.">
+<meta property="og:image" content="https://IrisTool.com/assets/og-css-tools-1200x630.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="CSS Tools — input and output panes with live beautifying and minifying, entirely in your browser">
+<meta property="og:locale" content="en_US">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://IrisTool.com/css-tools.html">
+<meta name="twitter:title" content="CSS Tools — CSS Beautifier &amp; CSS Minifier with Byte-Level Reports | IrisTool">
+<meta name="twitter:description" content="2 free CSS tools with live output and byte-level reports. 100% client-side — nothing you paste is ever stored.">
+<meta name="twitter:image" content="https://IrisTool.com/assets/og-css-tools-1200x630.png">
+
+<!-- ============ ICONS ============ -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230033FF'/%3E%3Ctext x='32' y='46' font-size='42' text-anchor='middle' fill='%23fff' font-family='monospace'%3E%E2%9C%B1%3C/text%3E%3C/svg%3E">
+
+<!-- ============ FONTS (fontsource CDN) ============ -->
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link href="https://cdn.jsdelivr.net/fontsource/css/space-grotesk@latest/latin-500.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/space-grotesk@latest/latin-700.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/ibm-plex-sans@latest/latin-400.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/ibm-plex-sans@latest/latin-500.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/ibm-plex-mono@latest/latin-400.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/fontsource/css/ibm-plex-mono@latest/latin-500.css" rel="stylesheet">
+
+<!-- ============ STRUCTURED DATA ============ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://IrisTool.com/index.html" },
+    { "@type": "ListItem", "position": 2, "name": "Developer Tools", "item": "https://IrisTool.com/developer-tools.html" },
+    { "@type": "ListItem", "position": 3, "name": "CSS Tools", "item": "https://IrisTool.com/css-tools.html" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "CSS Tools — CSS Beautifier & CSS Minifier with Byte-Level Reports",
+  "description": "2 free CSS tools in one bench: a beautifier with selectable indent and declaration sorting, and a minifier with comment stripping, aggressive micro-optimizations and exact byte savings. 100% in-browser, nothing stored.",
+  "url": "https://IrisTool.com/css-tools.html",
+  "inLanguage": "en",
+  "isPartOf": { "@type": "WebSite", "name": "IrisTool", "url": "https://IrisTool.com/index.html" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "CSS Tools — all available on this page",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "CSS Beautifier", "url": "https://IrisTool.com/css-tools.html#css-beautifier", "description": "Parses CSS with a real tokenizer and re-emits it with consistent indentation, one selector per line and optional declaration sorting." },
+    { "@type": "ListItem", "position": 2, "name": "CSS Minifier", "url": "https://IrisTool.com/css-tools.html#css-minifier", "description": "Strips comments and whitespace, drops last semicolons, and in aggressive mode shaves zero units and leading zeros — with exact byte savings." }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "Will the beautifier change how my styles behave?", "acceptedAnswer": { "@type": "Answer", "text": "No — it's formatting only. Selectors, properties and values come out byte-identical; only whitespace and line breaks change. The one opt-in exception is declaration sorting: because duplicate properties are order-sensitive in CSS (the last one wins), sorting can reorder them, so the toggle is off by default." } },
+    { "@type": "Question", "name": "What does aggressive minification actually do?", "acceptedAnswer": { "@type": "Answer", "text": "On top of comment stripping and whitespace collapse, aggressive mode turns 0px into 0, 0.5 into .5, removes spaces inside function calls and drops the final semicolon before each closing brace. It never touches anything inside quotes — strings and data URIs pass through byte for byte." } },
+    { "@type": "Question", "name": "Are data URIs and quoted strings safe?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The tokenizer tracks single quotes, double quotes and escape sequences character by character, so a url(\"data:image/svg+xml,...\") payload — semicolons, braces and all — is carried through both tools exactly as written." } },
+    { "@type": "Question", "name": "Does it understand @media, @keyframes and @font-face?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Conditional at-rules like @media and @supports recurse as nested sheets, @keyframes steps are treated as rules with percentage selectors, and declaration at-rules like @font-face and @page are handled as declaration blocks. Custom properties, calc() and modern selectors all pass through untouched." } },
+    { "@type": "Question", "name": "Is my CSS saved anywhere?", "acceptedAnswer": { "@type": "Answer", "text": "No. IrisTool has no backend and no database. Parsing happens inside your browser tab and the stylesheet disappears the moment you close or refresh the page. There is nothing to leak, because nothing is ever collected." } }
+  ]
+}
+</script>
+
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/css-tools.css">
+</head>
+
+<body id="top">
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ================= HEADER ================= -->
+<header id="site-header">
+  <div class="wrap bar">
+    <a class="logo" href="index.html" aria-label="IrisTool — home">
+      <span class="logo-mark" aria-hidden="true">✱</span>
+      <span class="logo-word">IrisTool</span>
+      <span class="logo-tag">278 tools</span>
+    </a>
+
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+      <span></span><span></span>
+    </button>
+
+    <nav class="nav" id="primary-nav" aria-label="Primary">
+      <button class="nav-close" id="nav-close" type="button" aria-label="Close menu">
+        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+          <path d="M1.5 1.5l12 12M13.5 1.5l-12 12" stroke="currentColor" stroke-width="2"/>
+        </svg>
+        Close
+      </button>
+
+      <ul class="nav-list">
+        <li><a class="m-link" href="index.html">Home</a></li>
+
+        <!-- ============ TEXT TOOLS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Text Tools
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Text Tools</span><p class="mega-sub">55 tools to analyze, clean, sort, extract, compare, convert and encode text.</p></div>
+                <a class="mega-all" href="text-tools.html">View all 55 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup"><a class="mgroup-t" href="text-analysis-tools.html">Text Analysis</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="case-converter.html">Case Converter</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="text-cleanup-tools.html">Text Cleanup</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="sorting-tools.html">Sorting &amp; Reordering</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="text-extraction-tools.html">Text Extraction</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="find-replace-tools.html">Find &amp; Replace</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="text-generators.html">Text Generators</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="text-comparison-tools.html">Comparison &amp; Diff</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="text-conversion-tools.html">Conversion &amp; Encoding</a></div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ============ DEVELOPER TOOLS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Developer Tools
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Developer Tools</span><p class="mega-sub">94 tools for JSON, XML, HTML, CSS, JS, encoding, hashing, colors, timestamps, regex, cron and full SEO suite.</p></div>
+                <a class="mega-all" href="developer-tools.html">View all 94 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup"><a class="mgroup-t" href="json-tools.html">JSON</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="xml-tools.html">XML</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="html-tools.html">HTML</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="css-tools.html">CSS</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="javascript-tools.html">JavaScript</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="url-tools.html">URL</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="base64-tools.html">Base64</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="jwt-decoder.html">JWT</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="hash-tools.html">Hash</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="character-encoding-tools.html">Character Encoding</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="color-tools.html">Color</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="timestamp-tools.html">Timestamp</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="uuid-tools.html">UUID</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="regex-tools.html">Regex</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="cron-tools.html">Cron</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="escape-unescape-tools.html">Escape &amp; Unescape</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="data-conversion-tools.html">Data Conversion</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="csv-tsv-tools.html">CSV &amp; TSV</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="seo-tools.html">SEO</a></div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ============ CALCULATORS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Calculators
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Calculators</span><p class="mega-sub">60 calculators for health, money, dates, grades, math, units and everyday numbers.</p></div>
+                <a class="mega-all" href="calculators.html">View all 60 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup"><a class="mgroup-t" href="health-calculators.html">Health</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="finance-calculators.html">Finance</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="date-time-calculators.html">Date &amp; Time</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="education-statistics-calculators.html">Education &amp; Statistics</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="math-calculators.html">Math</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="unit-converters.html">Unit Converters</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="number-converters.html">Number Converters</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="fitness-tools.html">Fitness</a></div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ============ GENERATORS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Generators
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Generators</span><p class="mega-sub">39 generators for names, random picks, IDs, QR codes, CSS effects, palettes and test data.</p></div>
+                <a class="mega-all" href="generators.html">View all 39 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup"><a class="mgroup-t" href="identity-name-generators.html">Identity &amp; Name</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="random-generators.html">Random</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="developer-generators.html">Developer</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="css-generators.html">CSS</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="design-generators.html">Design</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="password-tools.html">Password</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="fake-data-generators.html">Fake Data</a></div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- ============ IMAGE TOOLS ============ -->
+        <li class="m-item">
+          <button class="m-trigger" type="button" aria-expanded="false" aria-haspopup="true">Image Tools
+            <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="mega">
+            <div class="mega-scroll">
+              <div class="mega-head">
+                <div><span class="mega-kicker">Image Tools</span><p class="mega-sub">30 tools to edit, convert, compress and inspect images — processed entirely on your device.</p></div>
+                <a class="mega-all" href="image-tools.html">View all 30 →</a>
+              </div>
+              <div class="mega-grid">
+                <div class="mgroup"><a class="mgroup-t" href="image-editing-tools.html">Image Editing</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="image-converter-tools.html">Image Converter</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="image-optimization-tools.html">Optimization</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="image-inspector-tools.html">Inspector</a></div>
+                <div class="mgroup"><a class="mgroup-t" href="image-design-tools.html">Image Design</a></div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li><a class="m-link" href="about-us.html">About Us</a></li>
+        <li><a class="m-link m-link--cta" href="contact-us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ================= CSS BENCH FIRST ================= -->
+  <section class="phero" aria-label="Live CSS bench">
+    <div class="wrap">
+      <nav class="crumbs rv" aria-label="Breadcrumb">
+        <a href="index.html">Home</a><span class="sep">/</span>
+        <a href="developer-tools.html">Developer Tools</a><span class="sep">/</span>
+        <span class="here" aria-current="page">CSS</span>
+      </nav>
+
+      <div class="analyzer rv" id="analyzer" data-mode="beautifier" aria-label="Live CSS bench">
+        <div class="a-bar">
+          <span class="dot" aria-hidden="true"></span>
+          <span class="dot dot--fill" aria-hidden="true"></span>
+          <span class="dot" aria-hidden="true"></span>
+          <span class="a-file">styles.css — 2 tools<span class="caret-block" aria-hidden="true"></span></span>
+          <span class="a-live">● LIVE</span>
+        </div>
+
+        <!-- MODE DECK -->
+        <div class="cmp-deck">
+          <div class="c-tabs" role="group" aria-label="Choose a CSS tool">
+            <button type="button" class="c-tab is-on" data-mode="beautifier" aria-pressed="true">
+              <span class="ct-glyph" aria-hidden="true">✧</span><span class="ct-name">Beautifier</span>
+            </button>
+            <button type="button" class="c-tab" data-mode="minifier" aria-pressed="false">
+              <span class="ct-glyph" aria-hidden="true">≪</span><span class="ct-name">Minifier</span>
+            </button>
+          </div>
+          <div class="cmp-opts">
+            <span class="opts-holder" id="opts-holder"></span>
+            <button type="button" class="swap-btn" id="btn-swap" title="Feed the output back into the input">⇄ Output → Input</button>
+          </div>
+        </div>
+
+        <div class="c-grid">
+          <!-- INPUT PANE -->
+          <div class="c-pane c-left">
+            <div class="pane-head">
+              <span class="pane-label">Input · raw CSS</span>
+              <span class="pane-badge" id="badge-in">0 CHARS</span>
+            </div>
+            <div class="hl-wrap">
+              <label class="skip" for="src-in">Raw CSS input</label>
+              <textarea class="cmp-ta" id="src-in" spellcheck="false"></textarea>
+            </div>
+            <div class="pane-actions">
+              <button type="button" class="mini-btn" id="btn-copy-in">⧉ Copy input</button>
+              <button type="button" class="mini-btn" id="btn-clear-in">✕ Clear</button>
+              <button type="button" class="mini-btn" id="btn-sample">↺ Load sample</button>
+              <span class="a-note">NETWORK PAYLOAD: <em>0 BYTES</em> · PROCESSING: <em>LOCAL</em></span>
+            </div>
+          </div>
+
+          <!-- OUTPUT PANE -->
+          <div class="c-pane c-right">
+            <div class="pane-head">
+              <span class="pane-label">Output · processed</span>
+              <span class="pane-badge" id="badge-out">0 CHARS</span>
+            </div>
+            <div class="hl-wrap">
+              <textarea class="cmp-ta out-ta" id="out-ta" readonly spellcheck="false" aria-label="Processed CSS output"></textarea>
+            </div>
+            <div class="pane-actions">
+              <button type="button" class="mini-btn" id="btn-copy-out">⧉ Copy output</button>
+              <span class="a-note">READ-ONLY · UPDATES <em>ON EVERY KEYSTROKE</em></span>
+            </div>
+          </div>
+
+          <div class="vs-badge" id="vs-badge" aria-hidden="true">✧</div>
+        </div>
+
+        <!-- RESULTS STRIP -->
+        <div class="c-stats">
+          <div class="cstat"><small id="sl-1">Characters in</small><b id="sv-1">0</b><span class="c-sub" id="ss-1">RAW CSS</span></div>
+          <div class="cstat"><small id="sl-2">Characters out</small><b id="sv-2">0</b><span class="c-sub" id="ss-2">PRETTY-PRINTED</span></div>
+          <div class="cstat"><small id="sl-3">Indent</small><b id="sv-3">2 SP</b><span class="c-sub" id="ss-3">SET IN THE DECK</span></div>
+          <div class="cstat"><small id="sl-4">Declarations</small><b id="sv-4">0</b><span class="c-sub" id="ss-4">PROP: VALUE PAIRS</span></div>
+        </div>
+      </div>
+
+      <!-- heading block, below the tool -->
+      <div class="phero-head">
+        <div class="rv">
+          <p class="kicker"><span class="ast" aria-hidden="true">✱</span> Developer Tools · Group 04 of 19</p>
+          <h1>CSS Tools<span class="blue">.</span></h1>
+          <p class="lede">One tokenizer, <strong>two machines</strong>. The beautifier reflows a stylesheet into clean, indented rules — one selector per line, declarations optionally sorted A→Z. The minifier squeezes the same sheet toward a single line and reports <strong>exactly how many bytes it saved</strong>, with an aggressive mode that shaves zero units and leading zeros. Strings, comments and data URIs are tracked character by character and <strong>never mangled</strong>. <strong>Nothing is uploaded, nothing is stored.</strong></p>
+        </div>
+        <ul class="spec rv" aria-label="Page specifications">
+          <li><span>Tools</span><b>02</b></li>
+          <li><span>Parsing</span><b>live</b></li>
+          <li><span>Uploads</span><b>0</b></li>
+          <li><span>Backend</span><b>none</b></li>
+          <li><span>Cost</span><b>free</b></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TICKER ================= -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track" id="ticker-track">
+      <span>CSS Beautifier<i>✱</i>CSS Minifier<i>✱</i>JSON Formatter<i>✱</i>XML Validator<i>✱</i>HTML Minifier<i>✱</i>JavaScript Minifier<i>✱</i>Base64 Encode<i>✱</i>Regex Tester<i>✱</i>UUID Generator<i>✱</i>URL Encoder<i>✱</i>SHA256 Generator<i>✱</i></span>
+    </div>
+  </div>
+
+  <!-- ================= DETAILED GUIDE ================= -->
+  <section class="sec" id="guide" aria-labelledby="guide-title">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div><span class="sec-kicker">In order, 01 → 02</span><h2 id="guide-title">Two machines, one tokenizer, zero servers.</h2></div>
+        <span class="sec-idx">( 01 )</span>
+      </div>
+
+      <!-- 01 -->
+      <article class="tool rv" id="css-beautifier">
+        <aside class="tool-side">
+          <span class="tool-num">01 / 02</span>
+          <h3>CSS Beautifier</h3>
+          <span class="tool-here">runs in the bench above</span>
+        </aside>
+        <div class="tool-body">
+          <p>Parses with a real tokenizer — not a regex — so <strong>quoted strings, comments, url() payloads and data URIs</strong> are tracked character by character and survive the trip untouched. The reflow is opinionated where it should be and hands-off where it matters: <strong>one selector per line</strong>, one declaration per line, nested <strong>@media, @supports and @keyframes</strong> indented as sheets-within-sheets, and @font-face / @page treated as the declaration blocks they are. Values come out byte-identical — the beautifier never "fixes" your CSS. Flip <strong>⇅ sort decls A→Z</strong> for alphabetized declarations, and choose 2-space, 4-space or tab indentation from the deck.</p>
+          <div class="example">
+            <span class="ex-tag">Example</span>
+            <p class="ex-in">.star,.star--dim{color:#0033FF;opacity:.8;transition:opacity .3s ease}</p>
+            <span class="ex-arrow" aria-hidden="true">↓</span>
+            <p class="ex-out"><b>.star,
+.star--dim {
+  color: #0033FF;
+  opacity: .8;
+  transition: opacity .3s ease;
+}</b></p>
+          </div>
+          <p class="tool-use">Use it for <span class="tag">design handoffs</span><span class="tag">legacy sheets</span><span class="tag">code review</span><span class="tag">learning</span></p>
+        </div>
+      </article>
+
+      <!-- 02 -->
+      <article class="tool rv" id="css-minifier">
+        <aside class="tool-side">
+          <span class="tool-num">02 / 02</span>
+          <h3>CSS Minifier</h3>
+          <span class="tool-here">runs in the bench above</span>
+        </aside>
+        <div class="tool-body">
+          <p>Runs the same parsed model through the compactor: <strong>comments stripped, whitespace collapsed, the last semicolon before each } dropped</strong>, selectors tightened around their commas. The stat strip reports <strong>bytes in, bytes out, bytes saved and the reduction percentage</strong> — real bytes, measured with a Blob, not character estimates. Flip <strong>⚡ aggressive</strong> and it goes further: <strong>0px becomes 0</strong>, <strong>0.5 becomes .5</strong>, spaces inside function calls disappear — while anything between quotes is declared a no-fly zone, so your data URIs and content strings pass through byte for byte.</p>
+          <div class="example">
+            <span class="ex-tag">Example · aggressive on</span>
+            <p class="ex-in">/* glow */
+.star {
+  color: #0033FF;
+  margin: 0px auto;
+  opacity: 0.8;
+}</p>
+            <span class="ex-arrow" aria-hidden="true">↓</span>
+            <p class="ex-out"><b>.star{color:#0033FF;margin:0 auto;opacity:.8}</b>
+comment gone · 0px → 0 · 0.8 → .8 · last semicolon dropped.</p>
+          </div>
+          <p class="tool-use">Use it for <span class="tag">production bundles</span><span class="tag">critical CSS</span><span class="tag">CDN payloads</span><span class="tag">page-speed budgets</span></p>
+        </div>
+      </article>
+
+      <p class="rules rv"><b>Parsing rules</b> · both tools share one tokenizer — strings, comments, url() payloads and data URIs are tracked character by character and never reformatted · @media, @supports and @keyframes recurse as nested sheets; @font-face and @page are treated as declaration blocks · the beautifier puts one selector per line and never touches declaration values · declaration sorting is opt-in — duplicate properties are order-sensitive in CSS, so sort with care · the minifier strips comments, collapses whitespace and drops the last semicolon before } · aggressive mode additionally turns 0px into 0, 0.5 into .5 and strips spaces inside functions — never inside strings · custom properties, calc() and modern selectors pass through untouched · ⇄ Output → Input feeds any result straight back for another pass</p>
+    </div>
+  </section>
+
+  <!-- ================= PRIVACY BAND ================= -->
+  <section class="band" id="privacy" aria-labelledby="privacy-title">
+    <div class="wrap">
+      <span class="sec-kicker rv">The privacy promise</span>
+      <h2 id="privacy-title" class="rv">Paste anything. <span class="soft">We couldn't read it even if we wanted to.</span></h2>
+      <p class="band-lede rv">This page has no backend and no database. Every rule re-indented, every comment stripped and every byte counted just now was computed by JavaScript inside your own browser tab — your stylesheet never traveled a single centimeter of cable. Close the page and it's gone for good.</p>
+
+      <div class="pipe rv" role="img" aria-label="Data flow: raw CSS is parsed in your browser. No server involved.">
+        <span class="node">RAW CSS</span><span class="pipe-arrow">→</span>
+        <span class="node node-live">PARSED IN YOUR BROWSER</span><span class="pipe-arrow">→</span>
+        <span class="node">SHIPPABLE OUTPUT</span>
+      </div>
+      <div class="pipe-dead rv"><span class="node node-dead">✕ SERVER · DATABASE · LOGS · ANALYTICS</span></div>
+
+      <ul class="facts rv">
+        <li><span class="f-k">Database</span><span class="f-v">null</span></li>
+        <li><span class="f-k">Backend</span><span class="f-v">none</span></li>
+        <li><span class="f-k">CSS uploads</span><span class="f-v">0</span></li>
+        <li><span class="f-k">Session logs</span><span class="f-v">0</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= FAQ ================= -->
+  <section class="sec" id="faq" aria-labelledby="faq-title">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div><span class="sec-kicker">Questions</span><h2 id="faq-title">Asked often, answered plainly.</h2></div>
+        <span class="sec-idx">( 02 )</span>
+      </div>
+
+      <details class="faq rv" open>
+        <summary>Will the beautifier change how my styles behave?</summary>
+        <p>No — it's formatting only. Selectors, properties and values come out byte-identical; only whitespace and line breaks change. The one opt-in exception is declaration sorting: because duplicate properties are order-sensitive in CSS (the last one wins), sorting can reorder them, so the toggle is off by default and the rules paragraph above says so in plain text.</p>
+      </details>
+      <details class="faq rv">
+        <summary>What does aggressive minification actually do?</summary>
+        <p>On top of comment stripping and whitespace collapse, aggressive mode turns 0px into 0 (zero is zero in any unit), 0.5 into .5, removes spaces inside function calls like rgba( ) and drops the final semicolon before each closing brace. It never touches anything inside quotes — strings and data URIs pass through byte for byte, so a url("data:image/svg+xml,...") payload survives with its semicolons and braces intact.</p>
+      </details>
+      <details class="faq rv">
+        <summary>Are data URIs and quoted strings safe?</summary>
+        <p>Yes. The tokenizer tracks single quotes, double quotes and backslash escapes character by character, so a semicolon inside a string never terminates a declaration and a brace inside a data URI never closes a block. Both tools carry those payloads through exactly as written.</p>
+      </details>
+      <details class="faq rv">
+        <summary>Does it understand @media, @keyframes and @font-face?</summary>
+        <p>Yes. Conditional at-rules like @media and @supports recurse as nested sheets with their own indentation, @keyframes steps are treated as rules with percentage selectors, and declaration at-rules like @font-face and @page are handled as declaration blocks. Custom properties, calc() and modern selectors like :is() and :has() all pass through untouched.</p>
+      </details>
+      <details class="faq rv">
+        <summary>Is my CSS saved anywhere?</summary>
+        <p>No. IrisTool has no backend and no database. Parsing happens inside your browser tab and the stylesheet disappears the moment you close or refresh the page. There is nothing to leak, because nothing is ever collected.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- ================= PREV / NEXT ================= -->
+  <nav class="prevnext" aria-label="Browse groups">
+    <div class="wrap pn-grid">
+      <a class="pn" href="html-tools.html">
+        <small>← Previous group · HTML Tools</small>
+        <b>HTML Tools</b>
+      </a>
+      <a class="pn pn--next" href="javascript-tools.html">
+        <small>Next group · JavaScript Tools →</small>
+        <b>JavaScript Tools</b>
+      </a>
+    </div>
+  </nav>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="logo" href="index.html" aria-label="IrisTool — home">
+          <span class="logo-mark" aria-hidden="true">✱</span>
+          <span class="logo-word">IrisTool</span>
+        </a>
+        <p>278 free tools for text, code, images, SEO and everyday math. Everything runs in your browser — nothing is ever collected.</p>
+        <span class="foot-badge">No backend · No database · No tracking</span>
+      </div>
+         <div>
+        <div><a class="m-link" href="index.html">Home</a></div>
+       
+      
+
+      
+        <div><a class="m-link" href="about-us.html">About Us</a></div>
+      
+      
+
+      
+        <div><a class="m-link" href="contact-us.html">Contact Us</a></div>
+        
+       
+      </div>
+    </div>
+
+    <div class="foot-bottom">
+      <p>© <span id="yr">2026</span> IrisTool — All processing happens on your device. Nothing is collected.</p>
+      <span>Made with passion by Sajad Zamani</span>
+      <a class="to-top" href="#top">Back to top ↑</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/css-tools.js"></script>
+</body>
+</html>
