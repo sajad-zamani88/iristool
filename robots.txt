@@ -1,0 +1,44 @@
+# robots.txt for IrisTool (https://iristool.com/)
+# Last Updated: 2026-10-24
+# Purpose: Guide search engine crawlers and AI bots to index all public tools while protecting system directories.
+
+# ==========================================
+# 1. GLOBAL RULES (All Search Engines & Bots)
+# ==========================================
+User-agent: *
+# Allow crawling of the entire site, including all tool categories (e.g., /json-tools, /about-us, etc.)
+Allow: /
+
+# Block common non-public, system, or sensitive directories (SEO Best Practice)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /backup/
+
+# ==========================================
+# 2. AI CRAWLER SPECIFIC RULES 
+# ==========================================
+# Explicitly allow major AI training crawlers to index the site.
+# This aligns with the site's llms.txt strategy for maximum AI visibility.
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+# ==========================================
+# 3. SITEMAP DECLARATION
+# ==========================================
+# Directs crawlers to the XML sitemap for efficient discovery of all 278+ tools.
+Sitemap: https://iristool.com/sitemap.xml
